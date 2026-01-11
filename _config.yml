@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Engineering Portfolio for Ryan Webster.
 # twitter_username: username
 github_username: ryanwebs
-minimal_mistakes_skin: mint
+minimal_mistakes_skin: air
 search: true
 
 url: https://ryanwebs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -84,7 +84,7 @@ author:
       new_tab: true
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/kelly-mathesius/"
+      url: "www.linkedin.com/in/ryan-webster731"
       new_tab: true
 
 footer:
