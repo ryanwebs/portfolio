@@ -12,3 +12,5 @@ Check out some of my projects [here]({{ site.baseurl }}/projects).
 {% comment %}
 ![]({{ site.baseurl }}/assets/images/wide-bio-photo.jpeg){: .align-center}
 {% endcomment %}
+
+<!-- ![]({{ site.baseurl }}/assets/images/wide-bio-photo.jpeg){: .align-center} -->
