@@ -11,7 +11,7 @@ Currently building some 3D printers at Formlabs.
 
 I like to create whatever I find interesting, and understand what makes the machines/technology around me work.
 
-Check out some of my projects [here]({{ site.baseurl }}/projects).
+Here's some of the [things I've been up to]({{ site.baseurl }}/projects).
 
 {% comment %}
 ![]({{ site.baseurl }}/assets/images/wide-bio-photo.jpeg){: .align-center}
