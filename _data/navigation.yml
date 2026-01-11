@@ -1,10 +1,10 @@
 main:
   - title: "About"
     url: /
-  - title: "Projects"
-    url: /projects/
-  - title: "Publications"
-    url: /publications/
+# - title: "Projects"
+#   url: /projects/
+# - title: "Publications"
+#   url: /publications/
   - title: "Resume"
     url: /assets/files/resume.pdf
     target: _blank
