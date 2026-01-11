@@ -1,8 +1,8 @@
 ---
 title: "Projects"
-permalink: /projects/
+permalink: /project/
 layout: collection
-collection: projects
+collection: project
 author_profile: true
 sort_by: order
 toc: true
