@@ -7,4 +7,4 @@ I’m Kelly Mathesius -- a Research and Development Engineer at Formlabs with an
 
 Check out some of my projects [here]({{ site.baseurl }}/projects).
 
-![wide-bio-photo]({{ site.baseurl }}/assets/images/wide-bio-photo.jpeg){: .align-center}
+# ![wide-bio-photo]({{ site.baseurl }}/assets/images/wide-bio-photo.jpeg){: .align-center}
