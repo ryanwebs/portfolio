@@ -15,4 +15,4 @@ Here's some of the [projects I've worked on!]({{ site.baseurl }}/projects).
 ![]({{ site.baseurl }}/assets/images/wide-bio-photo.jpeg){: .align-center}
 {% endcomment %}
 
-![]({{ site.baseurl }}/assets/images/image0.jpeg){: .align-center}
+![]({{ site.baseurl }}/assets/images/image0.jpg){: .align-center}
