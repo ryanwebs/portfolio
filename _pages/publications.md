@@ -1,8 +1,8 @@
 ---
 title: "Publications"
-permalink: /publication/
+permalink: /publications/
 layout: collection
-collection: publication
+collection: publications
 author_profile: true
 sort_by: order
 ---
