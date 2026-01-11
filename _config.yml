@@ -13,16 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Kelly Mathesius
-email: kelly.mathesius@gmail.com
+title: Ryan Webster
+email: rwebster731@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Engineering Portfolio for Kelly Mathesius.
+  Engineering Portfolio for Ryan Webster.
 # twitter_username: username
-github_username: kjmath
-minimal_mistakes_skin: air
+github_username: ryanwebs
+minimal_mistakes_skin: mint
 search: true
 
-url: https://kjmath.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://ryanwebs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "/portfolio" # the subpath of your site, e.g. "/blog"
 
 # Build settings
@@ -61,24 +61,26 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Kelly Mathesius"
-  avatar : "/assets/images/bio-photo.jpg"
+  name   : "Ryan Webster"
+  avatar : ""
   bio    : >
-    An R&D Engineer at Formlabs with an MIT PhD. 
-    I build physics-based and data-driven models and SQL/Python pipelines 
-    to design and optimize engineering systems.
-  location: "Cambridge, MA"
+    Mechanical Engineer with a BSc from UMass Lowell. 
+    Currently building some 3D printers at Formlabs.
+    I love to create whatever I find interesting, and understand how the technology that
+    drives the world works.
+    
+  location: "Danvers, MA"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:kelly.mathesius@gmail.com"
+      url: "mailto:rwebster731@outlook.com"
     - label: "Resume"
       icon: "far fa-fw fa-file-pdf"
-      url: /assets/files/resume.pdf
+#      url: /assets/files/resume.pdf
       new_tab: true
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/kjmath"
+      url: "https://github.com/ryanwebs"
       new_tab: true
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
