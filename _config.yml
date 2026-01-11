@@ -99,10 +99,10 @@ footer:
 
 collections:
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   projects:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
