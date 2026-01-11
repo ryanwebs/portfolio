@@ -20,7 +20,7 @@ Talk about the plane's design constraints here!
 Talk about how you chose the electronics here! Brushless DC selection, targeted kV, target thrust, ESC amperage, prop diameter and pitch.
 
 ![aft-section-CAD]({{ site.baseurl }}/assets/images/printed-closure/aft-section-CAD-annotated.jpg)
-<figcaption>CAD section view of aft closure installed in motor.</figcaption>
+
 
 ## Testing Motor Thrust, and Control Surface Servos
 
@@ -36,7 +36,7 @@ multiple throttles to ensure sufficient flight
 time.
 
 ![aft-section-CAD]({{ site.baseurl }}/assets/images/printed-closure/aft-section-CAD-annotated.jpg)
-<figcaption>CAD section view of aft closure installed in motor.</figcaption>
+<figcaption>Caption for the picture!.</figcaption>
 
 ## Manufacturing
 
@@ -46,4 +46,4 @@ I also 3D printed some spar connectors, and control surface mounts out of LDPLA!
 Show how painful it was to kerf cut all the foam board for the wing!
 
 ![closure]({{ site.baseurl }}/assets/images/printed-closure/closure-annotated.png)
-<figcaption>3D printed titanium rocket closure.</figcaption>
+<figcaption>Caption for the picture!.</figcaption>
