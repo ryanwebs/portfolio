@@ -9,4 +9,4 @@ I like to create whatever I find interesting, and understand what makes the mach
 
 Check out some of my projects [here]({{ site.baseurl }}/projects).
 
-# ![wide-bio-photo]({{ site.baseurl }}/assets/images/wide-bio-photo.jpeg){: .align-center}
+![]({{ site.baseurl }}/assets/images/wide-bio-photo.jpeg){: .align-center}
