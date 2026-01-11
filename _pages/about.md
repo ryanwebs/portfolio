@@ -3,7 +3,9 @@ permalink: /
 title: "About"
 ---
 
-I’m Kelly Mathesius -- a Research and Development Engineer at Formlabs with an MIT AeroAstro PhD. I build physics-based and data-driven models and SQL/Python pipelines to design and optimize engineering systems.
+Hi, I'm Ryan! I'm a Mechanical Engineer with a BSc from UMass Lowell. 
+Currently building some 3D printers at Formlabs.
+I like to create whatever I find interesting, and understand what makes the machines/technology around me work.
 
 Check out some of my projects [here]({{ site.baseurl }}/projects).
 
