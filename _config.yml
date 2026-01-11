@@ -62,7 +62,7 @@ plugins:
 
 author:
   name   : "Ryan Webster"
-  avatar : ""
+  avatar : "/assets/images/image0.jpg"
   bio    : >
     Forked this from my friend Kelly's portfolio.
     A lot of the things on here are hers, until I finish populating this site with my own projects
@@ -82,7 +82,7 @@ author:
       new_tab: true
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "www.linkedin.com/in/ryan-webster731"
+      url: "https://www.linkedin.com/in/ryan-webster731"
       new_tab: true
 
 footer:
