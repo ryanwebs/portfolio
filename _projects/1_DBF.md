@@ -33,9 +33,9 @@ Converted mv/V readings to N, to ensure sufficient thrust (targeted ~70% of plan
 
 Tested for power draw, and battery life at multiple throttles to ensure sufficient flight time.
 
-![Thrust-Test]({{ site.baseurl }}/assets/images/DBF/thrust_test_fixture.png)
+![Thrust-Test]({{ site.baseurl }}/assets/images/DBF/thrust_test_fixture.png){:width="75%"}{: .align-center}
 
-![Thrust-Test]({{ site.baseurl }}/assets/images/DBF/motor_thrust_test.png)
+![Thrust-Test]({{ site.baseurl }}/assets/images/DBF/motor_thrust_test.png){:width="75%"}{: .align-center}
 
 ## Manufacturing
 
