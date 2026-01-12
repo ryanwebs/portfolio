@@ -9,10 +9,42 @@ toc: true
 toc_sticky: true
 mathjax: true
 ---
-
-Add a picture of the car!
-
 ## Overview
 
-![single-piece-concept]({{ site.baseurl }}/assets/images/RHR/RHR_fuselage.png){:width="75%"}{: .align-center}
-<figcaption>Fuselage!</figcaption>{: .text-center}
+I was a member of the Aerodynamics Team as part of my University's FSAE chapter. I was responsible for designing the nose cone, and other main bodywork panels of an open wheel, formula style race car. I used SolidWorks Flow, and Ansys Fluent to simulate airflow around the body panels in order to analyze the car's aerodynamic performance. The CFD results were used to help iterate the geometry of the body in order to reduce drag from skin friction, achieve target downforce magnitude, evenly distribute the low pressure zone on the floor, and tighten the wake.
+
+These optimizations are useful for improving the car's performance, allowing it to be quicker along a straight, and grip the ground more easily while cornering.
+
+# Design Constraints
+
+Placeholder before I go dig through the report.
+
+Target downforce, target drag coefficient, target speed, ride height, elevation above sea level, expected temperature, density of air, etc...
+
+## CAD
+
+I designed the fuselage using lofted surfacing techniques in SolidWorks. I started by drawing a general shape along the mid-plane that would fit around the frame. Then drew cross sections at various points along the spline for each major section of the body panels (nose cone, middle/rear quarter panels, and tail). I lofted these cross sections together to create a solid body.
+
+![fuselage]({{ site.baseurl }}/assets/images/RHR/RHR_fuselage.png){:width="75%"}{: .align-center}
+<figcaption>Figure 1. SolidWorks Model of the Fuselage</figcaption>{: .text-center}
+
+## CFD Analysis
+
+Placeholder section while I hunt down screenshots of my surface plots.
+
+## Math and Numbers
+
+In this house we love fluids.
+
+## Manufacturing
+
+Something something fiberglass...
+
+![fuselage]({{ site.baseurl }}/assets/images/RHR/body_mold.jpg){:width="75%"}{: .align-center}
+<figcaption>Figure 2. Making the foam slices for the mold</figcaption>{: .text-center}
+
+![fuselage]({{ site.baseurl }}/assets/images/RHR/nosecone_layup.jpg){:width="75%"}{: .align-center}
+<figcaption>Figure 3. First wet layup of the nosecone</figcaption>{: .text-center}
+
+![fuselage]({{ site.baseurl }}/assets/images/RHR/body_panels.jpg){:width="75%"}{: .align-center}
+<figcaption>Figure 4. Post-cure quarter panels, floor panels, and right sidepod</figcaption>{: .text-center}
