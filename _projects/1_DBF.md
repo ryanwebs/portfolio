@@ -7,6 +7,7 @@ order: 1
 share: false
 toc: true
 toc_sticky: true
+mathjax: true
 ---
 
 For my Capstone design class, my team designed a remote control airplane for the AIAA's annual Design, Build, Fly competition. I was responsible for designing the electronic propulsion system (motor, battery, speed controller, propeller), designing custom 3D printed structural components, and developing the manufacturing process for the airplane.
