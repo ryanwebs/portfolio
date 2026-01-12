@@ -1,7 +1,7 @@
 ---
 title: "3D Printed Trinkets"
 header:
-teaser:
+  teaser:
 excerpt: A collection of some useful trinkets I've designed and 3D printed!
 order: 10
 share: false
