@@ -3,7 +3,7 @@ title: "Experimental Measurements of Rocket Exhaust Plume Radiant Emission"
 header:
   teaser: /assets/images/experiments-emission/composite.png
 excerpt: I designed and conducted a set of experiments to measure the effects of propellant formulation and motor chamber pressure on exhaust plume infrared radiant emission for small solid rocket motors.
-order: 1.1
+order: 7
 share: false
 toc: true
 toc_sticky: true
