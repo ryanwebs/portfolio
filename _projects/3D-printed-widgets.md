@@ -1,20 +1,23 @@
 ---
-title: "3D Printed Widgets"
+title: "3D Printed Trinkets"
 header:
   teaser: /assets/images/3D-printed-widgets/composite.png
-excerpt: Take a tour of some of the various 3D printed widgets I've designed and made on my printer.
+excerpt: A collection of some useful trinkets I've designed and 3D printed!
 order: 10
 share: false
 toc: true
 toc_sticky: true
 ---
-A random collection of neat things I've designed and printed.
+Sometimes the best way to use your 3D printer is when you think: "it would really be useful for me to have this hyperspecific plastic thing right about now", spend a little bit in CAD, and have it in your hands a few hours later.
 
-## Drill Alignment Jig
+Here's some of my favorite stuff spawned from that thought process.
 
-A drill alignment jig with press-fit drill bushings. The two-piece jig clamps around an awkwardly shaped part and lets me align the drill bit easily.
+## Cribbage Board
 
-![drill-jig]({{ site.baseurl }}/assets/images/3D-printed-widgets/drill-jig.jpg){:width="75%"}{: .align-center}
+A Bruins-themed cribbage board that I designed as a gift for my Dad. Includes a compartment on the bottom for storing a deck of cards and pegs. I took some inspiration from those click-in-place battery doors.
+
+![cribbage-board]({{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage.jpg){:width="50%"}{: .align-left}
+![cribbage-board]({{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage_bottom.jpg){:width="50%"}{: .align-right}
 
 ## Worm Gear
 
