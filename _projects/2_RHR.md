@@ -1,7 +1,7 @@
 ---
 title: "FSAE Bodywork"
 header:
-teaser: /assets/images/RHR/da_car.jpg
+  teaser: /assets/images/RHR/da_car.jpg
 excerpt: "Designed bodywork components for an open wheel race car to improve aerodynamic performance, and performed CFD simulations to find drag coefficient, downforce, pressure contours, and analyze flow paths of air."
 order: 2
 share: false
