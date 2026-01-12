@@ -39,11 +39,17 @@ Placeholder section while I hunt down screenshots of my surface plots.
 
 Something something fiberglass...
 
-![fuselage]({{ site.baseurl }}/assets/images/RHR/body_mold.jpg){:width="75%"}{: .align-center}
+![mold]({{ site.baseurl }}/assets/images/RHR/body_mold.jpg){:width="75%"}{: .align-center}
 <figcaption>Figure 2. Making the foam slices for the mold</figcaption>{: .text-center}
 
-![fuselage]({{ site.baseurl }}/assets/images/RHR/nosecone_layup.jpg){:width="75%"}{: .align-center}
+![noselayup]({{ site.baseurl }}/assets/images/RHR/nosecone_layup.jpg){:width="75%"}{: .align-center}
 <figcaption>Figure 3. First wet layup of the nosecone</figcaption>{: .text-center}
 
-![fuselage]({{ site.baseurl }}/assets/images/RHR/body_panels.jpg){:width="75%"}{: .align-center}
+![nose]({{ site.baseurl }}/assets/images/RHR/bumpy_nose.jpg){:width="75%"}{: .align-center}
+<figcaption>Figure 3. First nosecone, the bumpy one</figcaption>{: .text-center}
+
+![panels]({{ site.baseurl }}/assets/images/RHR/body_panels.jpg){:width="75%"}{: .align-center}
 <figcaption>Figure 4. Post-cure quarter panels, floor panels, and right sidepod</figcaption>{: .text-center}
+
+![paint]({{ site.baseurl }}/assets/images/RHR/car_painting.jpg){:width="75%"}{: .align-center}
+<figcaption>Figure 5. Full painted bodywork, mounted to frame</figcaption>{: .text-center}
