@@ -3,7 +3,7 @@ title: "End-to-End Differentiable Models and Optimization for Solid Rocket Power
 header:
   teaser: /assets/images/modeling-emission/banner.png
 excerpt: I developed and implemented a set of differentiable sub-models for predicting exhaust plume radiant emission for solid rocket motors using the AeroSandbox and CasADi design optimization frameworks. The model showed good agreement with experimental radiant emission data, and can be used to optimize the design of solid rocket powered aircraft. 
-order: 1.0
+order: 9
 share: false
 toc: true
 toc_sticky: true
