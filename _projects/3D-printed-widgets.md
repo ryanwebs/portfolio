@@ -19,11 +19,12 @@ A Bruins-themed cribbage board that I designed as a gift for my Dad. Includes a 
 ![cribbage-board]({{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage.jpg){:width="50%"}{: .align-left}
 ![cribbage-board]({{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage_bottom.jpg){:width="50%"}{: .align-right}
 
-## Worm Gear
+## Commander Deckbox
 
-A fun worm gear desk toy I designed and printed.
+A little box for holding my Magic: The Gathering cards. 
 
-{% include video id="A4gpdKAMhAo" provider="youtube" caption="Worm gear" %}
+![deck-dox]({{ site.baseurl }}/assets/images/3D-printed-widgets/deckbox_closed.jpg){:width="50%"}{: .align-left}
+![deck-box]({{ site.baseurl }}/assets/images/3D-printed-widgets/deckbox_open.jpg){:width="50%"}{: .align-right}
 
 ## Peg Board Hooks
 
