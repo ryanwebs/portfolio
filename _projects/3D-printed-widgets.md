@@ -58,7 +58,7 @@ Little hooks that click onto the grocery net mounting points in my trunk. Lets m
 
 ## Kickstand Buddy
 
-The legs of my golf bag's kickstand used to get stuck under the rods, and not deploy correctly. VERY annoying. Not anymore, though.
+The legs of my golf bag's kickstand used to get stuck under the rods, and not deploy correctly. VERY annoying. Not anymore, though. This clip press fits onto the kickstand rods, and the legs rest on top when the bag is lifted.
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/kickstand_stuck.jpg" style="width:33%;">
@@ -77,7 +77,7 @@ I let go of a constant force spring once. It was a bad idea. I didn't want to bu
 
 ## Replacement Car Armrest Bracket
 
-There's these plastic brackets in my car that hold up the center console armrest. They have pin slots so the armrest can pivot up and down. One of them broke, and the entire armrest fell. It's hard to buy replacement parts for a car from 2002, so I ended up taking some measurements and printing a new one.
+There's these plastic brackets in my car that hold up the center console armrest. They have pin slots so the armrest can pivot up and down. One of them broke, and the entire armrest fell. It's hard to buy replacement parts for a car from 2002, so I ended up taking some measurements of the broken pieces and printing a new one.
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/cooked_bracket.jpg" style="width:33%;">
