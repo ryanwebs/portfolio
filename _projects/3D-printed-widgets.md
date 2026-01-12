@@ -35,7 +35,11 @@ A little box for holding my Magic: The Gathering cards.
 
 Some hooks for mounting my guitars to the wall. I oriented the grain in line with the bending moment, and printed them at 100% infill in ABS. I wasn't taking any chances, and I haven't seen any creep in them yet so that's good.
 
-![guitar-hanger]({{ site.baseurl }}/assets/images/3D-printed-widgets/guitar_mount.jpg){:width="49.5%"}{: .align-right}
+![guitar-hanger]({{ site.baseurl }}/assets/images/3D-printed-widgets/guitar_mount.jpg){:width="75%"}{: .align-center}
 
-##
+## Mug Holder
+
+Got tired of reaching down to the ground every time I wanted to take of sip of tea.
+
+![guitar-hanger]({{ site.baseurl }}/assets/images/3D-printed-widgets/mug_holder.jpg){:width="75%"}{: .align-center}
 
