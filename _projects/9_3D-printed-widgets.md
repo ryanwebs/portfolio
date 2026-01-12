@@ -3,7 +3,7 @@ title: "3D Printed Widgets"
 header:
   teaser: /assets/images/3D-printed-widgets/composite.png
 excerpt: Take a tour of some of the various 3D printed widgets I've designed and made on my printer.
-order: 9.1
+order: 10
 share: false
 toc: true
 toc_sticky: true
