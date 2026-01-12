@@ -1,7 +1,7 @@
 ---
 title: "Autoshrink Vision System"
 header:
-  teaser: /assets/images/leverless-1/
+  teaser: /assets/images/autoshrink/autoshrink.png/
 excerpt: Keyence!!!
 order: 6
 share: false
