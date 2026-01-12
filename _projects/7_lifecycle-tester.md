@@ -4,7 +4,7 @@ excerpt: "Designed a pneumatic test fixture to evaluate the lifecycle of a molde
 for mechanical failure criteria of the brackets to validate FEA results for the new material selection."
 header:
   teaser: /assets/images/lifecycle-tester/lifecycle-tester.jpg
-order: 8
+order: 7
 share: false
 toc: true
 toc_sticky: true
