@@ -8,7 +8,7 @@ share: false
 toc: true
 toc_sticky: true
 ---
-Sometimes the best way to use your 3D printer is when you think: "it would really be useful for me to have this hyperspecific plastic thing right about now", spend a little bit in CAD, and have it in your hands a few hours later.
+Sometimes the best way to use your 3D printer is when you think: "it would really be useful for me to have this hyperspecific plastic thing right about now", then spend a little bit in CAD and have it a few hours later.
 
 Here's some of my favorite stuff spawned from that thought process.
 
