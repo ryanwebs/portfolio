@@ -15,7 +15,9 @@ Final project for a Finite Element Analysis class where students were asked to d
 my process behind designing mounting brackets for a rear wing and using various FEA techniques to make weight reductions without jeopardizing strength.
 
 • Created SolidWorks models of a NACA 2412 airfoil and different mounting brackets for testing. Used Ansys Fluent to determine the wing’s experimental lift (downforce)
+
 • Used Topology Optimization in Altair Inspire to reduce the brackets’ mass and iterate their geometry.
+
 • Used Ansys Mechanical to perform structural analysis on the mounts using loading conditions calculated from the wing, ensure maximum stresses did not exceed the yield
 point, and select a bracket iteration with the best performance.
 
@@ -61,9 +63,3 @@ I expected bracket 2 to be able to carry the load more efficiently, while making
 
 ## Future Improvements
 
-![ballast-in-container]({{ site.baseurl }}/assets/images/L3-rocket/ballast-in-container.png)
-<figcaption>A 3D printed container was used to secure lead shot ballast in the nosecone of the rocket.</figcaption>
-<br>
-
-![ballast-on-bulkhead]({{ site.baseurl }}/assets/images/L3-rocket/ballast-on-bulkhead.png)
-<figcaption>The ballast was mounted to the removable inner bulkhead.</figcaption>
