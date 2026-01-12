@@ -17,26 +17,25 @@ Talk about the plane's design constraints here!
 
 ## Propulsion System
 
-Talk about how you chose the electronics here! Brushless DC selection, targeted kV, target thrust, ESC amperage, prop diameter and pitch.
+Talk about how you chose the electronics here! 
 
-![aft-section-CAD]({{ site.baseurl }}/assets/images/printed-closure/aft-section-CAD-annotated.jpg)
+Brushless DC selection, targeted kV, target thrust, ESC amperage, prop diameter and pitch.
 
+Show the torque curves for the motors you were considering and why you chose the one you did!
+
+Add some pictures!
 
 ## Testing Motor Thrust, and Control Surface Servos
 
-Tested thrust of propeller and motor using
-two 20kg load cells and AC ammeter.
+Tested thrust of propeller and motor using two 20kg load cells and AC ammeter.
 
-Converted mv/V readings to N, to ensure
-sufficient thrust (targeted ~70% of plane
-weight)
+Converted mv/V readings to N, to ensure sufficient thrust (targeted ~70% of plane weight)
 
-• Tested for power draw, and battery life at
-multiple throttles to ensure sufficient flight
-time.
+Tested for power draw, and battery life at multiple throttles to ensure sufficient flight time.
 
-![aft-section-CAD]({{ site.baseurl }}/assets/images/printed-closure/aft-section-CAD-annotated.jpg)
-<figcaption>Caption for the picture!.</figcaption>
+![Thrust-Test]({{ site.baseurl }}/assets/images/DBF/thrust_test_fixture.png)
+
+![Thrust-Test]({{ site.baseurl }}/assets/images/DBF/motor_thrust_test.png)
 
 ## Manufacturing
 
