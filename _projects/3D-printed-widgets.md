@@ -26,14 +26,16 @@ A Bruins-themed cribbage board that I designed as a gift for my Dad. Includes a 
 
 A little box for holding my Magic: The Gathering cards. 
 
-![deck-dox]({{ site.baseurl }}/assets/images/3D-printed-widgets/deckbox_closed.jpg){:width="49.5%"}{: .align-left}
-![deck-box]({{ site.baseurl }}/assets/images/3D-printed-widgets/deckbox_open.jpg){:width="49.5%"}{: .align-right}
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/deckbox_closed.jpg" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/deckbox_open.jpg" style="width:50%;">
+</div>
 
 ## Guitar Wall Hangers
 
 Some hooks for mounting my guitars to the wall. I oriented the grain in line with the bending moment, and printed them at 100% infill in ABS. I wasn't taking any chances, and I haven't seen any creep in them yet so that's good.
 
-![guitar-hanger]({{ site.baseurl }}/assets/images/3D-printed-widgets/guitar_mount.jpg)
+![guitar-hanger]({{ site.baseurl }}/assets/images/3D-printed-widgets/guitar_mount.jpg){:width="49.5%"}{: .align-right}
 
 ##
 
