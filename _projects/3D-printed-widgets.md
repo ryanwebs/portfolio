@@ -41,16 +41,46 @@ Some hooks for mounting my guitars to the wall. I oriented the grain in line wit
 
 Got tired of reaching down to the ground every time I wanted to take of sip of tea. This slides into place on the side of my bed frame.
 
-![mug-holder]({{ site.baseurl }}/assets/images/3D-printed-widgets/mug_holder.jpg){:width="50%"}{: .align-left}
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/mug_holder.jpg" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/mug_holder.jpg" style="width:50%;">
+</div>
 
 ## Trunk Wall Hook
 
 Little hooks that click onto the grocery net mounting points in my trunk. Lets me secure my tool crate using a bungee cord. Finally, my tools don't spill everywhere every time I u-turn.
 
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/tool_crate.jpg" style="width:33%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/trunk_hook.jpg" style="width:33%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/trunk_hook_cad.png" style="width:33%;">
+</div>
+
 ## Kickstand Buddy
 
-The legs of my golf bag's kickstand used to get stuck under the poles, and not deploy correctly. VERY annoying. Not anymore, though.
+The legs of my golf bag's kickstand used to get stuck under the rods, and not deploy correctly. VERY annoying. Not anymore, though.
+
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/kickstand_stuck.jpg" style="width:33%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/kickstand_good.jpg" style="width:33%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/kickstand_buddy.png" style="width:33%;">
+</div>
 
 ## Torsion Spring Winding Jig
 
 I let go of a constant force spring once. It was a bad idea. I didn't want to buy another one, so I designed this jig that let me rewind it with a drill chuck.
+
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/torsion_spring_winder.jpg" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/rewound_torsion_spring.jpg" style="width:50%;">
+</div>
+
+## Replacement Car Armrest Bracket
+
+There's these plastic brackets in my car that hold up the center console armrest. They have pin slots so the armrest can pivot up and down. One of them broke, and the entire armrest fell. It's hard to buy replacement parts for a car from 2002, so I ended up taking some measurements and printing a new one.
+
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/cooked_bracket.jpg" style="width:33%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/fixedarmrest.jpg" style="width:33%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/fixedarmrest.jpg" style="width:33%;">
+</div>
