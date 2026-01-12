@@ -9,7 +9,9 @@ toc: true
 toc_sticky: true
 ---
 
-Quick overview
+## Overview
+
+Placeholder
 
 ## Design
 
@@ -17,7 +19,5 @@ Placeholder
 
 ## Other
 
-placeholder
+Placeholder
 
-![aft-section-CAD]({{ site.baseurl }}/assets/images/leverless-1/leverless_1_bottom.jpg)
-<figcaption>Caption for the picture!.</figcaption>
