@@ -39,7 +39,18 @@ Some hooks for mounting my guitars to the wall. I oriented the grain in line wit
 
 ## Mug Holder
 
-Got tired of reaching down to the ground every time I wanted to take of sip of tea.
+Got tired of reaching down to the ground every time I wanted to take of sip of tea. This slides into place on the side of my bed frame.
 
-![guitar-hanger]({{ site.baseurl }}/assets/images/3D-printed-widgets/mug_holder.jpg){:width="75%"}{: .align-center}
+![mug-holder]({{ site.baseurl }}/assets/images/3D-printed-widgets/mug_holder.jpg){:width="50%"}{: .align-left}
 
+## Trunk Wall Hook
+
+Little hooks that click onto the grocery net mounting points in my trunk. Lets me secure my tool crate using a bungee cord. Finally, my tools don't spill everywhere every time I u-turn.
+
+## Kickstand Buddy
+
+The legs of my golf bag's kickstand used to get stuck under the poles, and not deploy correctly. VERY annoying. Not anymore, though.
+
+## Torsion Spring Winding Jig
+
+I let go of a constant force spring once. It was a bad idea. I didn't want to buy another one, so I designed this jig that let me rewind it with a drill chuck.
