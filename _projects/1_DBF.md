@@ -1,7 +1,7 @@
 ---
 title: "Remote Control Airplane"
 header:
-  teaser: /assets/images/DBF/plane.jpg
+teaser: /assets/images/DBF/plane.jpg
 excerpt: Designed an RC Airplane with a small team for my capstone. Responsible for designing the electronics rig, custom structural components, and developing the manufacturing process. Submitted to the AIAA's annual Design, Build, Fly competition.
 order: 1
 share: false
