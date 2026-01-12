@@ -40,9 +40,14 @@ Tested for power draw, and battery life at multiple throttles to ensure sufficie
 ## Manufacturing
 
 Talk about how you built the plane here!
-I lasercut the chassis from foam/cardboard, and Developed the airplane’s manufacturing
-I also 3D printed some spar connectors, and control surface mounts out of LDPLA!
+
+I lasercut the chassis from foam/cardboard, developed the manufacturing process, and built the entire airplane! I also 3D printed some spar connectors, and control surface mounts out of LDPLA!
+
 Show how painful it was to kerf cut all the foam board for the wing!
 
-![closure]({{ site.baseurl }}/assets/images/printed-closure/closure-annotated.png)
-<figcaption>Caption for the picture!.</figcaption>
+Add some pictures!
+
+## CAD Drawings
+
+Add pictures of the CAD drawings for some of the structural components you designed!
+
