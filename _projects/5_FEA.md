@@ -2,7 +2,7 @@
 title: "Rear Wing Mounting Brackets"
 header:
 teaser: /assets/images/FEA/bracket_stress_converged.png
-excerpt: Designed some wing mounts for my applied FEA class to flex the techniques I learned throughout the semester.
+excerpt: "Designed some wing mounts for my applied FEA class to flex the techniques I learned throughout the semester."
 order: 5
 link: /portfolio/assets/files/applied_fea_final.pdf
 share: false
