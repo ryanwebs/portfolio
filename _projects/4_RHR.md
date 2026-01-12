@@ -32,9 +32,8 @@ I designed the fuselage using lofted surfacing techniques in SolidWorks. I start
 
 Placeholder section while I hunt down screenshots of my surface plots.
 
-## Math and Numbers
+## Math and Calculations
 
-In this house we love fluids.
 
 ## Manufacturing
 
