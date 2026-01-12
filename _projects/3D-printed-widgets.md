@@ -19,6 +19,7 @@ A Bruins-themed cribbage board that I designed as a gift for my Dad. Includes a 
 ![cribbage-board]({{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage.jpg){:width="50%"}{: .align-left}
 ![cribbage-board]({{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage_bottom.jpg){:width="50%"}{: .align-right}
 
+
 ## Commander Deckbox
 
 A little box for holding my Magic: The Gathering cards. 
