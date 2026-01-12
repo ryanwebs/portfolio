@@ -16,8 +16,8 @@ Here's some of my favorite stuff spawned from that thought process.
 
 A Bruins-themed cribbage board that I designed as a gift for my Dad. Includes a compartment on the bottom for storing a deck of cards and pegs. I took some inspiration from those click-in-place battery doors.
 
-![cribbage-board]({{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage.jpg){:width="50%"}{: .align-left}
-![cribbage-board]({{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage_bottom.jpg){:width="50%"}{: .align-right}
+![cribbage-board]({{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage.jpg){:width="49.5%"}{: .align-left}
+![cribbage-board]({{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage_bottom.jpg){:width="49.5%"}{: .align-right}
 
 
 ## Commander Deckbox
