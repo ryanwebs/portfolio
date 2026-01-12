@@ -16,8 +16,10 @@ Here's some of my favorite stuff spawned from that thought process.
 
 A Bruins-themed cribbage board that I designed as a gift for my Dad. Includes a compartment on the bottom for storing a deck of cards and pegs. I took some inspiration from those click-in-place battery doors.
 
-![cribbage-board]({{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage.jpg){:width="49.5%"}{: .align-left}
-![cribbage-board]({{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage_bottom.jpg){:width="49.5%"}{: .align-right}
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage.jpg" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/cribbage_bottom.jpg" style="width:50%;">
+</div>
 
 
 ## Commander Deckbox
@@ -27,40 +29,11 @@ A little box for holding my Magic: The Gathering cards.
 ![deck-dox]({{ site.baseurl }}/assets/images/3D-printed-widgets/deckbox_closed.jpg){:width="49.5%"}{: .align-left}
 ![deck-box]({{ site.baseurl }}/assets/images/3D-printed-widgets/deckbox_open.jpg){:width="49.5%"}{: .align-right}
 
-## Peg Board Hooks
+## Guitar Wall Hangers
 
-A collection of hooks for mounting tools to my peg board.
+Some hooks for mounting my guitars to the wall. I oriented the grain in line with the bending moment, and printed them at 100% infill in ABS. I wasn't taking any chances, and I haven't seen any creep in them yet so that's good.
 
-![peg-board]({{ site.baseurl }}/assets/images/3D-printed-widgets/peg-board.jpg){:width="75%"}{: .align-center}
+![guitar-hanger]({{ site.baseurl }}/assets/images/3D-printed-widgets/guitar_mount.jpg)
 
-## Spice Rack
-
-A spice rack that fits over the lip of my kitchen counter, printed in four pieces and then epoxied together.
-
-![spice-rack]({{ site.baseurl }}/assets/images/3D-printed-widgets/spice-rack.jpg)
-
-## Beer Tap Handles
-
-Custom tap handles and plaque for my Dad's home-brewing project. A threaded insert is epoxied into the bottom of the tap handles to interface with the taps.
-
-![handles]({{ site.baseurl }}/assets/images/3D-printed-widgets/handles_and_plaque.jpg)
-
-## Cookie Cutter
-
-A custom cookie cutter for a cookie making contest.
-
-![cookie-cutters]({{ site.baseurl }}/assets/images/3D-printed-widgets/cookie-cutter-with-cookies.jpg)
-
-
-## Snap-On Brush Hooks
-
-Snap-on brush hooks for holding dish brushes on a rail over my kitchen sink.
-
-![brush-hook]({{ site.baseurl }}/assets/images/3D-printed-widgets/brush-hook.jpg){:width="75%"}{: .align-center}
-
-## Window Box Brackets
-
-Simple brackets to mount a window box to a window sill in my apartment. The window box only has to be set into the brackets, and can easily be lifted out of the way to open the window. 
-
-![window-box-brackets]({{ site.baseurl }}/assets/images/3D-printed-widgets/plant-box-bracket.jpg)
+##
 
