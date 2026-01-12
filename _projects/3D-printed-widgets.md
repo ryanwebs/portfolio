@@ -24,8 +24,8 @@ A Bruins-themed cribbage board that I designed as a gift for my Dad. Includes a 
 
 A little box for holding my Magic: The Gathering cards. 
 
-![deck-dox]({{ site.baseurl }}/assets/images/3D-printed-widgets/deckbox_closed.jpg){:width="50%"}{: .align-left}
-![deck-box]({{ site.baseurl }}/assets/images/3D-printed-widgets/deckbox_open.jpg){:width="50%"}{: .align-right}
+![deck-dox]({{ site.baseurl }}/assets/images/3D-printed-widgets/deckbox_closed.jpg){:width="49.5%"}{: .align-left}
+![deck-box]({{ site.baseurl }}/assets/images/3D-printed-widgets/deckbox_open.jpg){:width="49.5%"}{: .align-right}
 
 ## Peg Board Hooks
 
