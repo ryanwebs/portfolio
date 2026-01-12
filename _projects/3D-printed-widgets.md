@@ -24,7 +24,7 @@ A Bruins-themed cribbage board that I designed as a gift for my Dad. Includes a 
 
 ## Commander Deckbox
 
-A little box for holding my Magic: The Gathering cards. 
+A little box for holding my Magic: The Gathering cards. Fits about 115 cards for a full commander deck plus token cards.
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/deckbox_closed.jpg" style="width:50%;">
