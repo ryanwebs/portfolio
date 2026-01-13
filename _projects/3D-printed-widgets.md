@@ -37,7 +37,7 @@ Some hooks for mounting my guitars to the wall. I oriented the grain in line wit
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/guitar_mount.jpg" style="width:50%;">
-  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/guitarhanger_cad.png" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/guitar_hanger_cad.png" style="width:50%;">
 </div>
 
 ## Mug Holder
