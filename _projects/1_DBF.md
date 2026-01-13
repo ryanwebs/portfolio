@@ -16,6 +16,8 @@ For my Capstone design class, my team designed a remote control airplane for the
 
 Talk about the plane's design constraints here!
 
+![]({{ site.baseurl }}/assets/images/DBF/plane_cad.png){:width="80%"}{: .align-center}
+
 ## Propulsion System
 
 Talk about how you chose the electronics here! 
@@ -34,9 +36,9 @@ Converted mv/V readings to N, to ensure sufficient thrust (targeted ~70% of plan
 
 Tested for power draw, and battery life at multiple throttles to ensure sufficient flight time.
 
-![Thrust-Test]({{ site.baseurl }}/assets/images/DBF/thrust_test_fixture.png){:width="75%"}{: .align-center}
+![Thrust-Test]({{ site.baseurl }}/assets/images/DBF/thrust_test_fixture.png){:width="80%"}{: .align-center}
 
-![Thrust-Test]({{ site.baseurl }}/assets/images/DBF/motor_thrust_test.png){:width="75%"}{: .align-center}
+![Thrust-Test]({{ site.baseurl }}/assets/images/DBF/motor_thrust_test.png){:width="80%"}{: .align-center}
 
 ## Manufacturing
 
@@ -46,11 +48,11 @@ I lasercut the chassis from foam/cardboard, developed the manufacturing process,
 
 Show how painful it was to kerf cut all the foam board for the wing!
 
-![]({{ site.baseurl }}/assets/images/DBF/wing_manufacturing.jpg){:width="75%"}{: .align-center}
+![]({{ site.baseurl }}/assets/images/DBF/wing_manufacturing.jpg){:width="80%"}{: .align-center}
 
-![]({{ site.baseurl }}/assets/images/DBF/wing_side.jpg){:width="75%"}{: .align-center}
+![]({{ site.baseurl }}/assets/images/DBF/wing_side.jpg){:width="80%"}{: .align-center}
 
-![]({{ site.baseurl }}/assets/images/DBF/prints.jpg){:width="75%"}{: .align-center}
+![]({{ site.baseurl }}/assets/images/DBF/prints.jpg){:width="80%"}{: .align-center}
 
 Add some more pictures!
 
