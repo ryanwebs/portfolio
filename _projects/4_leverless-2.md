@@ -51,6 +51,7 @@ thinner chassis.
   <img src="{{ site.baseurl }}/assets/images/leverless-2/revAside.png" style="width:50%;">
   <img src="{{ site.baseurl }}/assets/images/leverless-2/rails.png" style="width:50%;">
 </div>
+<figcaption>Added guard rails to prevent accidental button presses</figcaption>{: .text-center}
 
 ## PCB Design
 
@@ -64,8 +65,6 @@ thinner chassis.
 <figcaption>PCB for keyboard switches</figcaption>{: .text-center}
 
 ## Manufacturing
-
-![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_schematic.png){:width="80%"}{: .align-center}
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_soldering.jpg){:width="80%"}{: .align-center}
 
