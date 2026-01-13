@@ -3,7 +3,7 @@ title: "3D Printed Trinkets"
 header:
   teaser: /assets/images/3D-printed-widgets/gallery.png
 excerpt: A collection of some useful trinkets I've designed and 3D printed!
-order: 10
+order: 8
 share: false
 toc: true
 toc_sticky: true
