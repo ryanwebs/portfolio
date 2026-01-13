@@ -33,29 +33,35 @@ thinner chassis.
 
 ## Rev A CAD
 
-![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_schematic.png){:width="80%"}{: .align-center}
-
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_revA.png){:width="80%"}{: .align-center}
+<figcaption>Leverless 2, Rev A CAD</figcaption>{: .text-center}
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_fitcheck.jpg){:width="80%"}{: .align-center}
+<figcaption>FDM Printed initial fit check</figcaption>{: .text-center}
 
 ## Rev B CAD
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_cad.png){:width="80%"}{: .align-center}
+<figcaption>Leverless 2, Rev B CAD Assembly</figcaption>{: .text-center}
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_exploded.png){:width="80%"}{: .align-center}
+<figcaption>Exploded View</figcaption>{: .text-center}
 
-![]({{ site.baseurl }}/assets/images/leverless-2/revAside.png){:width="80%"}{: .align-center}
-
-![]({{ site.baseurl }}/assets/images/leverless-2/rails.png){:width="80%"}{: .align-center}
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/leverless-2/revAside.png" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/leverless-2/rails.png" style="width:50%;">
+</div>
 
 ## PCB Design
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_schematic.png){:width="80%"}{: .align-center}
+<figcaption>PCB Schematic</figcaption>{: .text-center}
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_gerbers.png){:width="80%"}{: .align-center}
+<figcaption>PCB Gerbers</figcaption>{: .text-center}
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/pcb.jpg){:width="80%"}{: .align-center}
+<figcaption>PCB for keyboard switches</figcaption>{: .text-center}
 
 ## Manufacturing
 
