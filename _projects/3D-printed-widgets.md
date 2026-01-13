@@ -35,7 +35,12 @@ A little box for holding my Magic: The Gathering cards. Fits about 115 cards for
 
 Some hooks for mounting my guitars to the wall. I oriented the grain in line with the bending moment, and printed them at 100% infill in ABS. I wasn't taking any chances, and I haven't seen any creep in them yet so that's good.
 
-![guitar-hanger]({{ site.baseurl }}/assets/images/3D-printed-widgets/guitar_mount.jpg){:width="75%"}{: .align-center}
+![guitar-hanger]({{ site.baseurl }}){:width="75%"}{: .align-center}
+
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/guitar_mount.jpg" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/guitarhanger_cad.jpg" style="width:50%;">
+</div>
 
 ## Mug Holder
 
@@ -81,6 +86,6 @@ There's these plastic brackets in my car that hold up the center console armrest
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/cooked_bracket.jpg" style="width:33%;">
-  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/fixedarmrest.jpg" style="width:33%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/armrestbracket_cad.jpg" style="width:33%;">
   <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/fixedarmrest.jpg" style="width:33%;">
 </div>
