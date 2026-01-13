@@ -45,10 +45,10 @@ After cutting the 2x4s to length and glueing them together, I sanded down the ou
 ![cad]({{ site.baseurl }}/assets/images/leverless-1/varnish.jpg){:width="75%"}{: .align-center}
 <figcaption>Figure 4. Applying the finish</figcaption>{: .text-center}
 
-In order to close off the bottom on the box, I wanted to continue using clear acrylic so I could admire my cable management.I added these 3D Printed mounting "shelves" to attach the bottom plate. I epoxied them in place to the inner walls of the box, while using the bottom plate to set the height of the shelves. This allowed me to mount the acrylic plate to the box while keeping it flush with the bottom.
+In order to close off the bottom on the box, I wanted to continue using clear acrylic so I could admire my cable management. I added some 3D printed mounting brackets to attach the bottom plate. I epoxied them in place to the inner walls of the box, while using the bottom plate to set the height of the shelves. This allowed me to mount the acrylic plate to the box while keeping it flush with the bottom.
 
 ![cad]({{ site.baseurl }}/assets/images/leverless-1/printed_things.jpg){:width="75%"}{: .align-center}
-<figcaption>Figure 5. Glueing in the shelves</figcaption>{: .text-center}
+<figcaption>Figure 5. Glueing in the brackets</figcaption>{: .text-center}
 
 Here's the finished product. I'm very happy with the way it turned out.
 
