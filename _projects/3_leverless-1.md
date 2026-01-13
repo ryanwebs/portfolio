@@ -11,7 +11,7 @@ toc_sticky: true
 
 I made this controller as something of a cross between fun design challenge, and an art project.
 
-Leverless arcade controllers that opt for directional buttons over a joystick allow for greater precision when performing a quick series of directional inputs. This can significantly reduce user error in fighting games, where slight variability in a joystick’s angle sometimes leads to unintention X-input readouts that are inconsistent with user intent. Basically, this means you're gonna drop your combos if you're trash.
+Leverless arcade controllers that opt for directional buttons over a joystick allow for greater precision when performing a quick series of directional inputs. This can significantly reduce user error in fighting games, where slight variability in a joystick’s angle sometimes leads to unintentional X-input readouts that are inconsistent with user intent. Basically, this means you're gonna drop your combos if you're trash.
 
 ## Design
 
