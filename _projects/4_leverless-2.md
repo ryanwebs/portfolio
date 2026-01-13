@@ -11,7 +11,25 @@ toc_sticky: true
 
 ## Overview 
 
-Quick overview
+Refreshed version of my original leverless
+controller designed to be smaller, lighter, fully
+3D printed, and with extra mappable buttons.
+
+- SLS printed shell in PA12, and FDM printed
+ABS keycaps.
+
+- Runs GP2040CE on a Raspberry Pi 2040 chip
+for X-Input readouts.
+
+- Modified source code in C++ and rebuilt firmware
+to match pinout of Adafruit Feather 2040 board.
+
+- Designed custom PCB that connects keyboard
+switches to the RP board. Heavily reduces the
+electronics’ footprint in Z allowing for much
+thinner chassis.
+
+- “Oh wow, damn this is nice” –Eric Wong, 2025
 
 ## Rev A CAD
 
