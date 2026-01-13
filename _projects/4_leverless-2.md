@@ -13,9 +13,23 @@ toc_sticky: true
 
 Quick overview
 
-## Design
+## Rev A CAD
 
-Placeholder
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_schematic.png){:width="80%"}{: .align-center}
+
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_revA.png){:width="80%"}{: .align-center}
+
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_fitcheck.jpg){:width="80%"}{: .align-center}
+
+## Rev B CAD
+
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_cad.png){:width="80%"}{: .align-center}
+
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_exploded.png){:width="80%"}{: .align-center}
+
+![]({{ site.baseurl }}/assets/images/leverless-2/revAside.png){:width="80%"}{: .align-center}
+
+![]({{ site.baseurl }}/assets/images/leverless-2/rails.png){:width="80%"}{: .align-center}
 
 ## PCB Design
 
@@ -25,6 +39,10 @@ Placeholder
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/pcb.jpg){:width="80%"}{: .align-center}
 
-## Other
+## Manufacturing
 
-Placeholder
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_schematic.png){:width="80%"}{: .align-center}
+
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_soldering.jpg){:width="80%"}{: .align-center}
+
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_done.jpg){:width="80%"}{: .align-center}
