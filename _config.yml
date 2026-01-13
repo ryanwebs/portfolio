@@ -63,9 +63,7 @@ plugins:
 author:
   name   : "Ryan Webster"
   avatar : "/assets/images/me_with_plane.jpg"
- # bio    : >
- #   Forked this repository from my friend Kelly's portfolio.
- #   Working on populating this site with my own projects!
+  bio    : >
     
   location: "Danvers, MA"
   links:
