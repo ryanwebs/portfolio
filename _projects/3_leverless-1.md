@@ -25,17 +25,20 @@ I wanted to design and build my arcade controller mostly out of wood, so it coul
 I wanted this entire project to be solderless, so for the microcontroller I picked a Raspberry Pi with preflashed firmware and screw terminals for the GPIO ports. I used genuine Sanwa arcade cabinet buttons, that fastened straight into the holes of the top plate with their included nuts. I was able to easily wire the buttons to the Pi, then remap them later to correspond to the X-Input readouts I wanted. I also bored a hole in the side of the box for a USB-C panel mount.
 
 ![cad]({{ site.baseurl }}/assets/images/leverless-1/leverless_1_bottom.jpg){:width="75%"}{: .align-center}
-<figcaption>Figure 1. Initial rough CAD model</figcaption>{: .text-center}
+<figcaption>Figure 2. Electronics and wiring</figcaption>{: .text-center}
 
 ![cad]({{ site.baseurl }}/assets/images/leverless-1/wiring.png){:width="75%"}{: .align-center}
-<figcaption>Figure 1.1. REALLY SOPHISTICATED wiring diagram</figcaption>{: .text-center}
+<figcaption>Figure 2.1. REALLY SOPHISTICATED wiring diagram</figcaption>{: .text-center}
 
 ## Manufacturing
 
 I used an Epilog laser cutter to cutout the button layout on the top plates. I ended up using two layers, one from plywood with a laser-etched .svg vector art design that I drew, and another outer layer of clear acrylic to protect the plywood layer with the design. The acrylic also just felt nicer to rest my hands on.
 
+![cad]({{ site.baseurl }}/assets/images/leverless-1/cutting.jpg){:width="75%"}{: .align-center}
+<figcaption>Figure 3. Using the Epilog</figcaption>{: .text-center}
+
 ![cad]({{ site.baseurl }}/assets/images/leverless-1/top_plate.jpg){:width="75%"}{: .align-center}
-<figcaption>Figure 3. Laser etched plywood, with buttons installed</figcaption>{: .text-center}
+<figcaption>Figure 3.1. Laser etched plywood, with buttons installed</figcaption>{: .text-center}
 
 After cutting the 2x4s to length and glueing them together, I sanded down the outside to prepare it for finishing. I used dark walnut wood stain, and sealed with polyeurethane.
 
@@ -50,7 +53,7 @@ In order to close off the bottom on the box, I wanted to continue using clear ac
 Here's the finished product. I'm very happy with the way it turned out.
 
 ![cad]({{ site.baseurl }}/assets/images/leverless-1/leverless_1_top.jpg){:width="75%"}{: .align-center}
-<figcaption>Figure 6. The Leverless</figcaption>{: .text-center}
+<figcaption>Figure 6. All done!</figcaption>{: .text-center}
 
 
 
