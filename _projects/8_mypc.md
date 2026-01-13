@@ -17,7 +17,7 @@ computer’s function, and how to choose the correct components for a rig.
 
 # Specs if you’re interested:
 
-- Gigabyte RTX 3060 ti, 8GB VRAM
+- Gigabyte Vision RTX 3060 ti, 8GB VRAM
 - Intel Core i5 10600K
 - 16 GB RAM
 - 2TB PCIe SSD
