@@ -46,9 +46,24 @@ I lasercut the chassis from foam/cardboard, developed the manufacturing process,
 
 Show how painful it was to kerf cut all the foam board for the wing!
 
-Add some pictures!
+({{ site.baseurl }}/assets/images/DBF/wing_manufacturing.jpg){:width="75%"}{: .align-center}
+
+({{ site.baseurl }}/assets/images/DBF/wing_side.jpg){:width="75%"}{: .align-center}
+
+({{ site.baseurl }}/assets/images/DBF/prints.jpg){:width="75%"}{: .align-center}
+
+Add some more pictures!
 
 ## CAD Drawings
 
 Add pictures of the CAD drawings for some of the structural components you designed!
 
+({{ site.baseurl }}/assets/images/DBF/wing_drawing.png){:width="75%"}{: .align-center}
+
+({{ site.baseurl }}/assets/images/DBF/spar_connector_drawing.png){:width="75%"}{: .align-center}
+
+({{ site.baseurl }}/assets/images/DBF/landing_gear_mount_drawing.png){:width="75%"}{: .align-center}
+
+({{ site.baseurl }}/assets/images/DBF/landing_gear_pylon_drawing.png){:width="75%"}{: .align-center}
+
+({{ site.baseurl }}/assets/images/DBF/stabilizer_mount_drawing.png){:width="75%"}{: .align-center}
