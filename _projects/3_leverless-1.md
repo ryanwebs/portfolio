@@ -2,7 +2,7 @@
 title: "The Leverless Mk.1"
 header:
   teaser: /assets/images/leverless-1/leverless_1_top.jpg
-excerpt: "Game controller I made with no sticks, just buttons."
+excerpt: "Custom controller I designed specifically for fighting games. No sticks, just buttons."
 order: 3
 share: false
 toc: true
