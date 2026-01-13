@@ -15,7 +15,7 @@ Leverless arcade controllers that opt for directional buttons over a joystick al
 
 ## Design
 
-I wanted to design and build my arcade controller mostly out of wood, so it could have a homemade a homemade feeling to it. My goal was to make the main structure of the box out of 2x4's that I would stain and seal later. I started by mocking up a quick CAD model to get the dimensions right, and dial in the look that I was going for.
+I wanted to design and build my arcade controller mostly out of wood, so it could have a homemade feeling to it. My goal was to make the main structure of the box out of 2x4's that I would stain and seal later. I started by mocking up a quick CAD model to get the dimensions right, and dial in the look that I was going for.
 
 ![cad]({{ site.baseurl }}/assets/images/leverless-1/leverless_1_cad.png){:width="75%"}{: .align-center}
 <figcaption>Figure 1. Initial rough CAD model</figcaption>{: .text-center}
