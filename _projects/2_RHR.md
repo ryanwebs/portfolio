@@ -17,7 +17,7 @@ These optimizations are useful for improving the car's performance, allowing it 
 
 # Design Constraints
 
-Placeholder before I go dig through the report.
+Placeholder section!
 
 Target downforce, target drag coefficient, target speed, ride height, elevation above sea level, expected temperature, density of air, etc...
 
@@ -30,14 +30,17 @@ I designed the fuselage using lofted surfacing techniques in SolidWorks. I start
 
 ## CFD Analysis
 
-Placeholder section while I hunt down screenshots of my surface plots.
+Placeholder section while I hunt down screenshots of my surface plots!
 
 ## Theory and Hand Calculations
 
+Add some equations!
 
 ## Manufacturing
 
-Something something fiberglass...
+Fun with fiberglass!
+
+Expand on this section and talk about the hiccups in the manufacturing process!
 
 ![mold]({{ site.baseurl }}/assets/images/RHR/body_mold.jpg){:width="75%"}{: .align-center}
 <figcaption>Figure 2. Making the foam slices for the mold</figcaption>{: .text-center}
@@ -46,10 +49,10 @@ Something something fiberglass...
 <figcaption>Figure 3. First wet layup of the nosecone</figcaption>{: .text-center}
 
 ![nose]({{ site.baseurl }}/assets/images/RHR/bumpy_nose.jpg){:width="75%"}{: .align-center}
-<figcaption>Figure 3. First nosecone, the bumpy one</figcaption>{: .text-center}
+<figcaption>Figure 4. First nosecone, the bumpy one</figcaption>{: .text-center}
 
 ![panels]({{ site.baseurl }}/assets/images/RHR/body_panels.jpg){:width="75%"}{: .align-center}
-<figcaption>Figure 4. Post-cure quarter panels, floor panels, and right sidepod</figcaption>{: .text-center}
+<figcaption>Figure 5. Post-cure quarter panels, floor panels, and right sidepod</figcaption>{: .text-center}
 
 ![paint]({{ site.baseurl }}/assets/images/RHR/car_painting.jpg){:width="75%"}{: .align-center}
-<figcaption>Figure 5. Full painted bodywork, mounted to frame</figcaption>{: .text-center}
+<figcaption>Figure 6. Full painted bodywork, mounted to frame</figcaption>{: .text-center}
