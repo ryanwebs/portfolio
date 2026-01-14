@@ -9,23 +9,23 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 .archive__item {
-  background: #30e3ca;
-  border: 3px solid #1e40af;
-  border-radius: 14px;
+  background: ##68f7cf;
+  /* border: 3px solid #1e40af; */
+  border-radius: 20px;
   padding: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .archive__item-title {
   background: white;
   border-radius: 10px;
   padding: 0.75rem;
-  border: 1px solid #cbd5e1;
+  /* border: 1px solid #cbd5e1; */
 }
 
 .archive__item-excerpt {
   background: white;
   border-radius: 10px;
   padding: 0.75rem;
-  border: 1px solid #cbd5e1;
+  /* border: 1px solid #cbd5e1; */
 }
