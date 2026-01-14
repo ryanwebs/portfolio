@@ -6,6 +6,7 @@ collection: projects
 author_profile: true
 sort_by: order
 toc: true
-page_css:
-  - /portfolio/assets/css/custom.css
+toc_sticky: true
+head_custom: |
+  <link rel="stylesheet" href="/portfolio/assets/css/custom.css">
 ---
