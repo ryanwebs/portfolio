@@ -1315,3 +1315,24 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .page__hero-caption a { color: #000 !important; }
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
+
+========================= /* Project cards - blue rounded box */ ============================================
+.archive__item {
+  background: #e6f1ff;           /* light blue background */
+  border-radius: 12px;           /* rounded corners */
+  padding: 16px;                 /* space inside box */
+  border: 1px solid #bcd4ff;     /* optional border */
+}
+
+/* Add spacing between cards */
+.archive__item-teaser,
+.archive__item-title,
+.archive__item-excerpt {
+  margin-bottom: 8px;
+}
+
+/* Optional: shadow for pop effect */
+.archive__item:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
