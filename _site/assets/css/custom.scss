@@ -2,6 +2,9 @@
 
 ---
 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
 /* Project archive card styling override */
 .layout--archive .entries-list .list__item .archive__item {
   background-color: #30e3ca;
