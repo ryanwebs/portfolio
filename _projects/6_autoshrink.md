@@ -10,22 +10,17 @@ toc_sticky: true
 ---
 
 ## Autoshrink Overview
-
 - Explain the purpose of the Autoshrink in the 002896 subassembly manufacturing process
-- Why was the old manual alignment process flawed? How was yield affected?
-- What was the proposed solution? What would be the process of implementing it?
 
 ### Probe Assembly Process
-
 - Put the solidworks gif here!
 - Put the video of you overlapping the nitinol and window tube here!
 
-
 ### The Old Setup
+- Why was the old manual alignment process flawed? How was yield affected?
 
-
-### Keyence Implementation
-
+### Camera Vision Implementation
+- What was the proposed solution? How would this solve the current problem? What would be the process of implementing it?
 
 ## Mounting Hardware
 
