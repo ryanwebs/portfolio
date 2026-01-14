@@ -1,0 +1,19 @@
+---
+
+---
+
+/* Project archive card styling override */
+.layout--archive .entries-list .list__item .archive__item {
+  background-color: #30e3ca;
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid #bcd4ff;
+}
+
+.layout--archive .entries-list .list__item {
+  margin-bottom: 16px;
+}
+
+.layout--archive .entries-list .list__item .archive__item:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
