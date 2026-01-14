@@ -6,5 +6,6 @@ collection: projects
 author_profile: true
 sort_by: order
 toc: true
+page_css: /assets/css/custom.css
 ---
 
