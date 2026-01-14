@@ -1316,23 +1316,6 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
 
-/*======================================================== Blue rounded boxes around project cards ============================================================ */
+/*================== Custom ============================================================ */
 
-.entries-list .list__item .archive__item {
-  background-color: #30e3ca !important; /* light blue */
-  border-radius: 16px;
-  padding: 16px;
-  border: 1px solid #bcd4ff;
-}
-
-/* Add spacing between boxes */
-.entries-list .list__item {
-  margin-bottom: 16px;
-}
-
-/* Optional nice hover effect */
-.entries-list .list__item .archive__item:hover {
-  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
-}
-
-
+@import "custom";
