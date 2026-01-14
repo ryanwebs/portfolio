@@ -6,7 +6,7 @@ collection: projects
 author_profile: true
 sort_by: order
 toc: true
-page_css
+page_css:
   - /portfolio/_site/assets/css/custom.css
 ---
 
