@@ -7,6 +7,6 @@ author_profile: true
 sort_by: order
 toc: true
 page_css:
-  - /portfolio/assets/css/custom.css
+  - /portfolio/site_/assets/css/custom.css
 ---
 
