@@ -16,7 +16,13 @@ I designed this pneumatic test fixture during my Spring 2023 Mechanical Engineer
 
 - Identified a plastic pin connector bracket with a high defect rate.
 
-- Designed and built a pneumatic lifecycle tester that mimics the loading conditions on the bracket in the higher-level assembly. I used a dual-acting piston to compress the pins, and designed a mount for the whole jig that I machined myself. I attached a swiveling table foot at the end of the rod, allowing the piston to have some rotational degrees of freedom. By doing this, the surface that interfaces with the pins could plane itself out during the upstroke, and ensure each pin is evenly compressed each cycle.
+- Designed and built a pneumatic lifecycle tester that mimics the loading conditions on the bracket in the higher-level assembly.
+  -
+I used a dual-acting piston to compress the pins, and designed an aluminum mounting jig that I machined myself.
+  -
+Chose a piston with a bore diameter capable of generating enough force from line pressure, then fine tuned the output force with a pressure regulator. Used flow regulator valves to control stroke speed, so the pins could be gently compressed while ramping the force. It was important to pick a dual-acting piston, so I could have control over the downstroke as well.
+  -
+I attached a swiveling table foot at the end of the rod, allowing the piston to have some rotational degrees of freedom. By doing this, the surface that interfaces with the pins could plane itself out during the upstroke, and ensure each pin is evenly compressed each cycle.
 
 - Selected a new material for the brackets, then tested for fatigue and mechanical failure through cyclic loading by compressing/decompressing the pins for 10,000 cycles.
 
