@@ -1315,3 +1315,27 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .page__hero-caption a { color: #000 !important; }
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
+
+/* =================== Custom =================== */
+
+/* Blue rounded outer box for each project */
+.archive__item {
+  background: #e0e7ff;
+  border: 3px solid #1e40af;
+  border-radius: 14px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Title styling */
+.archive__item-title {
+  color: #1e3a8a;
+}
+
+/* White box just around teaser text */
+.archive__item-excerpt {
+  background: white;
+  border-radius: 10px;
+  padding: 0.75rem;
+  border: 1px solid #cbd5e1;
+}
