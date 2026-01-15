@@ -13,7 +13,10 @@ search: false
   border-radius: 20px;
   margin-top: 1.5rem;
   box-sizing: border-box;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
   transition: transform 0.3s ease, box-shadow
 }
 
