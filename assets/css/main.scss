@@ -18,14 +18,10 @@ search: false
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.1rem;
+  overflow: hidden;
   transition: 
-    transform 0.3s ease, 
+    transform 0.3s ease 0s, 
     box-shadow;
-}
-
-
-.archive__item {
-  overflow: hidden; /* Prevents overflow when excerpt is hidden */
 }
 
 .archive__item:hover {
