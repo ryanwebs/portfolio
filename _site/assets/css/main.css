@@ -1317,6 +1317,8 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
 .archive__item { background: #c7ffd8; border-radius: 16px; margin-bottom: 1rem; padding: 1rem; }
 
+.archive__item { border: 1px solid red; /* temporary */ }
+
 .archive__item-title { background: white; border-radius: 16px; padding: 13px; border: 3px solid #cbd5e1; }
 
 .archive__item-teaser { border-radius: 16px; margin-top: 10px; margin-bottom: 10px; }
