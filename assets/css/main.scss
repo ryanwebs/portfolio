@@ -62,7 +62,7 @@ search: false
   border: 3px solid #cbd5e1;
   margin-bottom: 1rem;
   opacity: 0;
-  transition: opacity 0.3s ease, max-height 1s ease; /* Added transition for max-height */
+  transition: opacity 0.3s ease, max-height 0s ease; /* Added transition for max-height */
   max-height: 0; /* Initially hidden */
   overflow: hidden; /* Prevents overflow when hidden */
 }
