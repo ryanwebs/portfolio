@@ -70,6 +70,7 @@ search: false
 .archive__item:hover .archive__item-excerpt {
   opacity: 1;
   max-height: 200px; /* Adjust as needed for the height of the excerpt */
+  margin-top: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
