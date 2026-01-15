@@ -69,7 +69,7 @@ search: false
 
 .archive__item:hover .archive__item-excerpt {
   opacity: 1;
-  max-height: 200px; /* Adjust as needed for the height of the excerpt */
+  max-height: 100%; /* Adjust as needed for the height of the excerpt */
 }
 
 .page__footer {
