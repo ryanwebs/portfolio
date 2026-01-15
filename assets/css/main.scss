@@ -9,9 +9,7 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 .archive__item {
-  background: ##68f7cf;
-  /* border: 3px solid #1e40af; */
-  border-radius: 20px;
+  background: #c7ffd8;
   padding: 1rem;
   margin-bottom: 1rem;
 }
@@ -20,12 +18,12 @@ search: false
   background: white;
   border-radius: 10px;
   padding: 0.75rem;
-  /* border: 1px solid #cbd5e1; */
+  border: 1px solid #cbd5e1;
 }
 
 .archive__item-excerpt {
   background: white;
   border-radius: 10px;
   padding: 0.75rem;
-  /* border: 1px solid #cbd5e1; */
+  border: 1px solid #cbd5e1;
 }
