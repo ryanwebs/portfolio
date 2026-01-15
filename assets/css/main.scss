@@ -12,7 +12,11 @@ search: false
   background: #c7ffd8;
   border-radius: 16px;
   margin-bottom: 1rem;
-  padding: 1rem;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 .archive__item {
