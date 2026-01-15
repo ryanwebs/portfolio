@@ -1329,6 +1329,6 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .archive__item-excerpt { background: white; border-radius: 20px; padding: 1rem; border: 3px solid #cbd5e1; margin-bottom: 1rem; }
 
-.page__footer { color: #c7ffad; /* change to your desired background */ }
+.page__footer { background-color: #c7ffad; /* change to your desired background */ }
 
-.search_toggle { color: #c7ffad; /* change to your desired background */ }
+button.search__toggle { background-color: #c7ffad; /* change to your desired background */ }
