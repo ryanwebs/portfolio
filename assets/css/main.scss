@@ -67,6 +67,4 @@ button.search__toggle::after {
   color: #7cb860; /* change to your desired background */
 }
 
-.masthead__menu-item--lg { 
-  color: #c7ffad;
-}
+.greedy-nav .visible-links a:before { content: ""; position: absolute; inset-inline-start: 0; bottom: 0; height: 4px; background: #c7ffad; width: 100%; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -webkit-transform: scaleX(0) translate3d(0, 0, 0); transform: scaleX(0) translate3d(0, 0, 0); }
