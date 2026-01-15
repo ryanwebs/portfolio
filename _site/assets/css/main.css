@@ -1315,7 +1315,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .page__hero-caption a { color: #000 !important; }
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
-.archive__item { background: #17d5dc; border-radius: 20px; margin-top: 1.5rem; box-sizing: border-box; padding-left: 1rem; padding-right: 1rem; padding-top: 0.1rem; padding-bottom: 0.1rem; transition: transform 0.3s ease, box-shadow; }
+.archive__item { background: #80e0d3; border-radius: 20px; margin-top: 1.5rem; box-sizing: border-box; padding-left: 1rem; padding-right: 1rem; padding-top: 0.1rem; padding-bottom: 0.1rem; transition: transform 0.3s ease, box-shadow; }
 
 .archive__item:hover { transform: scale(1.05); /* 5% bigger */ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* optional: subtle shadow */ }
 
