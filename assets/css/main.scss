@@ -24,6 +24,9 @@ search: false
 .archive__item:hover {
   transform: scale(1.05); /* 5% bigger */
   box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* optional: subtle shadow */
+  transition: 
+    transform 0.3s ease 0s,
+    box-shadow;
   padding-bottom: 0.1rem;
 }
 
