@@ -1329,4 +1329,4 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .archive__item-excerpt { background: white; border-radius: 20px; padding: 1rem; border: 3px solid #cbd5e1; margin-bottom: 1rem; }
 
-.site-footer a { background-color: #c7ffad; /* change to your desired background */ color: #c7ffad; }
+.page__footer { background-color: #c7ffad; /* change to your desired background */ }
