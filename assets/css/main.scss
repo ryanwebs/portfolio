@@ -62,3 +62,7 @@ search: false
 button.search__toggle {
   color: #c7ffad; /* change to your desired background */
 }
+
+.nav-link::after {
+  background-color: #c7ffad; /* new color */
+}
