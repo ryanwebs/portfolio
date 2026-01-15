@@ -1315,10 +1315,10 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .page__hero-caption a { color: #000 !important; }
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
-.archive__item { background: #c7ffd8; border-radius: 16px; margin-bottom: 1rem; box-sizing: border-box; padding-top: 1rem; padding-right: 1rem; padding-bottom: 1rem; padding-left: 1rem; }
+.archive__item { background: #c7ffd8; border-radius: 16px; margin-bottom: 2rem; box-sizing: border-box; padding-top: 1rem; padding-right: 1rem; padding-bottom: 1rem; padding-left: 1rem; }
 
-.archive__item-title { background: white; border-radius: 16px; padding: 13px; border: 3px solid #cbd5e1; }
+.archive__item-title { background: white; border-radius: 16px; padding: 1rem; border: 3px solid #cbd5e1; margin-top: 1rem; }
 
-.archive__item-teaser { border-radius: 16px; margin-top: 10px; margin-bottom: 10px; }
+.archive__item-teaser { border-radius: 16px; margin-top: 1rem; margin-bottom: 1rem; }
 
-.archive__item-excerpt { background: white; border-radius: 16px; padding: 13px; border: 3px solid #cbd5e1; }
+.archive__item-excerpt { background: white; border-radius: 16px; padding: 1rem; border: 3px solid #cbd5e1; margin-bottom: 1rem; }
