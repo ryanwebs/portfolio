@@ -1315,8 +1315,6 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .page__hero-caption a { color: #000 !important; }
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
-.root { --mint: #c7ffad; }
-
 .archive__item { background: #c7ffad; border-radius: 20px; margin-top: 1.5rem; box-sizing: border-box; padding-left: 1rem; padding-right: 1rem; padding-top: 0.1rem; padding-bottom: 0.1rem; transition: transform 0.3s ease, box-shadow; }
 
 .archive__item:hover { transform: scale(1.05); /* 5% bigger */ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* optional: subtle shadow */ }
@@ -1331,10 +1329,12 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .archive__item-excerpt { background: white; border-radius: 20px; padding: 1rem; border: 3px solid #cbd5e1; margin-bottom: 1rem; }
 
-.page__footer { background-color: var(--mint); /* change to your desired background */ }
+.page__footer { background-color: #c7ffad; /* change to your desired background */ }
 
 button.search__toggle { color: #c7ffad; /* change to your desired background */ }
 
 button.search__toggle::after { color: #7cb860; /* change to your desired background */ }
 
 .greedy-nav .visible-links a:before { content: ""; position: absolute; inset-inline-start: 0; bottom: 0; height: 4px; background: #c7ffad; width: 100%; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -webkit-transform: scaleX(0) translate3d(0, 0, 0); transform: scaleX(0) translate3d(0, 0, 0); }
+
+a { color: #7cb860; }
