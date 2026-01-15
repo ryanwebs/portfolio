@@ -8,6 +8,10 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.root {
+  --mint: #c7ffad;
+}
+
 .archive__item {
   background: #c7ffad;
   border-radius: 20px;
@@ -56,7 +60,7 @@ search: false
 }
 
 .page__footer {
-  background-color: #c7ffad; /* change to your desired background */
+  background-color: var(--mint); /* change to your desired background */
 }
 
 button.search__toggle {
@@ -68,3 +72,4 @@ button.search__toggle::after {
 }
 
 .greedy-nav .visible-links a:before { content: ""; position: absolute; inset-inline-start: 0; bottom: 0; height: 4px; background: #c7ffad; width: 100%; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -webkit-transform: scaleX(0) translate3d(0, 0, 0); transform: scaleX(0) translate3d(0, 0, 0); }
+
