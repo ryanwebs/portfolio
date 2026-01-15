@@ -1329,7 +1329,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .archive__item-teaser { border-radius: 20px; margin-top: 1rem; margin-bottom: 1rem; }
 
-.archive__item-excerpt { background: white; border-radius: 20px; padding: 1rem; border: 3px solid #cbd5e1; margin-bottom: 1rem; opacity: 0; transition: opacity 0.3s ease, max-height 0s ease; /* Added transition for max-height */ max-height: 0; /* Initially hidden */ overflow: hidden; /* Prevents overflow when hidden */ }
+.archive__item-excerpt { background: white; border-radius: 20px; padding: 1rem; border: 3px solid #cbd5e1; margin-bottom: 1rem; opacity: 0; transition: opacity 0.3s ease, max-height 1s ease; /* Added transition for max-height */ max-height: 0; /* Initially hidden */ overflow: hidden; /* Prevents overflow when hidden */ }
 
 .archive__item:hover .archive__item-excerpt { opacity: 1; max-height: 200px; /* Adjust as needed for the height of the excerpt */ }
 
