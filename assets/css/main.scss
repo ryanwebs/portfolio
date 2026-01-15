@@ -18,7 +18,7 @@ search: false
   transform: scale(1.0);
 
   transition: 
-    transform 0.6s ease-out 0s,
+    transform 0.3s ease-out 0s,
     box-shadow;
 }
 
@@ -28,7 +28,7 @@ search: false
   padding-bottom: 0.1rem;
   
   transition: 
-    transform 0.6s ease-in 0s,
+    transform 0.3s ease-in 0s,
     box-shadow;
 }
 
@@ -62,12 +62,11 @@ search: false
   padding-bottom: 1rem;
 
   transition: 
-     
-    max-height 0.3s ease 0.3s, 
-    margin-top 0.3s ease 0.3s,
-    padding-top 0.3s ease 0.3s,
-    padding-bottom 0.3s ease 0.3s,
-    opacity 0.3s ease 0.3s;
+    max-height 0.3s ease 0s, 
+    margin-top 0.3s ease 0s,
+    padding-top 0.3s ease 0s,
+    padding-bottom 0.3s ease 0s,
+    opacity 0.3s ease 0s;
 }
 
 .archive__item-teaser {
