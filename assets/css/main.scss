@@ -62,14 +62,14 @@ search: false
   border: 3px solid #cbd5e1;
   margin-bottom: 1rem;
   opacity: 0;
-  transition: opacity 0.3s ease, max-height 0.3s ease; /* Added transition for max-height */
+  transition: opacity 0.3s ease, max-height 1s ease; /* Added transition for max-height */
   max-height: 0; /* Initially hidden */
   overflow: hidden; /* Prevents overflow when hidden */
 }
 
 .archive__item:hover .archive__item-excerpt {
   opacity: 1;
-  max-height: 500px; /* Adjust as needed for the height of the excerpt */
+  max-height: 200px; /* Adjust as needed for the height of the excerpt */
 }
 
 .page__footer {
