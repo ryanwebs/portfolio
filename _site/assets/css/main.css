@@ -1323,7 +1323,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .archive__item:hover .archive__item-excerpt { opacity: 1; max-height: 200px; /* Adjust as needed for the height of the excerpt */ margin-top: 1rem; padding-top: 1rem; padding-bottom: 1rem; transition: max-height 0.3s ease-out 0s, margin-top 0s ease-out 0s, padding-top 0.3s ease-out 0s, padding-bottom 0.3s ease-out 0s, opacity 0.3s ease-out 0s; }
 
-.archive__item-teaser { border-radius: 20px; margin-top: 1rem; border: 3px solid #cbd5e1; }
+.archive__item-teaser { border-radius: 20px; margin-top: 1rem; border: 5px solid white; }
 
 .archive__item-title { background: white; border-radius: 20px; padding: 1rem; border: 3px solid #cbd5e1; margin-top: 1rem; }
 
