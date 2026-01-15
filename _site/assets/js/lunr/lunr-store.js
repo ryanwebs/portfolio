@@ -1,109 +1,55 @@
 var store = [{
-        "title": "3D Printed Titanium Rocket Motor Closure",
-        "excerpt":"I designed a 3D printed Ti-6Al-4V rocket motor closure in collaboration with Renishaw PLC. The closure was used for a small, end-burning solid rocket motor, which posed unique design requirements. These requirements led to the design of a thin, light-weight, tapered closure that was best suited to manufacturing via additive...","categories": [],
+        "title": "Remote Control Airplane",
+        "excerpt":"For my Capstone design class, my team designed a remote control airplane for the AIAA’s annual Design, Build, Fly competition. I was responsible for designing the electronic propulsion system (motor, battery, speed controller, propeller), designing custom 3D printed structural components, and developing the manufacturing process for the airplane. Design Talk...","categories": [],
         "tags": [],
-        "url": "/portfolio/projects/3D-print-closure/",
-        "teaser": "/portfolio/assets/images/printed-closure/printed-closure-composite.png"
+        "url": "/portfolio/projects/1_DBF/",
+        "teaser": "/portfolio/assets/images/DBF/plane.jpg"
       },{
-        "title": "3D Printed Widgets",
-        "excerpt":"A random collection of neat things I’ve designed and printed. Drill Alignment Jig A drill alignment jig with press-fit drill bushings. The two-piece jig clamps around an awkwardly shaped part and lets me align the drill bit easily. Worm Gear A fun worm gear desk toy I designed and printed....","categories": [],
+        "title": "FSAE Bodywork",
+        "excerpt":"Overview I was a member of the Aerodynamics Team as part of my University’s FSAE chapter. I was responsible for designing the nose cone, and other main bodywork panels of an open wheel, formula style race car. I used SolidWorks Flow, and Ansys Fluent to simulate airflow around the body...","categories": [],
+        "tags": [],
+        "url": "/portfolio/projects/2_RHR/",
+        "teaser": "/portfolio/assets/images/RHR/da_car.jpg"
+      },{
+        "title": "3D Printed Trinkets",
+        "excerpt":"Sometimes the best way to use your 3D printer is when you think: “it would really be useful for me to have this hyperspecific plastic thing right about now”, then spend a little bit in CAD and have it a few hours later. Here’s some of my favorite stuff spawned...","categories": [],
         "tags": [],
         "url": "/portfolio/projects/3D-printed-widgets/",
-        "teaser": "/portfolio/assets/images/3D-printed-widgets/composite.png"
+        "teaser": "/portfolio/assets/images/3D-printed-widgets/gallery.png"
       },{
-        "title": "Level 3 Rocketry Certification",
-        "excerpt":"Video from an onboard camera on L3 rocket. Overview I designed, built, and flew a high-power rocket as part of the National Association of Rocketry Level 3 Certification program. This certification involves building, flying, and successfully recovering a rocket that safely use an M impulse class or higher commercial solid...","categories": [],
+        "title": "The Leverless Mk.1",
+        "excerpt":"I made this controller as something of a cross between fun design challenge, and an art project. Leverless arcade controllers that opt for directional buttons over a joystick allow for greater precision when performing a quick series of directional inputs. This can significantly reduce user error in fighting games, where...","categories": [],
         "tags": [],
-        "url": "/portfolio/projects/L3-rocket/",
-        "teaser": "/portfolio/assets/images/L3-rocket/L3-composite.png"
+        "url": "/portfolio/projects/3_leverless-1/",
+        "teaser": "/portfolio/assets/images/leverless-1/leverless_1_top.jpg"
       },{
-        "title": "Small, Long Endurance Ceramic Rocket Nozzle Development",
-        "excerpt":"I developed two different nozzle designs to address the challenging requirements for small, long-endurance rocket motors. This work includes: designing and manufacturing a two-piece nozzle design with a 3D printed cellular ceramic insulator using a stereolithography process; designing a single-piece nozzle design with the novel application of a machinable alumina-silicate...","categories": [],
+        "title": "The Leverless Mk.2",
+        "excerpt":"Overview Refreshed version of my original leverless controller designed to be smaller, lighter, fully 3D printed, and with extra mappable buttons. SLS printed shell in PA12, and FDM printed ABS keycaps. Runs GP2040CE on a Raspberry Pi 2040 chip for X-Input readouts. Modified source code in C++ and rebuilt firmware...","categories": [],
         "tags": [],
-        "url": "/portfolio/projects/ceramic-nozzle-dev/",
-        "teaser": "/portfolio/assets/images/ceramic-nozzle-dev/ceramic-nozzle-dev-composite.png"
+        "url": "/portfolio/projects/4_leverless-2/",
+        "teaser": "/portfolio/assets/images/leverless-2/leverless_2.jpg"
       },{
-        "title": "Chamber Thermodynamic Equilibrium Solver",
-        "excerpt":" ","categories": [],
+        "title": "Rear Wing Mounting Brackets",
+        "excerpt":"Overview Final project for a Finite Element Analysis class where students were asked to demonstrate FEA skills learned on an engineering problem of their choice. This project shows my process behind designing mounting brackets for a rear wing and using various FEA techniques to make weight reductions without jeopardizing strength....","categories": [],
         "tags": [],
-        "url": "/portfolio/projects/chamber-model/",
-        "teaser": "/portfolio/assets/images/chamber-model/composite.png"
+        "url": "/portfolio/projects/5_FEA/",
+        "teaser": "/portfolio/assets/images/FEA/bracket_stress_converged.png"
       },{
-        "title": "Combustion Instability Modeling in Solid Rocket Motors",
-        "excerpt":" ","categories": [],
+        "title": "Autoshrink Vision System",
+        "excerpt":"Autoshrink Overview Explain the purpose of the Autoshrink in the 002896 subassembly manufacturing process Probe Assembly Process Put the solidworks gif here! Put the video of you overlapping the nitinol and window tube here! The Old Setup Why was the old manual alignment process flawed? How was yield affected? Camera...","categories": [],
         "tags": [],
-        "url": "/portfolio/projects/combustion-instabilities/",
-        "teaser": "/portfolio/assets/images/combustion-instability/composite.png"
+        "url": "/portfolio/projects/6_autoshrink/",
+        "teaser": "/portfolio/assets/images/autoshrink/autoshrink_iso.png"
       },{
-        "title": "Experimental Measurements of Rocket Exhaust Plume Radiant Emission",
-        "excerpt":"Exhaust plume radiant emission is an important performance parameter for solid rocket vehicles where vehicle visibility is a concern. Many motor design parameters influence the plume radiant emission, and understanding these relationships can enable improved design with better plume performance. For my graduate research, I developed and conducted a set...","categories": [],
+        "title": "Lifecycle Test Fixture",
+        "excerpt":"I designed this pneumatic test fixture during my Spring 2023 Mechanical Engineering co-op at Teradyne. Identified a plastic pin connector bracket with a high defect rate. Designed and built a pneumatic lifecycle tester that mimics the loading conditions on the bracket in the higher-level assembly. I used a dual-acting piston...","categories": [],
         "tags": [],
-        "url": "/portfolio/projects/experiments-emission/",
-        "teaser": "/portfolio/assets/images/experiments-emission/composite.png"
+        "url": "/portfolio/projects/7_lifecycle-tester/",
+        "teaser": "/portfolio/assets/images/lifecycle-tester/lifecycle_tester.jpg"
       },{
-        "title": "Multi-Process Manufacturing System Simulator",
-        "excerpt":" ","categories": [],
+        "title": "My PC (very important)",
+        "excerpt":"My first custom PC build, with sufficient performance for CAD, Fluid Simulation, Structural FEA, and video games. Not really an engineering project, but required proper research to understand each component of the computer’s function, and how to choose the correct components for a rig. Specs if you’re interested: Gigabyte Vision...","categories": [],
         "tags": [],
-        "url": "/portfolio/projects/manf-process-simulator/",
-        "teaser": "/portfolio/assets/images/manf-process-simulator/composite.png"
-      },{
-        "title": "End-to-End Differentiable Models and Optimization for Solid Rocket Powered Aircraft with Plume Radiant Emission",
-        "excerpt":"See my published journal paper on this project on AIAA (or find an open access pdf here). For applications where vehicle visibility is a concern, exhaust plume radiant emission is an important aspect of solid rocket powered vehicle performance. Typical modeling approaches are computationally expensive, and rely on CFD and...","categories": [],
-        "tags": [],
-        "url": "/portfolio/projects/modeling-emission/",
-        "teaser": "/portfolio/assets/images/modeling-emission/banner.png"
-      },{
-        "title": "Popsicle 3D Printer",
-        "excerpt":"Designed and built in collaboration with Juju Wang and Prashanth Prakash. Description My friends and I built a printer to make edible, frozen popsicles. We started with a Velleman K8200 printer, which uses a bed-XY design. With this printer design, the print head only moves in the Z direction, and...","categories": [],
-        "tags": [],
-        "url": "/portfolio/projects/popsicle-printer/",
-        "teaser": "/portfolio/assets/images/popsicle-printer/popsicle-printer-composite.png"
-      },{
-        "title": "Structure and Properties of Titanium and its Alloys",
-        "excerpt":" ","categories": [],
-        "tags": [],
-        "url": "/portfolio/projects/ti-alloys/",
-        "teaser": null
-      },{
-        "title": "Low-Thrust Solid Rocket Motors for Small, Fast Aircraft Propulsion: Design and Development",
-        "excerpt":"Matthew T. Vernacchia, Kelly J. Mathesius, and R. John Hansman. “Low-Thrust Solid Rocket Motors for Small, Fast Aircraft Propulsion: Design and Development”. In: Journal of Propulsion and Power 38.1 (2022).   AIAA entry can be found here.   ","categories": [],
-        "tags": [],
-        "url": "/portfolio/publications/low-thrust-paper/",
-        "teaser": null
-      },{
-        "title": "Strategies for Reuse of Launch Vehicle First Stages",
-        "excerpt":" ","categories": [],
-        "tags": [],
-        "url": "/portfolio/publications/lvreuse/",
-        "teaser": null
-      },{
-        "title": "Slow-Burn Ammonium Perchlorate Propellants with Oxamide: Burn Rate Model, Testing, and Applications",
-        "excerpt":"Matthew T. Vernacchia, Kelly J. Mathesius, and R. J. Hansman. “Slow-Burn Ammonium Perchlorate Propellants with Oxamide: Burn Rate Model, Testing, and Applications”. In: Journal of Propulsion and Power 37.5 (2021).   AIAA entry can be found here.    ","categories": [],
-        "tags": [],
-        "url": "/portfolio/publications/oxamide-paper/",
-        "teaser": null
-      },{
-        "title": "Integrated Design of Solid Rocket Powered Vehicles Including Exhaust Plume Radiant Emission",
-        "excerpt":" ","categories": [],
-        "tags": [],
-        "url": "/portfolio/publications/phd-thesis/",
-        "teaser": null
-      },{
-        "title": "Experimental Study of Low-Thrust, End-Burning Solid Rocket Motors Including Plume Radiant Emission",
-        "excerpt":"Kelly J. Mathesius, Michael E. Knotts, Matthew T. Vernacchia, and R. John Hansman. “Experimental Study of Low-Thrust, End-Burning Solid Rocket Motors Including Plume Radiant Emission”. In: Journal of Spacecraft and Rockets 62.2 (2025).   AIAA entry can be found here.    ","categories": [],
-        "tags": [],
-        "url": "/portfolio/publications/plume_experiments-paper/",
-        "teaser": null
-      },{
-        "title": "End-to-End Differentiable Model for Optimization of Rocket-Powered Vehicles Including Plume Radiant Emission",
-        "excerpt":"Kelly J. Mathesius, Peter D. Sharpe, and R. John Hansman. “End-to-End Differentiable Model for Optimization of Rocket-Powered Vehicles Including Plume Radiant Emission”. In: Journal of Spacecraft and Rockets 62.3 (2025).   AIAA entry can be found here.    ","categories": [],
-        "tags": [],
-        "url": "/portfolio/publications/plume_optimization-paper/",
-        "teaser": null
-      },{
-        "title": "Manufacturing Methods for a Solid Rocket Motor Propelling a Small, Fast Flight Vehicle",
-        "excerpt":" ","categories": [],
-        "tags": [],
-        "url": "/portfolio/publications/sm-thesis/",
-        "teaser": null
-      }]
+        "url": "/portfolio/projects/8_mypc/",
+        "teaser": "/portfolio/assets/images/mypc/mypc.jpg"
+      },]
