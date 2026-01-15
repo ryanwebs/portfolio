@@ -13,6 +13,8 @@ search: false
   border-radius: 20px;
   margin-top: 1.5rem;
   box-sizing: border-box;
+  width: 100%; /* Set width to 100% of parent */
+  height: auto; /* Adjust height as needed */
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.1rem;
@@ -64,10 +66,7 @@ search: false
   overflow: hidden; /* Prevents overflow when hidden */
 }
 
-.archive__item:hover .archive__item-excerpt {
-  opacity: 1;
-  max-height: 180px; /* Adjust as needed for the height of the excerpt */
-}
+
 
 .page__footer {
   background-color: #80e0d3; 
