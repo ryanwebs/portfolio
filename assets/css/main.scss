@@ -8,10 +8,6 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.root {
-  --mint: #c7ffad;
-}
-
 .archive__item {
   background: #c7ffad;
   border-radius: 20px;
@@ -60,7 +56,7 @@ search: false
 }
 
 .page__footer {
-  background-color: var(--mint); /* change to your desired background */
+  background-color: #c7ffad; /* change to your desired background */
 }
 
 button.search__toggle {
