@@ -1317,9 +1317,9 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
 .archive__item { background: #c7ffd8; border-radius: 20px; margin-bottom: 2rem; box-sizing: border-box; padding: 1rem; }
 
-.archive__item-title a { color: black; /* sets link text to black */ text-decoration: none; /* optional: remove underline */ }
+.archive__item-title a { color: #677572; /* sets link text to black */ text-decoration: none; /* optional: remove underline */ }
 
-.archive__item-title { color: black; background: white; border-radius: 20px; padding: 1rem; border: 3px solid #cbd5e1; margin-top: 1rem; }
+.archive__item-title { background: white; border-radius: 20px; padding: 1rem; border: 3px solid #cbd5e1; margin-top: 1rem; }
 
 .archive__item-teaser { border-radius: 20px; margin-top: 1rem; margin-bottom: 1rem; }
 
