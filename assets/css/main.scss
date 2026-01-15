@@ -16,7 +16,7 @@ search: false
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.1rem;
   transition: transform 0.3s ease, box-shadow
 }
 
@@ -49,7 +49,7 @@ search: false
 .archive__item-teaser {
   border-radius: 20px;
   margin-top: 1rem;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .archive__item-excerpt {
@@ -57,8 +57,7 @@ search: false
   border-radius: 20px;
   padding: 1rem;
   border: 3px solid #cbd5e1;
-  margin-bottom: 0;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
   opacity: 0;
   transition: opacity 0.3s ease, max-height 0.3s ease; /* Added transition for max-height */
   max-height: 0; /* Initially hidden */
@@ -67,7 +66,7 @@ search: false
 
 .archive__item:hover .archive__item-excerpt {
   opacity: 1;
-  max-height: 200px; /* Adjust as needed for the height of the excerpt */
+  max-height: 180px; /* Adjust as needed for the height of the excerpt */
 }
 
 .page__footer {
