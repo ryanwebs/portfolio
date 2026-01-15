@@ -12,30 +12,19 @@ search: false
   background: #80e0d3;
   border-radius: 20px;
   margin-top: 1.5rem;
-  box-sizing: border-box;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.1rem; /* Reduced padding */
-  padding-bottom: 0.1rem; /* Reduced padding */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition duration for box-shadow */
-}
-
-.archive__item {
+  padding: 0.1rem 1rem; /* Reduced padding */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden; /* Prevents overflow when excerpt is hidden */
-}
 
-.archive__item:hover {
-  transform: scale(1.05); /* 5% bigger */
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* optional: subtle shadow */
-}
+  &:hover {
+    transform: scale(1.05); /* 5% bigger */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* optional: subtle shadow */
 
-.archive__item-title a {
-  color: #40514e;      /* sets link text to black */
-  text-decoration: none; /* optional: remove underline */
-}
-
-.archive__item-title a:hover {
-  text-decoration: underline;
+    .archive__item-excerpt {
+      opacity: 1;
+      max-height: 200px; /* Adjust as needed for the height of the excerpt */
+    }
+  }
 }
 
 .archive__item-title {
@@ -44,29 +33,28 @@ search: false
   padding: 1rem;
   border: 3px solid #cbd5e1;
   margin-top: 1rem;
+
+  a {
+    color: #40514e; /* sets link text to black */
+    text-decoration: none; /* optional: remove underline */
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
-.archive__item-teaser {
-  border-radius: 20px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
+.archive__item-teaser,
 .archive__item-excerpt {
-  background: white;
   border-radius: 20px;
-  padding: 1rem;
+  margin: 1rem 0;
+  background: white;
   border: 3px solid #cbd5e1;
-  margin-bottom: 1rem;
+  padding: 1rem;
   opacity: 0;
   transition: opacity 0.3s ease, max-height 0.3s ease; /* Added transition for max-height */
   max-height: 0; /* Initially hidden */
   overflow: hidden; /* Prevents overflow when hidden */
-}
-
-.archive__item:hover .archive__item-excerpt {
-  opacity: 1;
-  max-height: 200px; /* Adjust as needed for the height of the excerpt */
 }
 
 .page__footer {
