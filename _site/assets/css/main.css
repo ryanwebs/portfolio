@@ -1329,12 +1329,19 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .archive__item-excerpt { background: white; border-radius: 20px; padding: 1rem; border: 3px solid #cbd5e1; margin-bottom: 1rem; }
 
-.page__footer { background-color: #c7ffad; /* change to your desired background */ }
+/* GREEN
 
-button.search__toggle { color: #c7ffad; /* change to your desired background */ }
+.page__footer { background-color: #c7ffad; 
+}
 
-button.search__toggle::after { color: #7cb860; /* change to your desired background */ }
+button.search__toggle { color: #c7ffad; 
+}
+
+button.search__toggle::after { color: #7cb860; 
+}
 
 .greedy-nav .visible-links a:before { content: ""; position: absolute; inset-inline-start: 0; bottom: 0; height: 4px; background: #c7ffad; width: 100%; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -webkit-transform: scaleX(0) translate3d(0, 0, 0); transform: scaleX(0) translate3d(0, 0, 0); }
 
-a { color: #7cb860; }
+a { color: #7cb860;
+}
+ */
