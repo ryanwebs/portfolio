@@ -19,7 +19,7 @@ search: false
   padding-right: 1rem;
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  transition: transform 1s ease, box-shadow
+  transition: transform 0.5s ease, box-shadow
 }
 
 
@@ -62,7 +62,7 @@ search: false
   border: 3px solid #cbd5e1;
   margin-bottom: 1rem;
   opacity: 0;
-  transition: opacity 1s ease, max-height 1s ease; /* Added transition for max-height */
+  transition: opacity 0.5s ease, max-height 0.5s ease; /* Added transition for max-height */
   max-height: 0; /* Initially hidden */
   overflow: hidden; /* Prevents overflow when hidden */
 }
