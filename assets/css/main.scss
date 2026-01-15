@@ -10,14 +10,14 @@ search: false
 
 .archive__item {
   background: #c7ffd8;
+  padding: 0.75rem;
   border-radius: 16px;
 }
 
 .archive__item-title {
   background: white;
   border-radius: 10px;
-  padding-top: 0.75rem;
-  padding-top: 0.75rem;
+  padding: 0.75rem;
   border: 3px solid #cbd5e1;
 }
 
@@ -32,7 +32,6 @@ search: false
 .archive__item-excerpt {
   background: white;
   border-radius: 10px;
-  padding-top: 0.75rem;
-  padding-top: 0.75rem;
+  padding: 0.75rem;
   border: 3px solid #cbd5e1;
 }
