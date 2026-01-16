@@ -21,7 +21,7 @@ search: false
 .archive {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0rem;
+  gap: 1.5rem;
 }
 
 /* Mobile fallback */
@@ -46,7 +46,7 @@ search: false
 
 .archive__item {
   background: #11999e46;
-  margin-top: 1.5rem;
+  margin-top: 0rem;
   border-radius: 2rem;
   overflow: hidden;
 
