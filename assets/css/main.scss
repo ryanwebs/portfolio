@@ -15,7 +15,7 @@ search: false
 
   transition: 
     transform 0.3s ease 0s,
-    box-shadow;
+    box-shadow 0.3s ease 0s;
 }
 
 .archive__item:hover {
@@ -24,7 +24,7 @@ search: false
   
   transition: 
     transform 0.3s ease 0s,
-    box-shadow;
+    box-shadow 0.3s ease 0s;
 }
 
 .archive__item-excerpt {
