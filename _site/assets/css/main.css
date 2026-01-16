@@ -1320,13 +1320,13 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 } ================= */
 /* =============================== PROJECT GRID LAYOUT
 ================================ */
-.archive { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+.archive { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
 
 /* Mobile fallback */
 @media (max-width: 768px) { .archive { grid-template-columns: 1fr; } }
 /* =============================== PROJECT CARD SCALING
 ================================ */
-.archive__item-title { font-size: 1.1rem; }
+.archive__item-title { font-size: 1rem; }
 
 .archive__item-excerpt { font-size: 0.7rem; }
 
