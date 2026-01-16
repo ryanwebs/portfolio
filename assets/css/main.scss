@@ -12,18 +12,26 @@ search: false
    CHAT GPT
 ================================ */
 
-.archive {
+.entries-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.5rem;
+  gap: 1rem;
 }
+
 
 /* Mobile fallback */
 @media (max-width: 768px) {
-  .archive {
+  .entries-list {
     grid-template-columns: 1fr;
   }
 }
+
+.archive__item-teaser {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
 
 /* ===============================
 ================================ */

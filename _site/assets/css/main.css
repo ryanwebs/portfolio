@@ -1317,12 +1317,10 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
 /* =============================== CHAT GPT
 ================================ */
-.entries-list { column-count: 2; column-gap: 1rem; }
-
-.archive__item { break-inside: avoid; margin-bottom: 1rem; }
+.archive { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
 
 /* Mobile fallback */
-@media (max-width: 768px) { .entries-list { grid-template-columns: 1fr; } }
+@media (max-width: 768px) { .archive { grid-template-columns: 1fr; } }
 /* ===============================
 ================================ */
 .archive__item { background: #11999e46; margin-top: 0.5rem; border-radius: 2rem; overflow: hidden; transition: transform 0.3s ease 0s, box-shadow 0.15s ease 0s; }
