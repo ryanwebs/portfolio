@@ -1315,32 +1315,25 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .page__hero-caption a { color: #000 !important; }
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
-/* ==== SCALING ==== 
-.archive__item, .archive__item-title, .archive__item-teaser, .archive__item-excerpt { transform-origin: center; transform: scale(0.5);
-} ================= */
-/* =============================== PROJECT GRID LAYOUT
+/* =============================== CHAT GPT
 ================================ */
 .entries-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
 
 /* Mobile fallback */
 @media (max-width: 768px) { .entries-list { grid-template-columns: 1fr; } }
-/* =============================== PROJECT CARD SCALING
+/* ===============================
 ================================ */
-.archive__item-title { font-size: 1rem; }
-
-.archive__item-excerpt { font-size: 0.7rem; }
-
 .archive__item { background: #11999e46; margin-top: 0.5rem; border-radius: 2rem; overflow: hidden; transition: transform 0.3s ease 0s, box-shadow 0.15s ease 0s; }
 
 .archive__item:hover { transform: scale(1.05); /* 5% bigger */ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease 0s, box-shadow 0.15s ease 0s; }
 
-.archive__item-excerpt { background: white; padding-top: 0rem; padding-bottom: 0rem; padding-left: 1rem; padding-right: 1rem; margin-bottom: 0rem; margin-left: 1rem; margin-right: 1rem; border-radius: 1rem; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); opacity: 0; max-height: 0; transition: max-height 0.3s ease 0s, padding-top 0.3s ease 0s, padding-bottom 0.3s ease 0s, margin-bottom 0.3s ease 0s, opacity 0.3s ease 0s; }
+.archive__item-excerpt { background: white; padding-top: 0rem; padding-bottom: 0rem; padding-left: 1rem; padding-right: 1rem; margin-bottom: 0rem; margin-left: 1rem; margin-right: 1rem; border-radius: 1rem; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); opacity: 0; max-height: 0; font-size: 0.7rem; transition: max-height 0.3s ease 0s, padding-top 0.3s ease 0s, padding-bottom 0.3s ease 0s, margin-bottom 0.3s ease 0s, opacity 0.3s ease 0s; }
 
 .archive__item:hover .archive__item-excerpt { opacity: 1; max-height: 200px; padding-top: 1rem; padding-bottom: 1rem; padding-left: 1rem; padding-right: 1rem; margin-bottom: 1rem; transition: max-height 0.3s ease 0s, padding-top 0.3s ease 0s, padding-bottom 0.3s ease 0s, padding-left 0.3s ease 0s, padding-right 0.3s ease 0s, margin 0.3s ease 0s, opacity 0.3s ease 0s; }
 
 .archive__item-teaser { margin-bottom: 1rem; margin-left: 1rem; margin-right: 1rem; border-radius: 1rem; border: 5px solid white; }
 
-.archive__item-title { background: white; padding: 1rem; margin: 1rem; border-radius: 1rem; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); }
+.archive__item-title { background: white; padding: 1rem; margin: 1rem; border-radius: 1rem; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); font-size: 1rem; }
 
 .archive__item-title a { color: #40514e; /* sets link text to black */ text-decoration: none; /* optional: remove underline */ }
 
