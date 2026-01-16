@@ -79,11 +79,11 @@ search: false
   max-height: 0;
 
   transition:  
-    max-height 0.3s ease-out 0s,
-    padding-top 0.3s ease-out 0s,
-    padding-bottom 0.3s ease-out 0s,
-    margin-bottom 0.3s ease-out 0s,
-    opacity 0.3s ease-out 0s;
+    max-height 0.3s ease 0s,
+    padding-top 0.3s ease 0s,
+    padding-bottom 0.3s ease 0s,
+    margin-bottom 0.3s ease 0s,
+    opacity 0.3s ease 0s;
 }
 .archive__item:hover .archive__item-excerpt {
   opacity: 1;
@@ -96,13 +96,13 @@ search: false
   margin-bottom: 1rem;
 
   transition: 
-    max-height 0.3s ease-out 0s, 
-    padding-top 0.3s ease-out 0s,
-    padding-bottom 0.3s ease-out 0s,
-    padding-left 0.3s ease-out 0s,
-    padding-right 0.3s ease-out 0s,
-    margin 0.3s ease-out 0s,
-    opacity 0.3s ease-out 0s;
+    max-height 0.3s ease 0s, 
+    padding-top 0.3s ease 0s,
+    padding-bottom 0.3s ease 0s,
+    padding-left 0.3s ease 0s,
+    padding-right 0.3s ease 0s,
+    margin 0.3s ease 0s,
+    opacity 0.3s ease 0s;
 }
 .archive__item-teaser {
   margin-bottom: 1rem;
