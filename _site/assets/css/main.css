@@ -1321,6 +1321,8 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 /* Mobile fallback */
 @media (max-width: 768px) { .entries-list { grid-template-columns: 1fr; } }
+.archive__item-teaser { width: 100%; aspect-ratio: 1/1; object-fit: cover; }
+
 /* ===============================
 ================================ */
 .archive__item { background: #11999e46; margin-top: 0.5rem; border-radius: 2rem; overflow: hidden; transition: transform 0.3s ease 0s, box-shadow 0.15s ease 0s; }
