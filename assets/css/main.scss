@@ -9,8 +9,8 @@ search: false
 
 .archive__item {
   background: #11999e46;
-  border-radius: 2rem;
   margin-top: 1.5rem;
+  border-radius: 2rem;
   overflow: hidden;
   transform: scale(1.0);
 
@@ -31,9 +31,8 @@ search: false
 
 .archive__item-excerpt {
   background: white;
-  border-radius: 20px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
   border: 5px solid #cbd5e1;
   margin-bottom: 1rem;
   overflow: hidden; /* Prevents overflow when hidden */
