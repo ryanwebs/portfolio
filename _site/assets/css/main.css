@@ -1325,7 +1325,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .archive__item-teaser { margin-bottom: 1rem; margin-left: 1rem; margin-right: 1rem; border-radius: 1rem; border: 5px solid white; }
 
-.archive__item-title { background: white; padding: 1rem; margin: 1rem !important; border-radius: 1rem; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); }
+.archive__item-title { background: white; padding: 1rem; margin: 1rem; border-radius: 1rem; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); }
 
 .archive__item-title a { color: #40514e; /* sets link text to black */ text-decoration: none; /* optional: remove underline */ }
 

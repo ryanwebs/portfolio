@@ -71,9 +71,10 @@ search: false
 .archive__item-title {
   background: white;
   padding: 1rem;
-  margin: 1rem !important;
+  margin: 1rem;
   border-radius: 1rem;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  overflow: hidden;
 }
 .archive__item-title a {
   color: #40514e;      /* sets link text to black */
