@@ -12,20 +12,22 @@ search: false
    CHAT GPT
 ================================ */
 
+
 .entries-list {
-  position: relative;
+  column-count: 2;
+  column-gap: 1rem;
 }
 
 .archive__item {
-  position: absolute;
-  width: calc(50% - 0.75rem);
-  transition: transform 0.3s ease;
+  break-inside: avoid;
+  margin-bottom: 1rem;
 }
 
+
+/* Mobile fallback */
 @media (max-width: 768px) {
-  .archive__item {
-    position: static;
-    width: 100%;
+  .entries-list {
+    grid-template-columns: 1fr;
   }
 }
 
