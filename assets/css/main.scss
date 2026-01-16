@@ -7,6 +7,14 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* ==== SCALING ==== */
+.archive__item, .archive__item-title, .archive__item-teaser, .archive__item-excerpt {
+  transform: scale(0.5rem);
+}
+/* ================= */
+
+
+
 .archive__item {
   background: #11999e46;
   margin-top: 1.5rem;
@@ -17,7 +25,6 @@ search: false
     transform 0.3s ease 0s,
     box-shadow 0.15s ease 0s;
 }
-
 .archive__item:hover {
   transform: scale(1.05); /* 5% bigger */
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
@@ -26,7 +33,6 @@ search: false
     transform 0.3s ease 0s,
     box-shadow 0.15s ease 0s;
 }
-
 .archive__item-excerpt {
   background: white;
   
@@ -50,7 +56,6 @@ search: false
     margin-bottom 0.3s ease-out 0.15s,
     opacity 0.3s ease-out 0s;
 }
-
 .archive__item:hover .archive__item-excerpt {
   opacity: 1;
   max-height: 200px;
@@ -70,8 +75,6 @@ search: false
     margin 0.3s ease-out 0s,
     opacity 0.3s ease-out 0s;
 }
-
-
 .archive__item-teaser {
   margin-bottom: 1rem;
   margin-left: 1rem;

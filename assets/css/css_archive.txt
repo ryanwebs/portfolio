@@ -9,77 +9,82 @@ search: false
 
 .archive__item {
   background: #11999e46;
-  border-radius: 20px;
   margin-top: 1.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.1rem;
+  border-radius: 2rem;
   overflow: hidden;
-  transform: scale(1.0);
 
   transition: 
     transform 0.3s ease 0s,
-    box-shadow;
+    box-shadow 0.15s ease 0s;
 }
 
 .archive__item:hover {
   transform: scale(1.05); /* 5% bigger */
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* optional: subtle shadow */
-  padding-bottom: 0.1rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   
   transition: 
     transform 0.3s ease 0s,
-    box-shadow;
+    box-shadow 0.15s ease 0s;
 }
 
 .archive__item-excerpt {
   background: white;
-  border-radius: 20px;
+  
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  border: 3px solid #cbd5e1;
-  margin-bottom: 1rem;
-  overflow: hidden; /* Prevents overflow when hidden */
+  margin-bottom: 0rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   opacity: 0;
-  margin-top: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  max-height: 0; /* Initially hidden */
+  max-height: 0;
 
-  transition: 
-    opacity 0.3s ease-in 0s, 
-    max-height 0.3s ease-in 0s, 
-    margin-top 0.3s ease-in 0s,
-    padding-top 0.3s ease-in 0s,
-    padding-bottom 0.3s ease-in 0s;
+  transition:  
+    max-height 0.3s ease-out 0s,
+    padding-top 0.3s ease-out 0s,
+    padding-bottom 0.3s ease-out 0s,
+    margin-bottom 0.3s ease-out 0.15s,
+    opacity 0.3s ease-out 0s;
 }
 
 .archive__item:hover .archive__item-excerpt {
   opacity: 1;
-  max-height: 200px; /* Adjust as needed for the height of the excerpt */
-  margin-top: 1rem;
+  max-height: 200px;
+  
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
 
   transition: 
     max-height 0.3s ease-out 0s, 
-    margin-top 0s ease-out 0s,
     padding-top 0.3s ease-out 0s,
     padding-bottom 0.3s ease-out 0s,
+    padding-left 0.3s ease-out 0s,
+    padding-right 0.3s ease-out 0s,
+    margin 0.3s ease-out 0s,
     opacity 0.3s ease-out 0s;
 }
 
+
 .archive__item-teaser {
-  border-radius: 20px;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
   border: 5px solid white;
 }
 .archive__item-title {
   background: white;
-  border-radius: 20px;
   padding: 1rem;
-  border: 3px solid #cbd5e1;
-  margin-top: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 .archive__item-title a {
   color: #40514e;      /* sets link text to black */
@@ -88,7 +93,6 @@ search: false
 .archive__item-title a:hover {
   text-decoration: underline;
 }
-
 .page__footer {
   background-color: #11999e; 
 }
