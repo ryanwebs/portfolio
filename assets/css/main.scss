@@ -34,11 +34,11 @@ search: false
   border-radius: 1rem;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   overflow: hidden; /* Prevents overflow when hidden */
-  
+  opacity: 0;
   max-height: 0; /* Initially hidden */
 
   transition: 
-  
+    opacity 0.3s ease-out 0s, 
     max-height 0.3s ease-out 0s, 
     padding 0.3s ease-out 0s,
     margin 0.3s ease-out 0s,
