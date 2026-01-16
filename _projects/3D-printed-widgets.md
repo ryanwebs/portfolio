@@ -46,7 +46,7 @@ Got tired of reaching down to the ground every time I wanted to take of sip of t
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/mug_holder.jpg" style="width:50%;">
-  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/mug_holder.jpg" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/3D-printed-widgets/mug_cad.png" style="width:50%;">
 </div>
 
 ## Trunk Wall Hook
