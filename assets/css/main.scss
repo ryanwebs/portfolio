@@ -30,6 +30,8 @@ search: false
 .archive__item-excerpt {
   background: white;
   
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-bottom: 0rem;
@@ -52,13 +54,19 @@ search: false
 .archive__item:hover .archive__item-excerpt {
   opacity: 1;
   max-height: 200px;
-  padding: 1rem;
+  
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-bottom: 1rem;
 
   transition: 
     max-height 0.3s ease-out 0s, 
     padding-top 0.3s ease-out 0s,
     padding-bottom 0.3s ease-out 0s,
+    padding-left 0.3s ease-out 0s,
+    padding-right 0.3s ease-out 0s,
     margin 0.3s ease-out 0s,
     opacity 0.3s ease-out 0s;
 }
