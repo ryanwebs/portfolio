@@ -39,6 +39,7 @@ search: false
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   opacity: 0;
   max-height: 0;
+  overflow: hidden;
 
   transition: 
     opacity 0.3s ease-out 0s, 
