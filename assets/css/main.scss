@@ -28,8 +28,8 @@ search: false
 
 .archive__item-excerpt {
   background: white;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1rem;
+  margin-bottom: 0rem;
   margin-left: 1rem;
   margin-right: 1rem;
   border-radius: 1rem;
@@ -60,7 +60,7 @@ search: false
 
 
 .archive__item-teaser {
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
   border-radius: 1rem;
