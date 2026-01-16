@@ -11,6 +11,7 @@ search: false
   background: #11999e46;
   margin-top: 1.5rem;
   border-radius: 2rem;
+  overflow: hidden;
 
   transition: 
     transform 0.3s ease 0s,
@@ -31,6 +32,7 @@ search: false
   
   padding-left: 1rem;
   padding-right: 1rem;
+  margin-bottom: 0;
   margin-left: 1rem;
   margin-right: 1rem;
   
@@ -38,7 +40,6 @@ search: false
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   opacity: 0;
   max-height: 0;
-  overflow: hidden;
 
   transition: 
     opacity 0.3s ease-out 0s, 
