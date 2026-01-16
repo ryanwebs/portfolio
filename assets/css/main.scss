@@ -7,14 +7,18 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* ==== SCALING ==== */
+/* ==== SCALING ==== 
 .archive__item, .archive__item-title, .archive__item-teaser, .archive__item-excerpt {
   transform-origin: center;
   transform: scale(0.5);
 }
-/* ================= */
+ ================= */
 
-
+.archive {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
 
 .archive__item {
   background: #11999e46;
