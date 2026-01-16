@@ -21,8 +21,7 @@ search: false
 
 .archive__item:hover {
   transform: scale(1.05); /* 5% bigger */
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* optional: subtle shadow */
-  padding-bottom: 0.1rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   
   transition: 
     transform 0.3s ease 0s,
@@ -34,6 +33,7 @@ search: false
   padding: 0rem;
   border-radius: 1rem;
   border: 5px solid #cbd5e1;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   overflow: hidden; /* Prevents overflow when hidden */
   opacity: 0;
   max-height: 0; /* Initially hidden */
@@ -70,7 +70,7 @@ search: false
   padding: 1rem;
   margin: 1rem;
   border-radius: 1rem;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* optional: subtle shadow */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 .archive__item-title a {
   color: #40514e;      /* sets link text to black */
