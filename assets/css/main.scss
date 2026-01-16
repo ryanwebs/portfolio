@@ -42,11 +42,11 @@ search: false
   max-height: 0;
 
   transition:  
-    max-height 0.3s ease-out 0s,
-    padding-top 0.3s ease-out 0s,
-    padding-bottom 0.3s ease-out 0s,
-    margin-bottom 0.3s ease-out 0s,
-    opacity 0.3s ease-out 0s;
+    max-height 0.3s ease-in 0s,
+    padding-top 0.3s ease-in 0s,
+    padding-bottom 0.3s ease-in 0s,
+    margin-bottom 0.3s ease-in 0s,
+    opacity 0.3s ease-in 0s;
 }
 
 .archive__item:hover .archive__item-excerpt {
@@ -84,7 +84,6 @@ search: false
 .archive__item-title a:hover {
   text-decoration: underline;
 }
-
 .page__footer {
   background-color: #11999e; 
 }
