@@ -1326,8 +1326,6 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 @media (max-width: 768px) { .archive { grid-template-columns: 1fr; } }
 /* =============================== PROJECT CARD SCALING
 ================================ */
-.archive__item { padding: 0.75rem; will-change: transform; }
-
 .archive__item-title { font-size: 1.1rem; }
 
 .archive__item-excerpt { font-size: 0.7rem; }
