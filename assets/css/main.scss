@@ -15,7 +15,8 @@ search: false
 .entries-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  row-gap: 0.5rem;
+  column-gap: 1rem;
 }
 
 /* Mobile fallback */
@@ -28,12 +29,9 @@ search: false
 /* ===============================
 ================================ */
 
-.page__title {
-  margin-bottom: 0.5rem;
-}
 .archive__item {
   background: #11999e46;
-  margin-top: 0rem;
+  margin-top: 0.5rem;
   margin-bottom: 0rem;
   border-radius: 2rem;
   overflow: hidden;
