@@ -12,8 +12,6 @@ search: false
   margin-top: 1.5rem;
   border-radius: 2rem;
 
-  transform: scale(1.0);
-
   transition: 
     transform 0.3s ease 0s,
     box-shadow;
@@ -74,7 +72,6 @@ search: false
   margin: 1rem;
   border-radius: 1rem;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  overflow: hidden;
 }
 .archive__item-title a {
   color: #40514e;      /* sets link text to black */
