@@ -48,7 +48,7 @@ var store = [{
         "teaser": "/portfolio/assets/images/lifecycle-tester/lifecycle_tester.jpg"
       },{
         "title": "My PC (very important)",
-        "excerpt":"My first custom PC build, with sufficient performance for CAD, Fluid Simulation, Structural FEA, and video games. Not really an engineering project, but required proper research to understand each component of the computer’s function, and how to choose the correct components for a rig. Specs if you’re interested: Gigabyte Vision...","categories": [],
+        "excerpt":"My first custom PC build, with sufficient performance for CAD, Fluid Simulation, Structural FEA, and video games. Not really an engineering project, but required proper research to understand each component of the computer’s function, and how to choose the correct components for a rig. # Specs if you’re interested: -...","categories": [],
         "tags": [],
         "url": "/portfolio/projects/8_mypc/",
         "teaser": "/portfolio/assets/images/mypc/mypc.jpg"
