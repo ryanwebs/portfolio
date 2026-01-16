@@ -1320,17 +1320,17 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 } ================= */
 /* =============================== PROJECT GRID LAYOUT
 ================================ */
-.archive { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+.entries-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
 
 /* Mobile fallback */
-@media (max-width: 768px) { .archive { grid-template-columns: 1fr; } }
+@media (max-width: 768px) { .entries-list { grid-template-columns: 1fr; } }
 /* =============================== PROJECT CARD SCALING
 ================================ */
 .archive__item-title { font-size: 1rem; }
 
 .archive__item-excerpt { font-size: 0.7rem; }
 
-.archive__item { background: #11999e46; margin-top: 0rem; border-radius: 2rem; overflow: hidden; transition: transform 0.3s ease 0s, box-shadow 0.15s ease 0s; }
+.archive__item { background: #11999e46; margin-top: 1rem; border-radius: 2rem; overflow: hidden; transition: transform 0.3s ease 0s, box-shadow 0.15s ease 0s; }
 
 .archive__item:hover { transform: scale(1.05); /* 5% bigger */ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease 0s, box-shadow 0.15s ease 0s; }
 
