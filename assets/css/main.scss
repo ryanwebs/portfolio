@@ -41,12 +41,12 @@ search: false
   opacity: 0;
   max-height: 0;
 
-  transition: 
-    opacity 0.3s ease-out 0s, 
+  transition:  
     max-height 0.3s ease-out 0s,
-    padding 0.3s ease-out 0s,
-
-    margin-bottom 0.3s ease-out 0s;
+    padding-top 0.3s ease-out 0s,
+    padding-bottom 0.3s ease-out 0s,
+    margin-bottom 0.3s ease-out 0s,
+    opacity 0.3s ease-out 0s;
 }
 
 .archive__item:hover .archive__item-excerpt {
@@ -58,9 +58,9 @@ search: false
 
   transition: 
     max-height 0.3s ease-out 0s, 
-    margin 0.3s ease-out 0s,
     padding-top 0.3s ease-out 0s,
     padding-bottom 0.3s ease-out 0s,
+    margin 0.3s ease-out 0s,
     opacity 0.3s ease-out 0s;
 }
 
