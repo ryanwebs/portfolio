@@ -51,7 +51,8 @@ search: false
 .archive__item:hover .archive__item-excerpt {
   opacity: 1;
   max-height: 200px;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin: 1rem;
 
   transition: 
