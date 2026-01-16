@@ -9,6 +9,7 @@ search: false
 
 /* ==== SCALING ==== */
 .archive__item, .archive__item-title, .archive__item-teaser, .archive__item-excerpt {
+  transform-origin: center;
   transform: scale(0.5);
 }
 /* ================= */

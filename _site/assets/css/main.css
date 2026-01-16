@@ -1316,7 +1316,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
 /* ==== SCALING ==== */
-.archive__item, .archive__item-title, .archive__item-teaser, .archive__item-excerpt { transform: scale(0.5); }
+.archive__item, .archive__item-title, .archive__item-teaser, .archive__item-excerpt { transform-origin: center; transform: scale(0.5); }
 
 /* ================= */
 .archive__item { background: #11999e46; margin-top: 1.5rem; border-radius: 2rem; overflow: hidden; transition: transform 0.3s ease 0s, box-shadow 0.15s ease 0s; }
