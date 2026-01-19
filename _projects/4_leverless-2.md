@@ -10,6 +10,7 @@ toc_sticky: true
 ---
 
 *Personal Project*
+
 *December, 2025*
 
 Ever since I finished my original leverless arcade-style controller, I dreamed of making a better version. While working at Formlabs, I knew it was the perfect time to design my second controller and utilize their library of high quality 3D printing materials.

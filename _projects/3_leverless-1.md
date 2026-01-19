@@ -10,6 +10,7 @@ toc_sticky: true
 ---
 
 *Personal Project*
+
 *Fall, 2024*
 
 I made this controller as something of a cross between fun design challenge, and an art project.

@@ -11,6 +11,7 @@ toc_sticky: true
 ---
 
 *MECH.5120, Applied Finite Element Analysis*
+
 *Spring, 2025*
 
 ## Overview
