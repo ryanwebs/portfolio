@@ -1346,9 +1346,9 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .search__toggle:hover, .site-title:hover, .masthead__menu-item a:hover { animation: nav-wiggle 0.4s ease-in-out; overflow: hidden; }
 
 @keyframes nav-wiggle { 0% { transform: rotate(0deg) translateX(0); }
-  25% { transform: rotate(-2deg) translateX(-1px); }
-  50% { transform: rotate(2deg) translateX(2px); }
-  75% { transform: rotate(-1deg) translateX(-1px); }
+  25% { transform: rotate(-3deg) translateX(-2px); }
+  50% { transform: rotate(3deg) translateX(2px); }
+  75% { transform: rotate(-2deg) translateX(-1px); }
   100% { transform: rotate(0deg) translateX(0); } }
 /* GREEN
 
