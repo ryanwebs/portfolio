@@ -13,6 +13,8 @@ I designed this pneumatic test fixture during my Spring 2023 Mechanical Engineer
 
 ![]({{ site.baseurl }}/assets/images/lifecycle-tester/annotated.png){:width="75%"}{: .align-center}
 
+# Overview
+
 - Identified a plastic pin connector bracket with a high defect rate.
 
 - Designed and built a pneumatic lifecycle tester that mimics the loading conditions on the bracket in the higher-level assembly.
