@@ -74,7 +74,7 @@ author:
       icon: "far fa-fw fa-file-pdf"
       url: /assets/files/Ryan_Webster_Resume.pdf
       new_tab: true
-    - label: "GitHub"
+    - label: "GiHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ryanwebs"
       new_tab: true
