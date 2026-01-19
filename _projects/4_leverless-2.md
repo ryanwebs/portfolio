@@ -50,13 +50,26 @@ I had 3 main goals for this project:
 
 ## Revision C
 
+Add some pictures of the RevC CAD here!
+Show off the new shell design, the new button design, and the solution for adjusting button height!
+
 # Electronics
+
+## Components
+
+- Gateron Brown KS-33 Low-Profile Keyboard Switches
+- Adafruit Feather RP2040
+- USB C Panel Mount
+
+The Raspberry Pi Pico was the microcontroller of choice for this project. I ran an open-source firmware called GP2040CE, which is a multiplatform gamepad firmware in C++ developed for the RP2040 chip. Sadly I did not write this, but it allows the Raspberry Pi to be treated as an X-Input controller. I did however modify the source code to match the pinout of the Adafruit Feather RP2040 board, and rebuilt the firmware using CMake in VisualStudio.
 
 ## PCB Design
 
-- In the Leverless Mk.1, the  Designed custom PCB that connects keyboard
+In the Leverless Mk.1, the electronics take up a lot of room inside the box. If I wanted to get it anywhere close to as thin as I was hoping for, I knew I needed a custom PCB to forgo having to wire the buttons entirely. 
+
+Designed custom PCB that connects keyboard
 switches to the RP board. Heavily reduces the
-electronics’ footprint in Z allowing for much
+electronics' footprint in Z allowing for much
 thinner chassis.
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_schematic.png){:width="80%"}{: .align-center}
@@ -67,14 +80,6 @@ thinner chassis.
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/pcb.jpg){:width="80%"}{: .align-center}
 <figcaption>PCB for keyboard switches</figcaption>{: .text-center}
-
-## Other Components
-
-- Runs GP2040CE on a Raspberry Pi 2040 chip
-for X-Input readouts.
-
-- Modified source code in C++ and rebuilt firmware
-to match pinout of Adafruit Feather 2040 board.
 
 # Manufacturing
 
