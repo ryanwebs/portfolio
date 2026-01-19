@@ -9,8 +9,12 @@ toc: true
 toc_sticky: true
 ---
 
+Ever since I finished my original leverless arcade-style controller, I dreamed of making a better version. While working at Formlabs, I knew it was the perfect time to design my second controller and utilize their vast library of 3D printing materials.
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_exploded.png){:width="80%"}{: .align-center}
+
+
+
 
 # Overview 
 
