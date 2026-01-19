@@ -17,7 +17,7 @@ Ever since I finished my original leverless arcade-style controller, I dreamed o
 
 # Design Goals 
 
-While my original Leverless Mk.1 worked great and looked great, it was far too clunky to bring anywhere with me. I wanted to make a new one that was small enough to throw in my backpack, and added some extra quality of life features. 
+While my original Leverless Mk.1 worked great and looked great, it was far too clunky to bring anywhere with me. I wanted to make a new one that was small enough to throw in my backpack, easier to print/assemble, and added some extra quality of life features. 
 
 I had 3 main goals for this project:
 1. Reduce the physical dimensions of the controller as much as possible.
