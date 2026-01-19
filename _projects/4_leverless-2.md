@@ -65,12 +65,7 @@ The Raspberry Pi Pico was the microcontroller of choice for this project. I ran 
 
 ## PCB Design
 
-In the Leverless Mk.1, the electronics take up a lot of room inside the box. If I wanted to get it anywhere close to as thin as I was hoping for, I knew I needed a custom PCB to forgo having to wire the buttons entirely. 
-
-Designed custom PCB that connects keyboard
-switches to the RP board. Heavily reduces the
-electronics' footprint in Z allowing for much
-thinner chassis.
+In the Leverless Mk.1, the electronics take up a lot of room inside the box. I knew if I wanted to get it anywhere close to as thin as I was hoping, I needed a PCB to forgo having to wire the buttons entirely. I designed this custom PCB in KiCAD with traces to connect the keyboard switches to the GPIO pins of the microcontroller. This heavily reduced the electronic footprint in Z, and allowed me to make the whole controller only 25mm thick.
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_schematic.png){:width="80%"}{: .align-center}
 <figcaption>PCB Schematic</figcaption>{: .text-center}
