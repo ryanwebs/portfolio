@@ -29,6 +29,8 @@ search: false
 /* ===============================
 ================================ */
 
+
+
 .archive__item {
   background: #11999e46;
   margin-top: 0.5rem;
@@ -104,8 +106,17 @@ search: false
   margin: 1rem;
   border-radius: 1rem;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  font-size: 0.95rem;
+
+  font-size: clamp(0.95rem, 1vw + 0.6rem, 1.15rem);
+  line-height: 1.2;
+  min-height: calc(1.2em * 2); /* reserve space for 2 lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
 .archive__item-title a {
   color: #40514e;      /* sets link text to black */
   text-decoration: none; /* optional: remove underline */
