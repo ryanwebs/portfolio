@@ -37,7 +37,7 @@
 
 
 
-  <meta property="article:published_time" content="2026-01-18T22:47:33-05:00">
+  <meta property="article:published_time" content="2026-01-18T22:55:38-05:00">
 
 
 
@@ -319,7 +319,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#overview">Overview</a></li><li><a href="#pneumatic-system-design">Pneumatic System Design</a><ul><li><a href="#dual-acting-piston">Dual-Acting Piston</a></li></ul></li><li><a href="#electronics">Electronics</a></li><li><a href="#results">Results</a></li></ul>
+              <ul class="toc__menu"><li><a href="#overview">Overview</a></li><li><a href="#pneumatic-system-design">Pneumatic System Design</a><ul><li><a href="#piston-selection">Piston Selection</a></li><li><a href="#flow-control">Flow Control</a></li><li><a href="#even-pin-compression">Even Pin Compression</a></li></ul></li><li><a href="#electronics">Electronics</a></li><li><a href="#results">Results</a></li></ul>
             </nav>
           </aside>
         
@@ -343,11 +343,17 @@
 
 <h1 id="pneumatic-system-design">Pneumatic System Design</h1>
 
-<h2 id="dual-acting-piston">Dual-Acting Piston</h2>
-
+<h2 id="piston-selection">Piston Selection</h2>
 <ul>
-  <li>Chose a piston with a bore diameter capable of generating enough force from line pressure, then fine tuned the output force with a pressure regulator. Used flow regulator valves to control stroke speed, so the pins could be gently compressed while ramping the force. It was important to pick a dual-acting piston, so I could have control over the downstroke as well.</li>
-  <li>I attached a swiveling table foot at the end of the rod, allowing the piston to have some rotational degrees of freedom. By doing this, the surface that interfaces with the pins could plane itself out during the upstroke, and ensure each pin is evenly compressed each cycle.</li>
+  <li>I chose a dual-acting piston with a bore diameter capable of generating enough force to compress the pins from line pressure. then fine tuned the output force with a pressure regulator. Used flow regulator valves to control stroke speed, so the pins could be gently compressed while ramping the force. It was important to pick a dual-acting piston, so I could have control over the downstroke as well.</li>
+</ul>
+
+<h2 id="flow-control">Flow Control</h2>
+
+<h2 id="even-pin-compression">Even Pin Compression</h2>
+<ul>
+  <li>I attached a swiveling table foot at the end of the rod, allowing the face that would compress the pins to have some rotational degrees of freedom. By doing this, the table foot planed itself out during the upstroke, and ensured each pin was evenly compressed each cycle.</li>
+  <li>If a piston attachment with constrained rotation had been used, then I risked having the surface be slightly skewed when making contact with the pins. This would result in uneven pin compression and potentially affect the expected fatigue behavior of the bracket.</li>
 </ul>
 
 <h1 id="electronics">Electronics</h1>

@@ -23,14 +23,19 @@ I designed this pneumatic test fixture during my Spring 2023 Mechanical Engineer
 
 # Pneumatic System Design
 
-## Dual-Acting Piston
+## Piston Selection
+- I chose a dual-acting piston with a bore diameter capable of generating enough force to compress the pins from line pressure. then fine tuned the output force with a pressure regulator. Used flow regulator valves to control stroke speed, so the pins could be gently compressed while ramping the force. It was important to pick a dual-acting piston, so I could have control over the downstroke as well.
 
-- Chose a piston with a bore diameter capable of generating enough force from line pressure, then fine tuned the output force with a pressure regulator. Used flow regulator valves to control stroke speed, so the pins could be gently compressed while ramping the force. It was important to pick a dual-acting piston, so I could have control over the downstroke as well.
-- I attached a swiveling table foot at the end of the rod, allowing the piston to have some rotational degrees of freedom. By doing this, the surface that interfaces with the pins could plane itself out during the upstroke, and ensure each pin is evenly compressed each cycle.
+## Flow Control
+
+
+## Even Pin Compression
+- I attached a swiveling table foot at the end of the rod, allowing the face that would compress the pins to have some rotational degrees of freedom. By doing this, the table foot planed itself out during the upstroke, and ensured each pin was evenly compressed each cycle.
+- If a piston attachment with constrained rotation had been used, then I risked having the surface be slightly skewed when making contact with the pins. This would result in uneven pin compression and potentially affect the expected fatigue behavior of the bracket.
 
 # Electronics
 
-- I used a simple timer relay (I called it a clock) to control the actuation timing of the solenoid valve. The dials let me tune how long the solenoid remained in either 
+- I used a simple timer relay (I called it a clock) to control the actuation timing of the solenoid valve. The dials let me tune how long the solenoid remained in either
 - An electric tally counter kept track of the number of cycles. I interposed the tally into the circuit such that it was only delivered a voltage during the piston's upstroke.
 
 # Results
