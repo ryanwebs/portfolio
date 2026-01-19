@@ -9,7 +9,9 @@ toc: true
 toc_sticky: true
 ---
 
-## Overview 
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_exploded.png){:width="80%"}{: .align-center}
+
+# Overview 
 
 Refreshed version of my original leverless
 controller designed to be smaller, lighter, fully
@@ -29,17 +31,20 @@ switches to the RP board. Heavily reduces the
 electronics’ footprint in Z allowing for much
 thinner chassis.
 
-- “Oh wow, damn this is nice” –Eric Wong, 2025
+# Design Goals
 
-## Rev A CAD
+# Revision A
 
-![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_revA.png){:width="80%"}{: .align-center}
-<figcaption>Leverless 2, Rev A CAD</figcaption>{: .text-center}
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_exploded.png){:width="80%"}{: .align-center}
+<figcaption>Exploded View</figcaption>{: .text-center}
 
-![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_fitcheck.jpg){:width="80%"}{: .align-center}
-<figcaption>FDM Printed initial fit check</figcaption>{: .text-center}
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/leverless-2/leverless_2_revA.png" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/leverless-2/leverless_2_fitcheck.jpg" style="width:50%;">
+</div>
+<figcaption>First iteration CAD model, and FDM printed fit check</figcaption>{: .text-center}
 
-## Rev B CAD
+# Revision B
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_cad.png){:width="80%"}{: .align-center}
 <figcaption>Leverless 2, Rev B CAD Assembly</figcaption>{: .text-center}
