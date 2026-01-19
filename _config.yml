@@ -61,7 +61,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Ryan Webster"
+  name   : >
   avatar : "/assets/images/me_with_plane.jpg"
   bio    : >     
     
