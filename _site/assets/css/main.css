@@ -1343,7 +1343,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .site-title, .masthead__menu-item a { display: inline-block; transition: transform 0.2s ease; overflow: hidden; }
 
-.site-title, .masthead__menu-item a:hover { animation: nav-wiggle 0.4s ease-in-out; overflow: hidden; }
+.site-title:hover, .masthead__menu-item a:hover { animation: nav-wiggle 0.4s ease-in-out; overflow: hidden; }
 
 @keyframes nav-wiggle { 0% { transform: rotate(0deg) translateX(0); }
   25% { transform: rotate(-3deg) translateX(-2px); }

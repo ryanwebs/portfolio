@@ -131,7 +131,7 @@ search: false
   overflow: hidden;
 }
 
-.site-title, .masthead__menu-item a:hover {
+.site-title:hover, .masthead__menu-item a:hover {
   animation: nav-wiggle 0.4s ease-in-out;
   overflow: hidden;
 }
