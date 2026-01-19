@@ -35,9 +35,6 @@ thinner chassis.
 
 # Revision A
 
-![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_exploded.png){:width="80%"}{: .align-center}
-<figcaption>Exploded View</figcaption>{: .text-center}
-
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/leverless-2/leverless_2_revA.png" style="width:50%;">
   <img src="{{ site.baseurl }}/assets/images/leverless-2/leverless_2_fitcheck.jpg" style="width:50%;">
