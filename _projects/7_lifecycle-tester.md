@@ -26,6 +26,10 @@ I designed this pneumatic test fixture during my Spring 2023 Mechanical Engineer
 ## Piston Selection
 - I chose a dual-acting piston with a bore diameter capable of generating enough force to compress the pins from line pressure. 
 
+Piston force as a relationship between the pressure within the cylinder, and the bore diameter can be defined as:
+
+F=P\left(\frac{\pi}{4}d^{2}\right)
+
 ## Flow Control
 -then fine tuned the output force with a pressure regulator. Used flow regulator valves to control stroke speed, so the pins could be gently compressed while ramping the force. It was important to pick a dual-acting piston, so I could have control over the downstroke as well.
 
