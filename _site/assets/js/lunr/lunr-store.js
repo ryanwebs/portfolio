@@ -24,7 +24,7 @@ var store = [{
         "teaser": "/portfolio/assets/images/leverless-1/leverless_1_top.jpg"
       },{
         "title": "The Leverless Mk.2",
-        "excerpt":"Overview Refreshed version of my original leverless controller designed to be smaller, lighter, fully 3D printed, and with extra mappable buttons. SLS printed shell in PA12, and FDM printed ABS keycaps. Runs GP2040CE on a Raspberry Pi 2040 chip for X-Input readouts. Modified source code in C++ and rebuilt firmware...","categories": [],
+        "excerpt":"December 2025 Ever since I finished my original leverless arcade-style controller, I dreamed of making a better version. While working at Formlabs, I knew it was the perfect time to design my second controller and utilize their vast library of 3D printing materials. Overview Refreshed version of my original leverless...","categories": [],
         "tags": [],
         "url": "/portfolio/projects/4_leverless-2/",
         "teaser": "/portfolio/assets/images/leverless-2/leverless_2.jpg"
