@@ -10,8 +10,7 @@ toc_sticky: true
 mathjax: true
 ---
 
-*Riverhawk Racing, UMass Lowell*
-
+*Riverhawk Racing, UMass Lowell<br>*
 *2022-2024*
 
 # Overview

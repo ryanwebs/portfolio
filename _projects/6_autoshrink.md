@@ -9,8 +9,7 @@ toc: true
 toc_sticky: true
 ---
 
-*R&D Engineering Internship, Spryte Medical*
-
+*R&D Engineering Internship, Spryte Medical<br>*
 *Summer 2024*
 
 ## Autoshrink Overview

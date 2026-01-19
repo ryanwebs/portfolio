@@ -10,8 +10,7 @@ toc_sticky: true
 mathjax: true
 ---
 
-*MECH.4230 Capstone Design, UMass Lowell*
-
+*MECH.4230 Capstone Design, UMass Lowell<br>*
 *Fall, 2024*
 
 For my Capstone design class, my team designed a remote control airplane for the AIAA's annual Design, Build, Fly competition. I was responsible for designing the electronic propulsion system (motor, battery, speed controller, propeller), designing custom 3D printed structural components, and developing the manufacturing process for the airplane.
