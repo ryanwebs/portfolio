@@ -63,7 +63,7 @@ plugins:
 author:
   name   : 
   avatar : "/assets/images/me_with_plane.jpg"
-  bio    : >     
+  bio    : "hello"    
     
   location: "Danvers, MA"
   links:
