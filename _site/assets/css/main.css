@@ -1341,15 +1341,15 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .page__footer { background-color: #11999e; }
 
-.masthead__menu-item a { display: inline-block; }
+.masthead__menu-item a { display: inline-block; transition: transform 0.2s ease; overflow: hidden; }
 
-.masthead__menu-item a:hover { animation: nav-wiggle-tilt 0.45s ease-in-out forwards; }
+.masthead__menu-item a:hover { animation: nav-wiggle 0.3s ease-in-out; overflow: hidden; }
 
-@keyframes nav-wiggle-tilt { 0% { transform: rotate(0deg) translateX(0) scale(1); }
-  25% { transform: rotate(-3deg) translateX(-2px) scale(1.03); }
-  50% { transform: rotate(3deg) translateX(2px) scale(1.05); }
-  75% { transform: rotate(-2deg) translateX(-1px) scale(1.06); }
-  100% { transform: rotate(-2deg) scale(1.06); } }
+@keyframes nav-wiggle { 0% { transform: rotate(0deg) translateX(0); }
+  25% { transform: rotate(-3deg) translateX(-2px); }
+  50% { transform: rotate(3deg) translateX(2px); }
+  75% { transform: rotate(-2deg) translateX(-1px); }
+  100% { transform: rotate(0deg) translateX(0); } }
 /* GREEN
 
 button.search__toggle { color: #c7ffad; 
