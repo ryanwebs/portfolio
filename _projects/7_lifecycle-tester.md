@@ -28,7 +28,7 @@ I designed this pneumatic test fixture during my Spring 2023 Mechanical Engineer
 \\[ F=P\left(\frac{\pi}{4}d^{2}\right) \\]
 
 ## Flow Control
-- A compressed air regulator was used in-line with the building air to then fine tune the piston's output force.
+- A compressed air regulator was used in series with the building's air line to fine tune the piston's output force.
 - A dual-state solenoid (5/2 flow pattern) was used to control the actuation of the piston.
 - Added flow regulator valves to the solenoid's exhaust ports to control stroke speed, allowing gentler pin compression.
 
