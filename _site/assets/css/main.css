@@ -1348,8 +1348,8 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 @keyframes nav-wiggle { 0% { transform: rotate(0deg) translateX(0); }
   25% { transform: rotate(-2deg) translateX(-1px); }
   50% { transform: rotate(2deg) translateX(1px); }
-  75% { transform: rotate(-1deg) translateX(-1px); }
-  100% { transform: rotate(0deg) translateX(0); } }
+  75% { transform: rotate(-1deg) translateX(-0.5px); }
+  100% { transform: rotate(1deg) translateX(0.5); } }
 /* GREEN
 
 button.search__toggle { color: #c7ffad; 
