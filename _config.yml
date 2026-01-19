@@ -61,7 +61,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : ""
+  name   : "Ryan"
   avatar : "/assets/images/me_with_plane.jpg"
   bio    : >     
     
