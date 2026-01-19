@@ -136,6 +136,13 @@ search: false
   overflow: hidden;
 }
 
+.masthead__menu-item a,
+.site-title,
+.search__toggle {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
 @keyframes nav-wiggle {
   0%   { transform: rotate(0deg) translateX(0); }
   25%  { transform: rotate(-2deg) translateX(-1px); }

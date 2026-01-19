@@ -1343,7 +1343,9 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .search__toggle, .site-title, .masthead__menu-item a { display: inline-block; transition: transform 0.2s ease; overflow: hidden; }
 
-.search__toggle:hover, .site-title:hover, .masthead__menu-item a:hover { animation: nav-wiggle 0.1s ease-in-out; overflow: hidden; }
+.search__toggle:hover, .site-title:hover, .masthead__menu-item a:hover { animation: nav-wiggle 0.4s ease-in-out; overflow: hidden; }
+
+.masthead__menu-item a, .site-title, .search__toggle { backface-visibility: hidden; transform: translateZ(0); }
 
 @keyframes nav-wiggle { 0% { transform: rotate(0deg) translateX(0); }
   25% { transform: rotate(-2deg) translateX(-1px); }
