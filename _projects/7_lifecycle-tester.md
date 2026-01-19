@@ -44,7 +44,7 @@ I designed this pneumatic test fixture during my Spring 2023 Mechanical Engineer
 ![]({{ site.baseurl }}/assets/images/lifecycle-tester/pressing_pins_gif.gif){:width="75%"}{: .align-center}
 
 # Results
-- After 10,000 compressions, the bracket did not show any sign of fatigue-induced crack propogation.
+- After 10,000 compressions, the bracket did not show any sign of fatigue-induced mechanical failure.
 - Validated FEA results for the new material selection, and moved forward with high volume production.
 - Submitted an ECO to scrap all existing inventory, and replace these components in all future units.
 
