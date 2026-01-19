@@ -22,13 +22,10 @@ I designed this pneumatic test fixture during my Spring 2023 Mechanical Engineer
 
 
 # Pneumatic System Design
-
 ## Piston Selection
-- I chose a dual-acting piston with a bore diameter capable of generating enough force to compress the pins from line pressure. then fine tuned the output force with a pressure regulator. Used flow regulator valves to control stroke speed, so the pins could be gently compressed while ramping the force. It was important to pick a dual-acting piston, so I could have control over the downstroke as well.
-
+- I chose a dual-acting piston with a bore diameter capable of generating enough force to compress the pins from line pressure. 
 ## Flow Control
-
-
+-then fine tuned the output force with a pressure regulator. Used flow regulator valves to control stroke speed, so the pins could be gently compressed while ramping the force. It was important to pick a dual-acting piston, so I could have control over the downstroke as well.
 ## Even Pin Compression
 - I attached a swiveling table foot at the end of the rod, allowing the face that would compress the pins to have some rotational degrees of freedom. By doing this, the table foot planed itself out during the upstroke, and ensured each pin was evenly compressed each cycle.
 - If a piston attachment with constrained rotation had been used, then I risked having the surface be slightly skewed when making contact with the pins. This would result in uneven pin compression and potentially affect the expected fatigue behavior of the bracket.
