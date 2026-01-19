@@ -48,7 +48,9 @@ I had 3 main goals for this project:
 </div>
 <figcaption>Added guard rails to prevent accidental button presses</figcaption>{: .text-center}
 
-# PCB Design
+# Electronics
+
+## PCB Design
 
 - Designed custom PCB that connects keyboard
 switches to the RP board. Heavily reduces the
@@ -64,7 +66,7 @@ thinner chassis.
 ![]({{ site.baseurl }}/assets/images/leverless-2/pcb.jpg){:width="80%"}{: .align-center}
 <figcaption>PCB for keyboard switches</figcaption>{: .text-center}
 
-# Electronics
+## Other Components
 
 - Runs GP2040CE on a Raspberry Pi 2040 chip
 for X-Input readouts.
