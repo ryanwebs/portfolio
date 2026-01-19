@@ -7,6 +7,7 @@ order: 7
 share: false
 toc: true
 toc_sticky: true
+mathjax: true
 ---
 
 I designed this pneumatic test fixture during my Spring 2023 Mechanical Engineering co-op at Teradyne.
