@@ -54,6 +54,7 @@ Add some pictures of the RevC CAD here!
 Show off the new shell design, the new button design, and the solution for adjusting button height!
 
 # Electronics
+
 ## Components
 
 - Gateron Brown KS-33 Low-Profile Keyboard Switches
