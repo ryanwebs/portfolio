@@ -20,9 +20,9 @@ Ever since I finished my original leverless arcade-style controller, I dreamed o
 While my original Leverless Mk.1 worked great and looked great, it was far too clunky to bring anywhere with me. I wanted to make a new one that was small enough to throw in my backpack, and added some extra quality of life features. 
 
 I had 3 main goals for this project:
-- Reduce the physical dimensions of the controller as much as possible.
-- Make the shell and button caps fully 3D printable.
-- Add some extra remappable buttons to the layout (e.g button for binding to dash or parry)
+1. Reduce the physical dimensions of the controller as much as possible.
+2. Make the shell and button caps fully 3D printable.
+3. Add some extra remappable buttons to the layout (e.g. buttons for binding to dash, parry, and training mode reset)
 
 # Iterations
 
