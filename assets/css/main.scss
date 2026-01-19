@@ -127,22 +127,11 @@ search: false
 
 .masthead__menu-item a {
   display: inline-block;
-  transition: transform 0.2s ease;
-  overflow: hidden;
+  transition: transform 0.25s cubic-bezier(.34,1.56,.64,1);
 }
 
 .masthead__menu-item a:hover {
-  animation: nav-wiggle 0.4s ease-in-out;
-  transform: rotate(-3deg) scale(1.05)
-  overflow: hidden;
-}
-
-@keyframes nav-wiggle {
-  0%   { transform: rotate(0deg) translateX(0); }
-  25%  { transform: rotate(-3deg) translateX(-2px); }
-  50%  { transform: rotate(3deg) translateX(2px); }
-  75%  { transform: rotate(-2deg) translateX(-1px); }
-  100% { transform: rotate(0deg) translateX(0); }
+  transform: rotate(-2deg) scale(1.08);
 }
 
 
