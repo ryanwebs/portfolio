@@ -43,11 +43,11 @@ thinner chassis.
 
 # Revision B
 
-![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_cad.png){:width="80%"}{: .align-center}
-<figcaption>Leverless 2, Rev B CAD Assembly</figcaption>{: .text-center}
-
-![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_exploded.png){:width="80%"}{: .align-center}
-<figcaption>Exploded View</figcaption>{: .text-center}
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/leverless-2/leverless_2_cad.png" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/leverless-2/leverless_2_exploded.png" style="width:50%;">
+</div>
+<figcaption>Second iteration CAD assembly, and exploded view</figcaption>{: .text-center}
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/leverless-2/revAside.png" style="width:50%;">
