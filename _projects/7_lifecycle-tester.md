@@ -10,10 +10,12 @@ toc_sticky: true
 mathjax: true
 ---
 
-<p>*Mechanical Engineering Co-op, Teradyne*<br>
-*Spring, 2023*</p>
+*<p>Mechanical Engineering Co-op, Teradyne<br>*
+*Spring, 2023</p>*
 
 ![]({{ site.baseurl }}/assets/images/lifecycle-tester/annotated.png){:width="100%"}{: .align-center}
+
+I designed this pneumatic lifecycle test fixture during my Spring 2023 Mechanical Engineering Co-op at Teradyne.
 
 # Overview
 - A plastic pin connector bracket was identified to have a high defect rate in Teradyne's Ultraflex machines. Working with a senior engineer, a new material was selected with a similar yield strength, but higher elastic modulus to reduce cyclic strain.

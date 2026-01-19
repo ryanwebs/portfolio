@@ -42,7 +42,7 @@ var store = [{
         "teaser": "/portfolio/assets/images/autoshrink/autoshrink_iso.png"
       },{
         "title": "Lifecycle Test Fixture",
-        "excerpt":"*Mechanical Engineering Co-op, Teradyne* *Spring, 2023* Overview A plastic pin connector bracket was identified to have a high defect rate in Teradyne’s Ultraflex machines. Working with a senior engineer, a new material was selected with a similar yield strength, but higher elastic modulus to reduce cyclic strain. To test the...","categories": [],
+        "excerpt":"&lt;p&gt;Mechanical Engineering Co-op, Teradyne Spring, 2023&lt;/p&gt; I designed this pneumatic lifecycle test fixture during my Spring 2023 Mechanical Engineering Co-op at Teradyne. Overview A plastic pin connector bracket was identified to have a high defect rate in Teradyne’s Ultraflex machines. Working with a senior engineer, a new material was selected...","categories": [],
         "tags": [],
         "url": "/portfolio/projects/7_lifecycle-tester/",
         "teaser": "/portfolio/assets/images/lifecycle-tester/lifecycle_tester.jpg"
