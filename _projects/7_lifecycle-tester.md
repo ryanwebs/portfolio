@@ -10,8 +10,7 @@ toc_sticky: true
 mathjax: true
 ---
 
-*Mechanical Engineering Co-op, Teradyne*
-
+*Mechanical Engineering Co-op, Teradyne*</br>
 *Spring, 2023*
 
 ![]({{ site.baseurl }}/assets/images/lifecycle-tester/annotated.png){:width="100%"}{: .align-center}
