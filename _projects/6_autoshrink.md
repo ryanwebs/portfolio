@@ -9,6 +9,9 @@ toc: true
 toc_sticky: true
 ---
 
+*R&D Engineering Internship, Spryte Medical*
+*Summer 2024*
+
 ## Autoshrink Overview
 - Explain the purpose of the Autoshrink in the 002896 subassembly manufacturing process
 

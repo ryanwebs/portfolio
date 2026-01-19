@@ -9,7 +9,11 @@ toc: true
 toc_sticky: true
 mathjax: true
 ---
-## Overview
+
+*Riverhawk Racing, UMass Lowell*
+*2022-2024*
+
+# Overview
 
 I was a member of the Aerodynamics Team as part of my University's FSAE chapter. I was responsible for designing the nose cone, and other main bodywork panels of an open wheel, formula style race car. I used SolidWorks Flow, and Ansys Fluent to simulate airflow around the body panels in order to analyze the car's aerodynamic performance. The CFD results were used to help iterate the geometry of the body in order to reduce drag from skin friction, achieve target downforce magnitude, evenly distribute the low pressure zone on the floor, and tighten the wake.
 

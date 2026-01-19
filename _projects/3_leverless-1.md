@@ -2,12 +2,15 @@
 title: "The Leverless Mk.1"
 header:
   teaser: /assets/images/leverless-1/leverless_1_top.jpg
-excerpt: "Custom controller I designed specifically for fighting games. No sticks, just buttons."
+excerpt: "Custom arcade-style controller I designed specifically for fighting games. No sticks, just buttons."
 order: 2
 share: false
 toc: true
 toc_sticky: true
 ---
+
+*Personal Project*
+*Fall, 2024*
 
 I made this controller as something of a cross between fun design challenge, and an art project.
 

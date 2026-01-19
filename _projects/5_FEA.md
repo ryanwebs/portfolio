@@ -10,6 +10,9 @@ toc: true
 toc_sticky: true
 ---
 
+*MECH.5120, Applied Finite Element Analysis*
+*Spring, 2025*
+
 ## Overview
 Final project for a Finite Element Analysis class where students were asked to demonstrate FEA skills learned on an engineering problem of their choice. This project shows
 my process behind designing mounting brackets for a rear wing and using various FEA techniques to make weight reductions without jeopardizing strength.
