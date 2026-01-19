@@ -61,9 +61,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : 
+  name   : "Ryan Webster"
   avatar : "/assets/images/me_with_plane.jpg"
-  bio    : > hello    
+  bio    : >     
     
   location: "Danvers, MA"
   links:
@@ -74,7 +74,7 @@ author:
       icon: "far fa-fw fa-file-pdf"
       url: /assets/files/Ryan_Webster_Resume.pdf
       new_tab: true
-    - label: "GiHub"
+    - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ryanwebs"
       new_tab: true
