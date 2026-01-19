@@ -136,9 +136,7 @@ search: false
   overflow: hidden;
 }
 
-.masthead__menu-item a,
-.site-title,
-.search__toggle {
+.search__toggle:hover, .site-title:hover, .masthead__menu-item a:hover {
   backface-visibility: hidden;
   transform: translateZ(0);
 }
