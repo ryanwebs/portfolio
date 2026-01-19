@@ -24,7 +24,7 @@ var store = [{
         "teaser": "/portfolio/assets/images/leverless-1/leverless_1_top.jpg"
       },{
         "title": "The Leverless Mk.2",
-        "excerpt":"December 2025, Personal Project Ever since I finished my original leverless arcade-style controller, I dreamed of making a better version. While working at Formlabs, I knew it was the perfect time to design my second controller and utilize their vast library of 3D printing materials. Overview Refreshed version of my...","categories": [],
+        "excerpt":"December 2025, Personal Project Ever since I finished my original leverless arcade-style controller, I dreamed of making a better version. While working at Formlabs, I knew it was the perfect time to design my second controller and utilize their library of high quality 3D printing materials. Overview Refreshed version of...","categories": [],
         "tags": [],
         "url": "/portfolio/projects/4_leverless-2/",
         "teaser": "/portfolio/assets/images/leverless-2/leverless_2.jpg"
