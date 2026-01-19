@@ -125,15 +125,13 @@ search: false
 
 
 
-.masthead__menu-item a,
-.site-title {
+.masthead__menu-item a, .site-title {
   display: inline-block;
   transition: transform 0.2s ease;
   overflow: hidden;
 }
 
-.masthead.masthead__menu-item a:hover,
-.site-title:hover {
+.masthead.masthead__menu-item a:hover, .site-title:hover {
   animation: nav-wiggle 0.4s ease-in-out;
   overflow: hidden;
 }
