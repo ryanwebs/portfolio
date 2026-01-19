@@ -48,11 +48,13 @@ I had 3 main goals for this project:
 </div>
 <figcaption>Added guard rails to prevent accidental button presses</figcaption>{: .text-center}
 
+## Revision C
+
 # Electronics
 
 ## PCB Design
 
-- Designed custom PCB that connects keyboard
+- In the Leverless Mk.1, the  Designed custom PCB that connects keyboard
 switches to the RP board. Heavily reduces the
 electronics’ footprint in Z allowing for much
 thinner chassis.
