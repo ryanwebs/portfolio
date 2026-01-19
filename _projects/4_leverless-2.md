@@ -79,6 +79,8 @@ to match pinout of Adafruit Feather 2040 board.
 - SLS printed shell in PA12, and FDM printed
 ABS keycaps.
 
-![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_soldering.jpg){:width="80%"}{: .align-center}
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_soldering.jpg){:width="100%"}{: .align-center}
 
-![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_done.jpg){:width="80%"}{: .align-center}
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_done.jpg){: .align-center}
+
+# Future Improvements
