@@ -42,7 +42,7 @@ var store = [{
         "teaser": "/portfolio/assets/images/autoshrink/autoshrink_iso.png"
       },{
         "title": "Lifecycle Test Fixture",
-        "excerpt":"I designed this pneumatic test fixture during my Spring 2023 Mechanical Engineering co-op at Teradyne. Overview Identified a plastic pin connector bracket with a high defect rate. Designed and built a pneumatic lifecycle tester that mimics the loading conditions on the bracket in the higher-level assembly. I used a dual-acting...","categories": [],
+        "excerpt":"I designed this pneumatic test fixture during my Spring 2023 Mechanical Engineering co-op at Teradyne. Overview A plastic pin connector bracket was identified to have a high defect rate in Teradyne’s Ultraflex machines. Working with a senior engineer, a new material was selected with a similar yield strength, but higher...","categories": [],
         "tags": [],
         "url": "/portfolio/projects/7_lifecycle-tester/",
         "teaser": "/portfolio/assets/images/lifecycle-tester/lifecycle_tester.jpg"
