@@ -36,7 +36,7 @@ var store = [{
         "teaser": "/portfolio/assets/images/FEA/bracket_stress_converged.png"
       },{
         "title": "Autoshrink Vision System",
-        "excerpt":"Autoshrink Overview Explain the purpose of the Autoshrink in the 002896 subassembly manufacturing process Probe Assembly Process Put the solidworks gif here! Put the video of you overlapping the nitinol and window tube here! The Old Setup Why was the old manual alignment process flawed? How was yield affected? Camera...","categories": [],
+        "excerpt":"Autoshrink Overview Explain the purpose of the Autoshrink in the 002896 subassembly manufacturing process Programmed physical feature detection tools to measure the positions of cathether probe components, and show an OK readout when components are properly aligned. Probe Assembly Process Put the solidworks gif here! Put the video of you...","categories": [],
         "tags": [],
         "url": "/portfolio/projects/6_autoshrink/",
         "teaser": "/portfolio/assets/images/autoshrink/autoshrink_iso.png"
