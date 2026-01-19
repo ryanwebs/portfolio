@@ -1,5 +1,5 @@
 ---
-title: "Rear Wing Mounting Brackets"
+title: "Wing Mounting Brackets"
 header:
   teaser: /assets/images/FEA/bracket_stress_converged.png
 excerpt: "Designed some wing mounts for my Applied FEA class to combine the various techniques I learned throughout the semester."

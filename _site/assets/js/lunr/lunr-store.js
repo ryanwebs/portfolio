@@ -29,7 +29,7 @@ var store = [{
         "url": "/portfolio/projects/4_leverless-2/",
         "teaser": "/portfolio/assets/images/leverless-2/leverless_2.jpg"
       },{
-        "title": "Rear Wing Mounting Brackets",
+        "title": "Wing Mounting Brackets",
         "excerpt":"Overview Final project for a Finite Element Analysis class where students were asked to demonstrate FEA skills learned on an engineering problem of their choice. This project shows my process behind designing mounting brackets for a rear wing and using various FEA techniques to make weight reductions without jeopardizing strength....","categories": [],
         "tags": [],
         "url": "/portfolio/projects/5_FEA/",
