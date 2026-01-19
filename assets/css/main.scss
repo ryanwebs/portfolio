@@ -107,7 +107,7 @@ search: false
 
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow:clip;
 }
 
 .archive__item-title a {
