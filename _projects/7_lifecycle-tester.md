@@ -33,6 +33,7 @@ I designed this pneumatic test fixture during my Spring 2023 Mechanical Engineer
 - Added flow regulator valves to the solenoid's exhaust ports to control stroke speed, allowing gentler pin compression.
 
 ## Electronics
+- A 12V DC Power Supply powered all of the electronics.
 - I used a simple timer relay (I called it a clock) to control the actuation timing of the solenoid valve. The dials let me adjust how long between the solenoid swapping states.
 - An electric tally counter kept track of the number of cycles. I interposed the tally into the circuit such that it was only delivered a voltage during the piston's upstroke.
 
