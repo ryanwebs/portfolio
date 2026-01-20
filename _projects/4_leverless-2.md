@@ -27,7 +27,7 @@ I had 3 main goals for this project:
 
 # Initial CAD
 
-Here are the first couple iterations I mocked up in Solidworks. After finishing the first one I printed a draft model as a quick fit check, and to see how I felt about the form factor. I ended up changing the shape of the corners, and adding some guard rails around the side buttons to prevent accidentally pressing a button with my leg.
+Here are the first couple iterations I mocked up in Solidworks. I printed a draft model as a quick fit check, and to feel out the form factor. Afterwards, I modified the shape of the corners, and added guard rails around the side buttons to prevent accidental button presses with my leg.
 
 ## Revision A
 

@@ -18,7 +18,7 @@ var store = [{
         "teaser": "/portfolio/assets/images/3D-printed-widgets/gallery.png"
       },{
         "title": "The Leverless Mk.1",
-        "excerpt":"Personal Project Fall, 2024 I made this controller as something of a cross between fun design challenge, and an art project. Leverless arcade controllers that opt for directional buttons over a joystick allow for greater precision when performing a quick series of directional inputs. This can significantly reduce user error...","categories": [],
+        "excerpt":"Personal Project Fall, 2024 I made this controller as something of a cross between fun design challenge, and an art project. Most modern video games allow 360 degree movement in any direction you want, yet in fighting games there are still only 8 directions. Leverless arcade controllers that opt for...","categories": [],
         "tags": [],
         "url": "/portfolio/projects/3_leverless-1/",
         "teaser": "/portfolio/assets/images/leverless-1/leverless_1_top.jpg"
