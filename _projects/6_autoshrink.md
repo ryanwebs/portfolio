@@ -50,7 +50,7 @@ I implemented a Keyence MD-X Programmable Logic Controller into a piece of assem
   <img src="{{ site.baseurl }}/assets/images/autoshrink/micrometer.png" style="width:50%;">
   <img src="{{ site.baseurl }}/assets/images/autoshrink/set_screw.png" style="width:50%;">
 </div>
-<figcaption>From left to right: Band Distance, Window Tube Overlap, Nose Position</figcaption>{: .text-center}
+<figcaption>Lens Z position control, and linear stage set screw</figcaption>{: .text-center}
 
 ## The New Setup
 
