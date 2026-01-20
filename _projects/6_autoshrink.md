@@ -49,7 +49,6 @@ The following design constraints needed to be considered when implementing the P
 4. Reduce batch reject rate as much as possible (ideally 0%).
 
 # Mounting Hardware
-
 ## Camera Mount Iterations
 
 I designed a 3D printed mount for the camera/lens. The material I chose was PETG-CF for its high rigidity to minimize camera shake, and resistance to IPA (relative to PLA-CF) since the mount would be in a clean room environment. I made sure the height of the mount above the  parts to be imaged was equal to the lens' focal length.
