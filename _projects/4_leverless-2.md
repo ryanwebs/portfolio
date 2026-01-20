@@ -114,6 +114,7 @@ To fix these, I made the following adjustments:
 ![]({{ site.baseurl }}/assets/images/leverless-2/crosssection.png){:width="80%"}{: .align-center}
 <figcaption>Adjusted button height accounting for switch travel distance.</figcaption>{: .text-center}
 
+
 I am still in the process of building this next iteration, and will update this page when it is complete.
 
 ## Button Iterations
