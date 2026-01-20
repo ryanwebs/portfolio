@@ -14,7 +14,7 @@ toc_sticky: true
 
 ![]({{ site.baseurl }}/assets/images/autoshrink/clean_room.jpg){:width="100%"}{: .align-center}
 
-I implemented a Keyence MD-X Programmable Logic Controller into a piece of assembly line equipment, utilizing camera vision tools to measure the positions of cathether probe components, and aiding with highly precise part alignment.
+I implemented a Keyence MD-X Programmable Logic Controller into a piece of assembly line equipment, utilizing camera vision tools to measure the positions of cathether probe components and aid with highly precise part alignment.
 
 # Overview
 - Explain the purpose of the Autoshrink in the 002896 subassembly manufacturing process

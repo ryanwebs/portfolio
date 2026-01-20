@@ -36,7 +36,7 @@ var store = [{
         "teaser": "/portfolio/assets/images/FEA/bracket_stress_converged.png"
       },{
         "title": "Autoshrink Vision System",
-        "excerpt":"R&amp;D Engineering Internship, Spryte Medical Summer 2024 I implemented a Keyence MD-X Programmable Logic Controller into a piece of assembly line equipment, utilizing camera vision tools to measure the positions of cathether probe components, and aiding with highly precise part alignment. Overview Explain the purpose of the Autoshrink in the...","categories": [],
+        "excerpt":"R&amp;D Engineering Internship, Spryte Medical Summer 2024 I implemented a Keyence MD-X Programmable Logic Controller into a piece of assembly line equipment, utilizing camera vision tools to measure the positions of cathether probe components, and aid with highly precise part alignment. Overview Explain the purpose of the Autoshrink in the...","categories": [],
         "tags": [],
         "url": "/portfolio/projects/6_autoshrink/",
         "teaser": "/portfolio/assets/images/autoshrink/autoshrink_iso.png"
