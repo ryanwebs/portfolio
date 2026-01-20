@@ -68,22 +68,26 @@ The Raspberry Pi Pico was the microcontroller of choice for this project. I ran 
 
 In the Leverless Mk.1, the electronics take up a ton of room. This time I designed a custom PCB in KiCAD with traces to connect the keyboard switches to the GPIO pins of the microcontroller, so I could forgo wiring the buttons entirely. This heavily reduced the electronic footprint in Z, and allowed the shell to be only 25mm thick.
 
-![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_schematic.png){:width="80%"}{: .align-center}<br>
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_schematic.png){:width="80%"}{: .align-center}
 <figcaption>PCB Schematic</figcaption>{: .text-center}
 
-![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_gerbers.png){:width="80%"}{: .align-center}<br>
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_gerbers.png){:width="80%"}{: .align-center}
 <figcaption>PCB Gerbers</figcaption>{: .text-center}
 
-![]({{ site.baseurl }}/assets/images/leverless-2/pcb.jpg){:width="80%"}{: .align-center}<br>
+![]({{ site.baseurl }}/assets/images/leverless-2/pcb.jpg){:width="80%"}{: .align-center}
 <figcaption>PCB for keyboard switches</figcaption>{: .text-center}
 
 # Manufacturing
 
-- SLS printed shell in PA12, and FDM printed
-ABS keycaps.
+- For the materials, I chose to print the shell out of Nylon 12 on the Formlabs Fuse 1+. Utilizing SLS 3D printing allows for printing more complex geometry without the need for supports. The geometry of the shell and its overhanging features makes it difficult to reliably 3D print using FDM, without sacrificing surface quality or dimensional accuracy. SLA was not considered since long term skin-contact with resin printed parts can be toxic. The keycaps for each button were FDM printed from ABS. FDM was preferred since my textured PEI sheet imparted a nice grippy texture onto the buttons' surface.
+- The shells were fastened together using heat-set inserts, and M3 Countersunk screws for a flush bottom surface.
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_soldering.jpg){:width="100%"}{: .align-center}
+<figcaption>Soldering, and assembly</figcaption>{: .text-center}
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_done.jpg){: .align-center}
+<figcaption>All done!</figcaption>{: .text-center}
 
-# Future Improvements
+# Revision C
+
+The first 
