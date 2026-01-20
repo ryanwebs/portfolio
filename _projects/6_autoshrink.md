@@ -30,6 +30,13 @@ This visualization demonstrates how the window tube overlaps the metal sheathe, 
 
 ## The Old Setup
 
+Previously the probe components were positioned under a microscrope by hand, before running the autoshrink to press the joing into place. This proved to be cumbersome to manually operate, especially in a step where *accurate part position is critical*. If the parts are even *slightly misaligned* prior to running the autoshrink, the resultant joint is weakened. Previous batches had reject rates of around 25% due to probes failing their tensile spec at the autoshrink's joint.
+
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/oldsetup.jpg" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/12mm.png" style="width:50%;">
+</div>
+<figcaption>Old setup, using microscope and ruler </figcaption>{: .text-center}
 
 ## Camera Vision Implementation
 - What was the proposed solution? How would this solve the current problem? What would be the process of implementing it?
