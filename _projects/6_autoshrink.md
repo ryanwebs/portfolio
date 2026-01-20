@@ -18,21 +18,25 @@ I implemented a Keyence MD-X Programmable Logic Controller into a piece of assem
 
 # Overview
 
-During my summer internship at Spryte Medical, I worked on making improvements to the assembly line of and Intraneural OCT Imaging Probe. These probes are extremely thin, and were required to be assembly highly precisely assembly under a microscope. Many major steps of the manufacturing process involve connecting, and layering a series of sheathes that house a rotating optical fiber. The assembly step I focused on improving involved utilized Autoshrink -- a machine that automatically blew hot air onto a piece of heatshrink around two major probe components. The heatshrink would press-fit a "window-tube" of PET onto the tip a flexible metal sheathe. The heat-shrink is then cut away, leaving the PET-->metal joint held together by friction alone.
+During my summer internship at Spryte Medical, I worked on making improvements to the assembly line of and Intraneural OCT Imaging Probe. These probes are extremely thin, and were required to be assembled highly precisely under a microscope. Many major steps of the manufacturing process involve connecting, and layering a series of sheathes that house a rotating optical fiber. The assembly step I focused on improving involved utilized Autoshrink -- a machine that automatically blew hot air onto a piece of heatshrink around two major probe components. The heatshrink would press-fit a "window-tube" of PET onto the tip a flexible metal sheathe. The heat-shrink is then cut away, leaving the PET-->metal joint held together by friction alone.
 
 ## Joint Assembly Process
 
-This gif demonstrates visualizes how the window tube overlaps the metal sheathe, and press fits onto the tapered tip.
+This visualization demonstrates how the window tube overlaps the metal sheathe, and press fits onto the tapered tip.
 
 ![]({{ site.baseurl }}/assets/images/autoshrink/probeoverlap.gif){:width="100%"}{: .align-center}
 ![]({{ site.baseurl }}/assets/images/autoshrink/002896.png){:width="100%"}{: .align-center}
 <figcaption>Probe assembly in real life</figcaption>{: .text-center}
 
 ## The Old Setup
-- Why was the old manual alignment process flawed? How was yield affected?
+
 
 ## Camera Vision Implementation
 - What was the proposed solution? How would this solve the current problem? What would be the process of implementing it?
+With the following design constraints:
+1. 
+2. 
+3. 
 
 # Mounting Hardware
 
