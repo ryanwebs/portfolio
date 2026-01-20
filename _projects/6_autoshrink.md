@@ -43,9 +43,9 @@ toc_sticky: true
 - Explain edge detection logic here!
 
 <div style="display:flex; gap:10px;">
-  <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool1.jpg" style="width:33%;">
-  <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool2.jpg" style="width:33%;">
-  <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool3.jpg" style="width:33%;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool1.jpg" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool2.jpg" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool3.jpg" style="width:50%;">
 </div>
 <figcaption>From left to right: Band Distance, Window Tube Overlap, Nose Position</figcaption>{: .text-center}
 
