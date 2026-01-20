@@ -98,3 +98,5 @@ Using the edge detection tools, I programmed three more tools to measure the rel
 # Results
 - Quick summary of how this improved the probe's mmanufacturability, and increased yield per batch. Give the cost savings you calculated. Explain how this makes it easier for assembly line operators to be trained on building this subassembly.
 
+![]({{ site.baseurl }}/assets/images/autoshrink/autoshrink_ok.gif){:width="100%"}{: .align-center}
+
