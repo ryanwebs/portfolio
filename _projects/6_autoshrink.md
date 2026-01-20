@@ -47,7 +47,7 @@ I designed a 3D printed mount for the camera/lens. The material I chose was PETG
 
 ## Position Control
 
-Even though the camera was NOT supposed to move after installation, it was important to allow for microadjustments in Z to initially focus the lens. I attached the entire camera mount to a linear stage, which I modified with a micrometer to make the adjustments. I 3D printed a cover for the micrometer, to discourage operators from accidentally touching it and un-focusing the lens. 
+Even though the camera was NOT supposed to move after installation, it was important to allow for microadjustments in Z to initially focus the lens. I attached the entire camera mount to a linear stage, which I modified with a micrometer to make the adjustments. I 3D printed a cover for the micrometer, to discourage operators from accidentally touching it and un-focusing the lens. Finally, I hand tapped a hole in the back of the linear stage, and added a set screw for locking its position.
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/autoshrink/micrometer.png" style="width:50%;">
