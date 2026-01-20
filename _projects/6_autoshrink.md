@@ -41,7 +41,7 @@ I implemented a Keyence MD-X Programmable Logic Controller into a piece of assem
 
 # Keyence Programming
 
-Keyence's edge detection algorithms locate part position by analyzing contrast changes in images to identify the boundaries of features like edges, corners, and holes. The system scans pixel intensity values across defined region detecting rapid shifts in brightness, which usually corresponds to physical edges on the part. These detected edges are then converted into accurate coordinate data, allowing the PLC to calculate position, orientation, and offsets in real time so operators can inspect alignment.
+Keyence's edge detection algorithms locate part position by analyzing contrast changes in images to identify the boundaries of features like edges, corners, and holes. The system scans pixel intensity values across defined region detecting rapid shifts in brightness, which usually corresponds to physical edges on the part. Then, the detected edges can be converted into coordinates, allowing the PLC to calculate position, orientation, and offsets so operators can inspect part alignment in real-time.
 
 ## Feature Detection Tools
 
