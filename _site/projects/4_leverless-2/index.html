@@ -37,7 +37,7 @@
 
 
 
-  <meta property="article:published_time" content="2026-01-19T22:15:33-05:00">
+  <meta property="article:published_time" content="2026-01-19T22:41:04-05:00">
 
 
 
@@ -319,7 +319,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#design-goals">Design Goals</a></li><li><a href="#iterations">Iterations</a><ul><li><a href="#revision-a">Revision A</a></li><li><a href="#revision-b">Revision B</a></li><li><a href="#revision-c">Revision C</a></li></ul></li><li><a href="#electronics">Electronics</a><ul><li><a href="#components">Components</a></li><li><a href="#pcb-design">PCB Design</a></li></ul></li><li><a href="#manufacturing">Manufacturing</a></li><li><a href="#future-improvements">Future Improvements</a></li></ul>
+              <ul class="toc__menu"><li><a href="#design-goals">Design Goals</a></li><li><a href="#iterations">Iterations</a><ul><li><a href="#revision-a">Revision A</a></li><li><a href="#revision-b">Revision B</a></li><li><a href="#revision-c">Revision C</a></li></ul></li><li><a href="#electronics">Electronics</a><ul><li><a href="#components">Components</a></li><li><a href="#pcb-design">PCB Design</a></li></ul></li><li><a href="#manufacturing">Manufacturing</a></li><li><a href="#revision-c-1">Revision C</a></li></ul>
             </nav>
           </aside>
         
@@ -386,27 +386,31 @@ Show off the new shell design, the new button design, and the solution for adjus
 
 <p>In the Leverless Mk.1, the electronics take up a ton of room. This time I designed a custom PCB in KiCAD with traces to connect the keyboard switches to the GPIO pins of the microcontroller, so I could forgo wiring the buttons entirely. This heavily reduced the electronic footprint in Z, and allowed the shell to be only 25mm thick.</p>
 
-<p><img src="/portfolio/assets/images/leverless-2/leverless_2_schematic.png" alt="" width="80%" class="align-center" /><br /></p>
+<p><img src="/portfolio/assets/images/leverless-2/leverless_2_schematic.png" alt="" width="80%" class="align-center" /></p>
 <figcaption class="text-center">PCB Schematic</figcaption>
 
-<p><img src="/portfolio/assets/images/leverless-2/leverless_2_gerbers.png" alt="" width="80%" class="align-center" /><br /></p>
+<p><img src="/portfolio/assets/images/leverless-2/leverless_2_gerbers.png" alt="" width="80%" class="align-center" /></p>
 <figcaption class="text-center">PCB Gerbers</figcaption>
 
-<p><img src="/portfolio/assets/images/leverless-2/pcb.jpg" alt="" width="80%" class="align-center" /><br /></p>
+<p><img src="/portfolio/assets/images/leverless-2/pcb.jpg" alt="" width="80%" class="align-center" /></p>
 <figcaption class="text-center">PCB for keyboard switches</figcaption>
 
 <h1 id="manufacturing">Manufacturing</h1>
 
 <ul>
-  <li>SLS printed shell in PA12, and FDM printed
-ABS keycaps.</li>
+  <li>For the materials, I chose to print the shell out of Nylon 12 on the Formlabs Fuse 1+. Utilizing SLS 3D printing allows for printing more complex geometry without the need for supports. The geometry of the shell and its overhanging features makes it difficult to reliably 3D print using FDM, without sacrificing surface quality or dimensional accuracy. SLA was not considered since long term skin-contact with resin printed parts can be toxic. The keycaps for each button were FDM printed from ABS. FDM was preferred since my textured PEI sheet imparted a nice grippy texture onto the buttons’ surface.</li>
+  <li>The shells were fastened together using heat-set inserts, and M3 Countersunk screws for a flush bottom surface.</li>
 </ul>
 
 <p><img src="/portfolio/assets/images/leverless-2/leverless_2_soldering.jpg" alt="" width="100%" class="align-center" /></p>
+<figcaption class="text-center">Soldering, and assembly</figcaption>
 
 <p><img src="/portfolio/assets/images/leverless-2/leverless_2_done.jpg" alt="" class="align-center" /></p>
+<figcaption class="text-center">All done!</figcaption>
 
-<h1 id="future-improvements">Future Improvements</h1>
+<h1 id="revision-c-1">Revision C</h1>
+
+<p>The first</p>
 
         
       </section>
