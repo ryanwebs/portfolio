@@ -106,7 +106,7 @@ To fix these, I made the following changes:
   <img src="{{ site.baseurl }}/assets/images/leverless-2/revc_shell.png" style="width:50%;">
   <img src="{{ site.baseurl }}/assets/images/leverless-2/revc_bottom.png" style="width:50%;">
 </div>
-
+<figcaption>New shell design, PCB standoffs highlighted blue</figcaption>{: .text-center}
 ![]({{ site.baseurl }}/assets/images/leverless-2/crosssection.png){:width="80%"}{: .align-center}
-<figcaption>All done!</figcaption>{: .text-center}
+<figcaption>New button height</figcaption>{: .text-center}
 
