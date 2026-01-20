@@ -14,7 +14,7 @@ toc_sticky: true
 
 ![]({{ site.baseurl }}/assets/images/autoshrink/clean_room.jpg){:width="100%"}{: .align-center}
 
-I implemented a Keyence MD-X Programmable Logic Controller into a piece of assembly line equipment, utilizing camera vision tools to measure the positions of cathether probe components and aid with highly precise part alignment.
+I implemented a Keyence MD-X Programmable Logic Controller into a piece of assembly line equipment, utilizing camera vision tools to measure the positions of cathether probe components, and aid with highly precise part alignment.
 
 # Overview
 - Explain the purpose of the Autoshrink in the 002896 subassembly manufacturing process
@@ -41,19 +41,29 @@ I implemented a Keyence MD-X Programmable Logic Controller into a piece of assem
 
 # Keyence Programming
 
+Keyence's edge detection algorithms locate part position by analyzing contrast changes in images to identify the boundaries of features like edges, corners, and holes. The system scans pixel intensity values across defined region detecting rapid shifts in brightness, which usually corresponds to physical edges on the part. These detected edges are then converted into accurate coordinate data, allowing the PLC to calculate position, orientation, and offsets in real time so operators can inspect alignment.
+
 ## Feature Detection Tools
-- Explain edge detection logic here!
+
+I programmed the following three edge detection tools to identify the locations of the components' features that define critical dimensions.
+
+1. Left edge of the *Marker Band*
+2. Right edge of the *Wire Nose Tip*
+3. Left edge of the *Window Tube*
+
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool1.jpg" style="width:50%;">
   <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool2.jpg" style="width:50%;">
   <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool3.jpg" style="width:50%;">
 </div>
-<figcaption>From left to right: Band Distance, Window Tube Overlap, Nose Position</figcaption>{: .text-center}
+<figcaption>From left to right: 1. Marker Band, 2. Wire Nose, 3. Window Tube</figcaption>{: .text-center}
 
 ## "OK" Conditions
 - Explain assembly dimension constraints here!
 - Explain how the PLC allows you to ensure proper alignment with these tools!
+
+Using the edge detection tools, I programmed three more tools to measure the relative distances between those features, and ensure the subassembly's critical dimensions were met before activating the autoshrink.
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/autoshrink/ok1.jpg" style="width:33%;">

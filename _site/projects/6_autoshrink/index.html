@@ -37,7 +37,7 @@
 
 
 
-  <meta property="article:published_time" content="2026-01-20T00:40:18-05:00">
+  <meta property="article:published_time" content="2026-01-20T00:56:05-05:00">
 
 
 
@@ -366,23 +366,32 @@
 
 <h1 id="keyence-programming">Keyence Programming</h1>
 
+<p>Keyence’s edge detection algorithms locate part position by analyzing contrast changes in images to identify the boundaries of features like edges, corners, and holes. The system scans pixel intensity values across defined region detecting rapid shifts in brightness, which usually corresponds to physical edges on the part. These detected edges are then converted into accurate coordinate data, allowing the PLC to calculate position, orientation, and offsets in real time so operators can inspect alignment.</p>
+
 <h2 id="feature-detection-tools">Feature Detection Tools</h2>
-<ul>
-  <li>Explain edge detection logic here!</li>
-</ul>
+
+<p>I programmed the following three edge detection tools to identify the locations of the components’ features that define critical dimensions.</p>
+
+<ol>
+  <li>Left edge of the <em>Marker Band</em></li>
+  <li>Right edge of the <em>Wire Nose Tip</em></li>
+  <li>Left edge of the <em>Window Tube</em></li>
+</ol>
 
 <div style="display:flex; gap:10px;">
   <img src="/portfolio/assets/images/autoshrink/edgetool1.jpg" style="width:50%;" />
   <img src="/portfolio/assets/images/autoshrink/edgetool2.jpg" style="width:50%;" />
   <img src="/portfolio/assets/images/autoshrink/edgetool3.jpg" style="width:50%;" />
 </div>
-<figcaption class="text-center">From left to right: Band Distance, Window Tube Overlap, Nose Position</figcaption>
+<figcaption class="text-center">From left to right: 1. Marker Band, 2. Wire Nose, 3. Window Tube</figcaption>
 
 <h2 id="ok-conditions">“OK” Conditions</h2>
 <ul>
   <li>Explain assembly dimension constraints here!</li>
   <li>Explain how the PLC allows you to ensure proper alignment with these tools!</li>
 </ul>
+
+<p>Using the edge detection tools, I programmed three more tools to measure the relative distances between those features, and ensure the subassembly’s critical dimensions were met before activating the autoshrink.</p>
 
 <div style="display:flex; gap:10px;">
   <img src="/portfolio/assets/images/autoshrink/ok1.jpg" style="width:33%;" />
