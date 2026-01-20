@@ -41,15 +41,14 @@ toc_sticky: true
 
 ## Feature Detection Tools
 - Explain edge detection logic here!
-- 
+
 ## "OK" Conditions
 - Explain assembly dimension constraints here!
 - Explain how the PLC allows you to ensure proper alignment with these tools!
-- 
+ 
 ## Switch Modification
 - A Keyence PLC allows you to use its GPIO ports to actuate other electronic components when user-defined conditions are met. I interposed a relay directly into the circuit of the autoshrink's START button, and programmed the Keyence such that the relay would remain normally open until all of the "OK" conditions were met. This prevents the autoshrink from accidentally (or purposefully) being operated until proper part alignment is assured.
 
 # Results
-
 - Quick summary of how this improved the probe's mmanufacturability, and increased yield per batch. Give the cost savings you calculated. Explain how this makes it easier for assembly line operators to be trained on building this subassembly.
 
