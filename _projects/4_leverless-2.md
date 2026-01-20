@@ -90,4 +90,19 @@ In the Leverless Mk.1, the electronics take up a ton of room. This time I design
 
 # Revision C
 
-The first 
+The first finished assembly worked well, but had some quirks I wanted to address:
+
+1. Buttons sit too high above the top surface, and it's difficult to swipe between them.
+2. 2 piece clamshell design makes it awkward to assemble:
+- Difficult to close around the side buttons.
+- Panel mount cable is attached to both halves of the shell at either end, and wants to force the shell apart while fastening the screws.
+
+
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/leverless-2/revc_shell.png" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/leverless-2/revc_bottom.png" style="width:50%;">
+</div>
+
+![]({{ site.baseurl }}/assets/images/leverless-2/crosssection.png){: .align-center}
+<figcaption>All done!</figcaption>{: .text-center}
+
