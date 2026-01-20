@@ -40,7 +40,7 @@ Previously the probe components were positioned under a microscrope by hand, bef
 
 ## Camera Vision Implementation
 
-The solution I would implement was to overhaul the alignment process, by forgoing the microscope in favor of a Keyence PLC camera vision system. This would much more accurately be able to ensure part alignment, and have no more probes fail tensile spec.
+The solution I would implement was to overhaul the alignment process, by forgoing the microscope in favor of a Keyence PLC camera vision system. This would much more accurately be able to ensure part alignment, so that the joints could consistently pass tensile spec.
 
 The following design constraints needed to be considered when implementing the PLC:
 1. Mount a camera/lens above the probe assembly at height of lens' focal length. Ensure camera DOESN'T move after installation, to maintain captured image's frame of reference.
@@ -49,6 +49,7 @@ The following design constraints needed to be considered when implementing the P
 4. Reduce batch reject rate as much as possible (ideally 0%).
 
 # Mounting Hardware
+
 ## Camera Mount Iterations
 
 I designed a 3D printed mount for the camera/lens. The material I chose was PETG-CF for its high rigidity to minimize camera shake, and resistance to IPA (relative to PLA-CF) since the mount would be in a clean room environment. I made sure the height of the mount above the  parts to be imaged was equal to the lens' focal length.
@@ -95,7 +96,7 @@ I programmed the following three edge detection tools to identify the locations 
 
 ## "OK" Conditions
 
-Using the edge detection tools, I programmed three more tools to measure the relative distances between those features, and ensure the subassembly's critical dimensions were met before activating the autoshrink.
+Using the edge detection tools, I programmed three more tools to measure the relative distances between those features, and ensure the subassembly's critical dimensions were met before activating the autoshrink. When all of these conditions are met, the Keyence screen shows a green "OK", signaling that parts are aligned.
 
 1. Distance between wire nose and marker band must be 2mm +/- 1mm
 2. Window tube must cover the wire nose 0.5mm +/- 0.25 mm
@@ -112,7 +113,8 @@ Using the edge detection tools, I programmed three more tools to measure the rel
 - A Keyence PLC allows you to use its GPIO ports to actuate other electronic components when user-defined conditions are met. I interposed a relay directly into the circuit of the autoshrink's START button, and programmed the Keyence such that the relay would remain normally open until all of the "OK" conditions were met. This prevented the autoshrink from accidentally (or purposefully) being operated until proper part alignment is assured.
 
 # Results
-- Quick summary of how this improved the probe's mmanufacturability, and increased yield per batch. Give the cost savings you calculated. Explain how this makes it easier for assembly line operators to be trained on building this subassembly.
+- After thorough debugging and fine tuning the algorithm's brightness filters, my feature detection tools began to work consistently. The first time the Keyence Autoshrink was utilized in the manufacturing of a full Design Verification build, there were 0 rejected probes in the batch! This camera vision system could easily yield massive long term savings by reducing overall scrap costs, especially if implemented into more steps of the manufacturing process.
 
 ![]({{ site.baseurl }}/assets/images/autoshrink/autoshrink_ok.gif){:width="100%"}{: .align-center}
+<figcaption>Keyence "OK" readout</figcaption>{: .text-center}
 
