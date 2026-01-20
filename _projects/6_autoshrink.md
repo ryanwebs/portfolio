@@ -40,7 +40,7 @@ Previously the probe components were positioned under a microscrope by hand, bef
 
 ## Camera Vision Implementation
 
-The solution I would implement was to overhaul the alignment process, by forgoing the microscope in favor of a Keyence PLC camera vision system. This would much more accurately be able to ensure part alignment, and ideally reduce the reject rate to 0%.
+The solution I would implement was to overhaul the alignment process, by forgoing the microscope in favor of a Keyence PLC camera vision system. This would much more accurately be able to ensure part alignment, and have no more probes fail tensile spec.
 
 The following design constraints needed to be considered when implementing the PLC:
 1. Mount a camera/lens above the probe assembly at height of lens' focal length. Ensure camera DOESN'T move after installation, to maintain captured image's frame of reference.
