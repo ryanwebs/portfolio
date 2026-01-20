@@ -96,7 +96,7 @@ I programmed the following three edge detection tools to identify the locations 
 
 ## "OK" Conditions
 
-Using the edge detection tools, I programmed three more tools to measure the relative distances between those features, and ensure the subassembly's critical dimensions were met before activating the autoshrink. When all of these conditions are met, the Keyence screen shows a green "OK", signaling that parts are aligned.
+Using the edge detection tools, I programmed three more tools to measure the relative distances between those features, and ensure the subassembly's critical dimensions were accurate before activating the autoshrink. When all of these conditions are met, the Keyence screen shows a green "OK", signaling that parts are aligned.
 
 1. Distance between wire nose and marker band must be 2mm +/- 1mm
 2. Window tube must cover the wire nose 0.5mm +/- 0.25 mm
