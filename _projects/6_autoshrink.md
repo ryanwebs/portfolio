@@ -113,7 +113,7 @@ Using the edge detection tools, I programmed three more tools to measure the rel
 - A Keyence PLC allows you to use its GPIO ports to actuate other electronic components when user-defined conditions are met. I interposed a relay directly into the circuit of the autoshrink's START button, and programmed the Keyence such that the relay would remain normally open until all of the "OK" conditions were met. This prevented the autoshrink from accidentally (or purposefully) being operated until proper part alignment is assured.
 
 # Results
-- After thorough debugging and fine tuning the algorithm's brightness filters, my feature detection tools began to work consistently. The first time the Keyence Autoshrink was utilized in the manufacturing of a full Design Verification build, there were 0 rejected probes in the batch! This camera vision system could easily yield massive long term savings by reducing overall scrap costs, especially if implemented into more steps of the manufacturing process.
+- After thorough debugging and fine tuning the algorithm's brightness filters, my feature detection tools began to work consistently. The first time the Keyence Autoshrink was utilized to manufacture a full Design Verification build, there were 0 rejected probes in the batch! This camera vision system could easily yield massive long term savings by reducing overall scrap costs, especially if implemented into more steps of the manufacturing process.
 
 ![]({{ site.baseurl }}/assets/images/autoshrink/autoshrink_ok.gif){:width="100%"}{: .align-center}
 <figcaption>Keyence "OK" readout</figcaption>{: .text-center}
