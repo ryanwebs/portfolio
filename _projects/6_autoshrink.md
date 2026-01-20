@@ -60,10 +60,12 @@ I programmed the following three edge detection tools to identify the locations 
 <figcaption>From left to right: 1. Marker Band, 2. Wire Nose, 3. Window Tube</figcaption>{: .text-center}
 
 ## "OK" Conditions
-- Explain assembly dimension constraints here!
-- Explain how the PLC allows you to ensure proper alignment with these tools!
 
 Using the edge detection tools, I programmed three more tools to measure the relative distances between those features, and ensure the subassembly's critical dimensions were met before activating the autoshrink.
+
+1. Distance between wire nose and marker band must be 2mm +/- 1mm
+2. Window tube must cover the wire nose 0.5mm +/- 0.25 mm
+3. Wire nose must extend 12 mm +/- 0.25 mm out of a fiber clamp
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/autoshrink/ok1.jpg" style="width:33%;">
