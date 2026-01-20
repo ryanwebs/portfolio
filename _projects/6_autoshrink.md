@@ -35,6 +35,7 @@ I implemented a Keyence MD-X Programmable Logic Controller into a piece of assem
 
 ## Camera Mount Iterations
 
+I designed a 3D printed mount for the camera/lens. The material I chose was PETG-CF for its high rigidity to minimize camera shake, and resistance to IPA (relative to PLA-CF) since the mount would be in a clean room environment. I made sure the height of the mount above the  parts to be imaged was equal to the lens' focal length.
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/autoshrink/mount1.png" style="width:25%;">
@@ -45,6 +46,8 @@ I implemented a Keyence MD-X Programmable Logic Controller into a piece of assem
 <figcaption>Iterations of the 3D printed camera mount</figcaption>{: .text-center}
 
 ## Position Control
+
+Even though the camera was NOT supposed to move after installation, it was important to allow for microadjustments in Z to focus the lens. I attached the entire camera mount to a linear stage, which I modified with a micrometer to make the adjustments. I 3D printed a cover for the micrometer, to discourage operators from accidentally touching it and un-focusing the lens. 
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/autoshrink/micrometer.png" style="width:50%;">
