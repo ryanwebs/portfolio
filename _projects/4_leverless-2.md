@@ -108,5 +108,5 @@ To fix these, I made the following changes:
 </div>
 <figcaption>New shell design, PCB standoffs highlighted blue</figcaption>{: .text-center}
 ![]({{ site.baseurl }}/assets/images/leverless-2/crosssection.png){:width="80%"}{: .align-center}
-<figcaption>New button height</figcaption>{: .text-center}
+<figcaption>Adjusted button height accounting for switch travel distance</figcaption>{: .text-center}
 
