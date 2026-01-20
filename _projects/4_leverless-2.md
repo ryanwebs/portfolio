@@ -83,12 +83,14 @@ In the Leverless Mk.1, the electronics take up a ton of room. This time I design
 - The shells were fastened together using heat-set inserts, and M3 Countersunk screws for a flush bottom surface.
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_soldering.jpg){:width="80%"}{: .align-center}
-<figcaption>Soldering, and assembly</figcaption>{: .text-center}
+<figcaption>Soldering and assembling process</figcaption>{: .text-center}
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_done.jpg){:width="80%"}{: .align-center}
-<figcaption>All done!</figcaption>{: .text-center}
+<figcaption>Completed assembly</figcaption>{: .text-center}
 
 # Revision C
+
+## Quirks
 
 The first finished assembly worked well, but had some quirks I wanted to address:
 
@@ -97,7 +99,9 @@ The first finished assembly worked well, but had some quirks I wanted to address
 - Difficult to close around the side buttons.
 - Panel mount cable is attached to both halves of the shell at either end, and wants to force the shell apart while fastening the screws.
 
-To fix these, I made the following changes:
+## Design Changes
+
+To fix these, I made the following adjustments:
 1. Changed shell design from two-piece clamshell to a single shell with a screw on bottom plate. Added ribs to bottom plate for rigidity.
 2. Adjusted tolerance of side-button mounting holes, allowing keyswitches to snap-fit into place.
 3. Removed chamfers around top surface button holes.
@@ -108,5 +112,10 @@ To fix these, I made the following changes:
 </div>
 <figcaption>New shell design, PCB standoffs highlighted blue</figcaption>{: .text-center}
 ![]({{ site.baseurl }}/assets/images/leverless-2/crosssection.png){:width="80%"}{: .align-center}
-<figcaption>Adjusted button height accounting for switch travel distance</figcaption>{: .text-center}
+<figcaption>Adjusted button height accounting for switch travel distance.</figcaption>{: .text-center}
 
+I am still in the process of building this next iteration, and will update this page when it is complete.
+
+## Button Iterations
+
+I've been printing a variety of different button shapes, sizes, and materials. I plan on adding a picture here to show all of my button iterations after I decide on which button feels the best.
