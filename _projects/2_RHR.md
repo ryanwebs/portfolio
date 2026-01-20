@@ -21,7 +21,7 @@ These optimizations are useful for improving the car's performance, allowing it 
 
 # Design Constraints
 
-Placeholder section!
+Placeholder!
 
 Target downforce, target drag coefficient, target speed, ride height, elevation above sea level, expected temperature, density of air, etc...
 
@@ -34,17 +34,19 @@ I designed the fuselage using lofted surfacing techniques in SolidWorks. I start
 
 ## CFD Analysis
 
-Placeholder section while I hunt down screenshots of my surface plots!
+Placeholder!
+
+Add screenshots of pressure contour surface plots! Show vector plot of airflow in the wake!
 
 ## Theory and Hand Calculations
 
-Add some equations!
+Add some equations! Show calculted downforce and drag coefficient!
 
-## Manufacturing
+# Manufacturing
 
 Fun with fiberglass!
 
-Expand on this section and talk about the hiccups in the manufacturing process!
+Expand on this section and talk about the hiccups in the manufacturing process! Talk about the first failed nosecone, and how we discovered the need for a mold release agent!
 
 ![mold]({{ site.baseurl }}/assets/images/RHR/body_mold.jpg){:width="75%"}{: .align-center}
 <figcaption>Figure 2. Making the foam slices for the mold</figcaption>{: .text-center}
