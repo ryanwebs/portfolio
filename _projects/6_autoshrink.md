@@ -12,7 +12,7 @@ toc_sticky: true
 *R&D Engineering Internship, Spryte Medical<br>*
 *Summer 2024*
 
-![]({{ site.baseurl }}/assets/images/lifecycle-tester/annotated.png){:width="100%"}{: .align-center}
+![]({{ site.baseurl }}/assets/images/autoshrink/cleanroom.jpg){:width="100%"}{: .align-center}
 
 # Overview
 - Explain the purpose of the Autoshrink in the 002896 subassembly manufacturing process
