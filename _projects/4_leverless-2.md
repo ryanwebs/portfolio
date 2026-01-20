@@ -25,7 +25,9 @@ I had 3 main goals for this project:
 2. Fully 3D printable shell and button caps
 3. Add extra remappable buttons (bind to parry, dash, etc)
 
-# Iterations
+# Initial CAD
+
+Here are the first couple iterations I mocked up in Solidworks. After finishing the first one I printed a draft model as a quick fit check, and to see how I felt about the form factor. I ended up changing the shape of the corners, and adding some guard rails around the side buttons to prevent accidentally pressing a button with my leg.
 
 ## Revision A
 
@@ -48,11 +50,6 @@ I had 3 main goals for this project:
   <img src="{{ site.baseurl }}/assets/images/leverless-2/rails.png" style="width:50%;">
 </div>
 <figcaption>Added guard rails to prevent accidental button presses</figcaption>{: .text-center}
-
-## Revision C
-
-Add some pictures of the RevC CAD here!
-Show off the new shell design, the new button design, and the solution for adjusting button height!
 
 # Electronics
 
