@@ -12,7 +12,7 @@ toc_sticky: true
 *Personal Project<br>*
 *December, 2025*
 
-Ever since finishing my original leverless arcade-style controller, I dreamed of making a better version. While working at Formlabs, it was the perfect opportunity to design it  utilize their library of high quality 3D printing materials.
+Ever since finishing my original leverless arcade-style controller, I dreamed of making a better version. While working at Formlabs, it was the perfect opportunity to design it while utilizing their library of high quality 3D printing materials.
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless2.gif){:width="80%"}{: .align-center}
 
