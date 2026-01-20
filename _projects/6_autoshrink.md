@@ -47,8 +47,8 @@ I implemented a Keyence MD-X Programmable Logic Controller into a piece of assem
 ## Position Control
 
 <div style="display:flex; gap:10px;">
-  <img src="{{ site.baseurl }}/assets/images/autoshrink/ok1.jpg" style="width:50%;">
-  <img src="{{ site.baseurl }}/assets/images/autoshrink/ok2.jpg" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/micrometer.png" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/set_screw.png" style="width:50%;">
 </div>
 <figcaption>From left to right: Band Distance, Window Tube Overlap, Nose Position</figcaption>{: .text-center}
 
