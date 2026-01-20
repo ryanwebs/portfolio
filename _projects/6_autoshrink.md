@@ -39,11 +39,14 @@ Previously the probe components were positioned under a microscrope by hand, bef
 <figcaption>Old setup, using microscope and ruler </figcaption>{: .text-center}
 
 ## Camera Vision Implementation
-- What was the proposed solution? How would this solve the current problem? What would be the process of implementing it?
-With the following design constraints:
-1. 
-2. 
-3. 
+
+The solution I would implement was to overhaul the alignment process, by forgoing the microscope in favor of a Keyence PLC camera vision system. This would much more accurately be able to ensure part alignment, and ideally reduce the reject rate to 0%.
+
+The following design constraints needed to be considered when implementing the PLC:
+1. Mount a camera/lens above the probe assembly at height of lens' focal length. Ensure camera DOESN'T move after installation, to maintain captured image's frame of reference.
+2. Ensure enough background contrast for edge detection software to define physical features.
+3. Program PLC to be easily used by new operators, to facilitate SOP training.
+4. Reduce batch reject rate as much as possible (ideally 0%).
 
 # Mounting Hardware
 
