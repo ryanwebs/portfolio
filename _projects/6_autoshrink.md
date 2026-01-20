@@ -12,42 +12,44 @@ toc_sticky: true
 *R&D Engineering Internship, Spryte Medical<br>*
 *Summer 2024*
 
-## Autoshrink Overview
+![]({{ site.baseurl }}/assets/images/lifecycle-tester/annotated.png){:width="100%"}{: .align-center}
+
+# Overview
 - Explain the purpose of the Autoshrink in the 002896 subassembly manufacturing process
 
 - Programmed physical feature detection tools to measure the positions of cathether probe components, and show an OK readout when components are properly aligned.
 
-### Probe Assembly Process
+## Probe Assembly Process
 - Put the solidworks gif here!
 - Put the video of you overlapping the nitinol and window tube here!
 
-### The Old Setup
+## The Old Setup
 - Why was the old manual alignment process flawed? How was yield affected?
 
-### Camera Vision Implementation
+## Camera Vision Implementation
 - What was the proposed solution? How would this solve the current problem? What would be the process of implementing it?
 
-## Mounting Hardware
+# Mounting Hardware
 
-### Camera Mount Design
+## Camera Mount Iterations
 
-### Position Control
+## Position Control
 
-### The New Setup
+## The New Setup
 
-## Keyence Programming
+# Keyence Programming
 
-### Feature Detection Tools
+## Feature Detection Tools
 - Explain edge detection logic here!
 - 
-### OK Conditions
+## "OK" Conditions
 - Explain assembly dimension constraints here!
 - Explain how the PLC allows you to ensure proper alignment with these tools!
 - 
-### Switch Modification
-- A Keyence PLC allows you to use its GPIO ports as a digital switch for other electronics. I programmed the controller such that when all OK Conditions are met, a voltage is sent through one of the GPIO pins, and into an electrical relay. Then, I interposed the relay directly into the circuit of the autoshrinks
+## Switch Modification
+- A Keyence PLC allows you to use its GPIO ports to actuate other electronic components when user-defined conditions are met. I interposed a relay directly into the circuit of the autoshrink's START button, and programmed the Keyence such that the relay would remain normally open until all of the "OK" conditions were met. This prevents the autoshrink from accidentally (or purposefully) being operated until proper part alignment is assured.
 
-## Results
+# Results
 
 - Quick summary of how this improved the probe's mmanufacturability, and increased yield per batch. Give the cost savings you calculated. Explain how this makes it easier for assembly line operators to be trained on building this subassembly.
 
