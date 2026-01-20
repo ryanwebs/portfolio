@@ -62,19 +62,19 @@ Show off the new shell design, the new button design, and the solution for adjus
 - Adafruit Feather RP2040
 - USB C Panel Mount
 
-The Raspberry Pi Pico was the microcontroller of choice for this project. I ran an open-source firmware called GP2040CE, which is a multiplatform gamepad firmware in C++ developed for the RP2040 chip. Sadly I did not write this, but it allows the Raspberry Pi to be treated as an X-Input controller. I did however modify the source code to match the pinout of the Adafruit Feather RP2040 board, and rebuilt the firmware using CMake in VisualStudio.
+The Raspberry Pi Pico was the microcontroller of choice for this project. I ran an open-source firmware called GP2040CE, which is a multiplatform gamepad firmware in C++ developed for the RP2040 chip. I did however modify the source code to match the pinout of the Adafruit Feather RP2040 board, and rebuilt the firmware using CMake in VisualStudio.
 
 ## PCB Design
 
 In the Leverless Mk.1, the electronics take up a ton of room. This time I designed a custom PCB in KiCAD with traces to connect the keyboard switches to the GPIO pins of the microcontroller, so I could forgo wiring the buttons entirely. This heavily reduced the electronic footprint in Z, and allowed the shell to be only 25mm thick.
 
-![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_schematic.png){:width="80%"}{: .align-center}
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_schematic.png){:width="80%"}{: .align-center}<br>
 <figcaption>PCB Schematic</figcaption>{: .text-center}
 
-![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_gerbers.png){:width="80%"}{: .align-center}
+![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_gerbers.png){:width="80%"}{: .align-center}<br>
 <figcaption>PCB Gerbers</figcaption>{: .text-center}
 
-![]({{ site.baseurl }}/assets/images/leverless-2/pcb.jpg){:width="80%"}{: .align-center}
+![]({{ site.baseurl }}/assets/images/leverless-2/pcb.jpg){:width="80%"}{: .align-center}<br>
 <figcaption>PCB for keyboard switches</figcaption>{: .text-center}
 
 # Manufacturing

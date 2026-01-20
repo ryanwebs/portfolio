@@ -37,7 +37,7 @@
 
 
 
-  <meta property="article:published_time" content="2026-01-19T21:53:03-05:00">
+  <meta property="article:published_time" content="2026-01-19T21:56:17-05:00">
 
 
 
@@ -380,19 +380,19 @@ Show off the new shell design, the new button design, and the solution for adjus
   <li>USB C Panel Mount</li>
 </ul>
 
-<p>The Raspberry Pi Pico was the microcontroller of choice for this project. I ran an open-source firmware called GP2040CE, which is a multiplatform gamepad firmware in C++ developed for the RP2040 chip. Sadly I did not write this, but it allows the Raspberry Pi to be treated as an X-Input controller. I did however modify the source code to match the pinout of the Adafruit Feather RP2040 board, and rebuilt the firmware using CMake in VisualStudio.</p>
+<p>The Raspberry Pi Pico was the microcontroller of choice for this project. I ran an open-source firmware called GP2040CE, which is a multiplatform gamepad firmware in C++ developed for the RP2040 chip. I did however modify the source code to match the pinout of the Adafruit Feather RP2040 board, and rebuilt the firmware using CMake in VisualStudio.</p>
 
 <h2 id="pcb-design">PCB Design</h2>
 
 <p>In the Leverless Mk.1, the electronics take up a ton of room. This time I designed a custom PCB in KiCAD with traces to connect the keyboard switches to the GPIO pins of the microcontroller, so I could forgo wiring the buttons entirely. This heavily reduced the electronic footprint in Z, and allowed the shell to be only 25mm thick.</p>
 
-<p><img src="/portfolio/assets/images/leverless-2/leverless_2_schematic.png" alt="" width="80%" class="align-center" /></p>
+<p><img src="/portfolio/assets/images/leverless-2/leverless_2_schematic.png" alt="" width="80%" class="align-center" /><br /></p>
 <figcaption class="text-center">PCB Schematic</figcaption>
 
-<p><img src="/portfolio/assets/images/leverless-2/leverless_2_gerbers.png" alt="" width="80%" class="align-center" /></p>
+<p><img src="/portfolio/assets/images/leverless-2/leverless_2_gerbers.png" alt="" width="80%" class="align-center" /><br /></p>
 <figcaption class="text-center">PCB Gerbers</figcaption>
 
-<p><img src="/portfolio/assets/images/leverless-2/pcb.jpg" alt="" width="80%" class="align-center" /></p>
+<p><img src="/portfolio/assets/images/leverless-2/pcb.jpg" alt="" width="80%" class="align-center" /><br /></p>
 <figcaption class="text-center">PCB for keyboard switches</figcaption>
 
 <h1 id="manufacturing">Manufacturing</h1>
