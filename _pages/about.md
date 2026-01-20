@@ -5,10 +5,8 @@ title: "About"
 
 Hi, I'm Ryan!<br>
 
-I'm a Mechanical Engineer from Danvers MA, with a BSc from UMass Lowell. I like to create things I find interesting, and understand what makes the machines/technology around me work.<br>
+I'm a Mechanical Engineer from Danvers MA, with a BSc from UMass Lowell. I like to create things I find interesting, and understand what makes the machines/technology around me work. Currently building some 3D printers at [Formlabs](https://formlabs.com/).<br>
 
-Currently building some 3D printers at [Formlabs](https://formlabs.com/).
-
-Here's some of the [projects I've worked on!]({{ site.baseurl }}/projects)
+I put this website together to showcase some of my favorite [projects I've worked on]({{ site.baseurl }}/projects) during university, my internships, and just for fun.
 
 ![]({{ site.baseurl }}/assets/images/me_with_plane.jpg){: .align-center}
