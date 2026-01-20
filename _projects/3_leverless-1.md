@@ -20,14 +20,14 @@ Analog directional control can significantly reduce user error in fighting games
 
 ## Design
 
-I wanted to design and build my arcade controller mostly out of wood, so it could have a homemade feeling to it. I built the box out of 2x4's that I planed to stain and seal later. I started by mocking up a quick CAD model to get the dimensions right, and dial in the look that I was going for.
+My vision was to build make the arcade controller mostly out of wood, so it could have a homemade feeling to it. I built the box out of 2x4's that I planned to stain and seal later. I started by mocking up a quick CAD model to get the dimensions right, and dial in the look that I was going for.
 
 ![cad]({{ site.baseurl }}/assets/images/leverless-1/leverless_1_cad.png){:width="75%"}{: .align-center}
 <figcaption>Figure 1. Initial rough CAD model</figcaption>{: .text-center}
 
 ## Electronics
 
-I wanted this entire project to be solderless, so for the microcontroller I picked a Raspberry Pi with preflashed firmware and screw terminals for the GPIO ports. I used genuine Sanwa arcade cabinet buttons, that fastened straight into the holes of the top plate with their included nuts. I was able to easily wire the buttons to the Pi, then remap them later to correspond to the X-Input readouts I wanted. I also bored a hole in the side of the box for a USB-C panel mount.
+I wanted this entire project to be solderless, so for the microcontroller I picked a Raspberry Pi with preflashed firmware and screw terminals for the GPIO ports. I used Sanwa arcade cabinet buttons, that fastened straight into the holes of the top plate with their included nuts. After wiring the buttons to the Pi, I could remap them later to correspond to the X-Input readouts I wanted. I also bored a hole in the side of the box for a USB-C panel mount.
 
 ![cad]({{ site.baseurl }}/assets/images/leverless-1/leverless_1_bottom.jpg){:width="75%"}{: .align-center}
 <figcaption>Figure 2. Electronics and wiring</figcaption>{: .text-center}
