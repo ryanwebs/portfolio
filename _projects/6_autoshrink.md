@@ -35,7 +35,22 @@ I implemented a Keyence MD-X Programmable Logic Controller into a piece of assem
 
 ## Camera Mount Iterations
 
+
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/mount1.png" style="width:25%;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/mount2.png" style="width:25%;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/mount3.png" style="width:25%;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/mount4.png" style="width:25%;">
+</div>
+<figcaption>Iterations of the 3D printed camera mount</figcaption>{: .text-center}
+
 ## Position Control
+
+<div style="display:flex; gap:10px;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/ok1.jpg" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/ok2.jpg" style="width:50%;">
+</div>
+<figcaption>From left to right: Band Distance, Window Tube Overlap, Nose Position</figcaption>{: .text-center}
 
 ## The New Setup
 
