@@ -2,7 +2,7 @@
 title: "Autoshrink Vision System"
 header:
   teaser: /assets/images/autoshrink/autoshrink_iso.png
-excerpt: "Implemented a Keyence camera and PLC into a manufacturing line to aid with part alignment down to the micron."
+excerpt: "Implemented a Keyence camera and PLC into a manufacturing line to aid with part alignment down to the millimeter."
 order: 6
 share: false
 toc: true
@@ -12,7 +12,9 @@ toc_sticky: true
 *R&D Engineering Internship, Spryte Medical<br>*
 *Summer 2024*
 
-![]({{ site.baseurl }}/assets/images/autoshrink/cleanroom.png){:width="100%"}{: .align-center}
+![]({{ site.baseurl }}/assets/images/autoshrink/clean_room.jpg){:width="100%"}{: .align-center}
+
+I implemented a Keyence MD-X Programmable Logic Controller into a piece of assembly line equipment, utilizing camera vision tools to measure the positions of cathether probe components, and aiding with highly precise part alignment.
 
 # Overview
 - Explain the purpose of the Autoshrink in the 002896 subassembly manufacturing process
