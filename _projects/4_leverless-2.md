@@ -97,7 +97,11 @@ The first finished assembly worked well, but had some quirks I wanted to address
 - Difficult to close around the side buttons.
 - Panel mount cable is attached to both halves of the shell at either end, and wants to force the shell apart while fastening the screws.
 
-
+To fix these, I made the following changes:
+1. Changed shell design from two-piece clamshell to a single shell with a screw on bottom plate. Added ribs to bottom plate for rigidity.
+2. Adjusted tolerance of side-button mounting holes, allowing keyswitches to snap-fit into place.
+3. Removed chamfers around top surface button holes.
+4. Reduced height of the highlighted PCB mounting standoffs by ~1mm, to give the buttons a slightly lower profile.
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/leverless-2/revc_shell.png" style="width:50%;">
   <img src="{{ site.baseurl }}/assets/images/leverless-2/revc_bottom.png" style="width:50%;">
