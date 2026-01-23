@@ -88,9 +88,9 @@ I programmed the following three edge detection tools to identify the locations 
 
 
 <div style="display:flex; gap:10px;">
-  <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool1.jpg" style="width:50%;">
-  <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool2.jpg" style="width:50%;">
-  <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool3.jpg" style="width:50%;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool1.jpg" style="width:33%;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool2.jpg" style="width:33%;">
+  <img src="{{ site.baseurl }}/assets/images/autoshrink/edgetool3.jpg" style="width:33%;">
 </div>
 <figcaption>From left to right: 1. Marker Band, 2. Wire Nose, 3. Window Tube</figcaption>{: .text-center}
 
