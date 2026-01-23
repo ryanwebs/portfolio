@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Lifecycle Test Fixture - Ryan Webster</title>
-<meta name="description" content="Designed a pneumatic test fixture to evaluate the lifecycle of a molded component with a high defect rate, and validate FEA results.">
+<!-- begin _includes/seo.html --><title>Remote Control Airplane - Ryan Webster</title>
+<meta name="description" content="RC Airplane I designed with my Senior Capstone team for the AIAA’s annual Design, Build, Fly competition.">
 
 
   <meta name="author" content="{&quot;name&quot;=&gt;&quot;&quot;, &quot;avatar&quot;=&gt;&quot;/assets/images/me_with_plane.jpg&quot;, &quot;bio&quot;=&gt;&quot;&quot;, &quot;location&quot;=&gt;&quot;Danvers, MA&quot;, &quot;links&quot;=&gt;[{&quot;label&quot;=&gt;&quot;Email&quot;, &quot;icon&quot;=&gt;&quot;fas fa-fw fa-envelope-square&quot;, &quot;url&quot;=&gt;&quot;mailto:rwebster731@outlook.com&quot;}, {&quot;label&quot;=&gt;&quot;Resume&quot;, &quot;icon&quot;=&gt;&quot;far fa-fw fa-file-pdf&quot;, &quot;url&quot;=&gt;&quot;/assets/files/Ryan_Webster_Resume.pdf&quot;, &quot;new_tab&quot;=&gt;true}, {&quot;label&quot;=&gt;&quot;GitHub&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-github&quot;, &quot;url&quot;=&gt;&quot;https://github.com/ryanwebs&quot;, &quot;new_tab&quot;=&gt;true}, {&quot;label&quot;=&gt;&quot;LinkedIn&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-linkedin&quot;, &quot;url&quot;=&gt;&quot;https://www.linkedin.com/in/ryan-webster731&quot;, &quot;new_tab&quot;=&gt;true}]}">
@@ -23,28 +23,28 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Ryan Webster">
-<meta property="og:title" content="Lifecycle Test Fixture">
-<meta property="og:url" content="http://localhost:4000/portfolio/projects/7_lifecycle-tester/">
+<meta property="og:title" content="Remote Control Airplane">
+<meta property="og:url" content="http://localhost:4000/portfolio/projects/DBF/">
 
 
-  <meta property="og:description" content="Designed a pneumatic test fixture to evaluate the lifecycle of a molded component with a high defect rate, and validate FEA results.">
-
-
-
-  <meta property="og:image" content="http://localhost:4000/portfolio/assets/images/lifecycle-tester/lifecycle_tester.jpg">
+  <meta property="og:description" content="RC Airplane I designed with my Senior Capstone team for the AIAA’s annual Design, Build, Fly competition.">
 
 
 
-
-
-  <meta property="article:published_time" content="2026-01-22T21:40:01-05:00">
+  <meta property="og:image" content="http://localhost:4000/portfolio/assets/images/DBF/plane.jpg">
 
 
 
 
 
+  <meta property="article:published_time" content="2026-01-22T21:42:14-05:00">
 
-<link rel="canonical" href="http://localhost:4000/portfolio/projects/7_lifecycle-tester/">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/portfolio/projects/DBF/">
 
 
 
@@ -296,8 +296,8 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Lifecycle Test Fixture">
-    <meta itemprop="description" content="Designed a pneumatic test fixture to evaluate the lifecycle of a molded component with a high defect rate, and validate FEA results.">
+    <meta itemprop="headline" content="Remote Control Airplane">
+    <meta itemprop="description" content="RC Airplane I designed with my Senior Capstone team for the AIAA’s annual Design, Build, Fly competition.">
     
     
 
@@ -305,7 +305,7 @@
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="http://localhost:4000/portfolio/projects/7_lifecycle-tester/" itemprop="url">Lifecycle Test Fixture
+            <a href="http://localhost:4000/portfolio/projects/DBF/" itemprop="url">Remote Control Airplane
 </a>
           </h1>
           
@@ -319,68 +319,72 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#overview">Overview</a></li><li><a href="#pneumatic-system-design">Pneumatic System Design</a><ul><li><a href="#piston-selection">Piston Selection</a></li><li><a href="#flow-control">Flow Control</a></li><li><a href="#electronics">Electronics</a></li><li><a href="#even-pin-compression">Even Pin Compression</a></li></ul></li><li><a href="#results">Results</a></li><li><a href="#improvements">Improvements</a></li></ul>
+              <ul class="toc__menu"><li><a href="#design">Design</a></li><li><a href="#propulsion-system">Propulsion System</a></li><li><a href="#testing-motor-thrust-and-control-surface-servos">Testing Motor Thrust, and Control Surface Servos</a></li><li><a href="#manufacturing">Manufacturing</a></li><li><a href="#cad-drawings">CAD Drawings</a></li></ul>
             </nav>
           </aside>
         
-        <p><em>Mechanical Engineering Co-op, Teradyne<br /></em>
-<em>Spring, 2023</em></p>
+        <p><em>MECH.4230 Capstone Design, UMass Lowell<br /></em>
+<em>Fall, 2024</em></p>
 
-<p><img src="/portfolio/assets/images/lifecycle-tester/annotated.png" alt="" width="100%" class="align-center" /></p>
+<p>For my Capstone design class, my team designed a remote control airplane for the AIAA’s annual Design, Build, Fly competition. I was responsible for designing the electronic propulsion system (motor, battery, speed controller, propeller), designing custom 3D printed structural components, and developing the manufacturing process for the airplane.</p>
 
-<p>I designed this pneumatic lifecycle test fixture during my Spring 2023 Mechanical Engineering Co-op at Teradyne.</p>
+<h2 id="design">Design</h2>
 
-<h1 id="overview">Overview</h1>
-<ul>
-  <li>A plastic pin connector bracket was identified to have a high defect rate in Teradyne’s Ultraflex machines. Working with a senior engineer, a new material was selected with a similar yield strength, but higher elastic modulus to reduce cyclic strain.</li>
-  <li>To test the new material, I designed and built a pneumatic lifecycle tester that mimics the loading conditions on the bracket in the higher-level assembly. A piston would compress/decompress the pins for 10,000 cycles to test for fatigue and mechanical failure through cyclic loading.</li>
-</ul>
+<p>Talk about the plane’s design constraints here!</p>
 
-<h1 id="pneumatic-system-design">Pneumatic System Design</h1>
+<p><img src="/portfolio/assets/images/DBF/plane_cad.png" alt="" width="80%" class="align-center" /></p>
 
-<h2 id="piston-selection">Piston Selection</h2>
-<ul>
-  <li>I chose a dual-acting piston with a bore diameter capable of generating enough force to compress the pins from line pressure. It was important to pick a dual-acting piston, so I could have control over both of the piston’s stroke directions. The piston was mounted to an aluminum jig that I machined myself.</li>
-</ul>
+<h2 id="propulsion-system">Propulsion System</h2>
 
-<p><em>Piston Force as a relationship between the pressure within the cylinder, and the bore diameter can be defined as:</em></p>
+<p>Talk about how you chose the electronics here!</p>
 
-<p>\[ F=P\left(\frac{\pi}{4}d^{2}\right) \]</p>
+<p>Brushless DC selection, targeted kV, target thrust, ESC amperage, prop diameter and pitch.</p>
 
-<h2 id="flow-control">Flow Control</h2>
-<ul>
-  <li>A compressed air regulator was used in series with the building’s air line to fine tune the piston’s output force.</li>
-  <li>A dual-state solenoid (5/2 flow pattern) was used to control the actuation of the piston.</li>
-  <li>Added flow regulator valves to the solenoid’s exhaust ports to control stroke speed, allowing gentler pin compression.</li>
-</ul>
+<p>Show the torque curves for the motors you were considering and why you chose the one you did!</p>
 
-<h2 id="electronics">Electronics</h2>
-<ul>
-  <li>A 12V DC Power Supply powered all of the electronics.</li>
-  <li>I used a simple timer relay (I called it a clock) to control the actuation timing of the solenoid valve. The dials let me adjust how long between the solenoid swapping states.</li>
-  <li>An electric tally counter kept track of the number of cycles. I interposed the tally into the circuit such that it was only delivered a voltage during the piston’s upstroke.</li>
-</ul>
+<p>Add some pictures!</p>
 
-<h2 id="even-pin-compression">Even Pin Compression</h2>
-<ul>
-  <li>I attached a swiveling table foot at the end of the rod, allowing the face that would compress the pins to have some rotational degrees of freedom. By doing this, the table foot planed itself out during the upstroke, and ensured each pin was evenly compressed each cycle.</li>
-  <li>If the table foot’s rotation had been constrained, then I risked having the surface be slightly skewed when making contact with the pins if there were any alignment or tolerance issues. This would result in uneven pin compression and potentially affect the expected fatigue behavior of the bracket.</li>
-</ul>
+<h2 id="testing-motor-thrust-and-control-surface-servos">Testing Motor Thrust, and Control Surface Servos</h2>
 
-<p><img src="/portfolio/assets/images/lifecycle-tester/pressing_pins_gif.gif" alt="" width="75%" class="align-center" /></p>
+<p>Tested thrust of propeller and motor using two 20kg load cells and AC ammeter.</p>
 
-<h1 id="results">Results</h1>
-<ul>
-  <li>After 10,000 compressions, the bracket did not show any sign of fatigue-induced crack propogation.</li>
-  <li>Validated FEA results for the new material selection, and moved forward with high volume production.</li>
-  <li>Submitted an ECO to scrap all existing inventory, and replace these components in all future units.</li>
-</ul>
+<p>Converted mv/V readings to N, to ensure sufficient thrust (targeted ~70% of plane weight)</p>
 
-<h1 id="improvements">Improvements</h1>
-<ul>
-  <li>If I were to redesign this fixture again, I would change the swiveling table foot to some machined block on a pivot, with a pin slot to constrain its range of rotation. I would also mount the entire assembly to a linear rail, with the end of the piston rod affixed to the carriage. Even with the swiveling table foot, I found it was not 100% reliable in evenly compressing the pins each cycle. Adding these DOF constraints would increase the accuracy of the entire assembly.</li>
-  <li>Even though the new material passed the test of 10,000 cycles, I believe I should have tested both bracket materials until failure to compare their results.</li>
-</ul>
+<p>Tested for power draw, and battery life at multiple throttles to ensure sufficient flight time.</p>
+
+<p><img src="/portfolio/assets/images/DBF/thrust_test_fixture.png" alt="Thrust-Test" width="80%" class="align-center" /></p>
+
+<p><img src="/portfolio/assets/images/DBF/motor_thrust_test.png" alt="Thrust-Test" width="80%" class="align-center" /></p>
+
+<h2 id="manufacturing">Manufacturing</h2>
+
+<p>Talk about how you built the plane here!</p>
+
+<p>I lasercut the chassis from foam/cardboard, developed the manufacturing process, and built the entire airplane! I also 3D printed some spar connectors, and control surface mounts out of LDPLA!</p>
+
+<p>Show how painful it was to kerf cut all the foam board for the wing!</p>
+
+<p><img src="/portfolio/assets/images/DBF/wing_manufacturing.jpg" alt="" width="80%" class="align-center" /></p>
+
+<p><img src="/portfolio/assets/images/DBF/wing_side.jpg" alt="" width="80%" class="align-center" /></p>
+
+<p><img src="/portfolio/assets/images/DBF/prints.jpg" alt="" width="80%" class="align-center" /></p>
+
+<p>Add some more pictures!</p>
+
+<h2 id="cad-drawings">CAD Drawings</h2>
+
+<p>Add pictures of the CAD drawings for some of the structural components you designed!</p>
+
+<p><img src="/portfolio/assets/images/DBF/wing_drawing.png" alt="" width="90%" class="align-center" /></p>
+
+<p><img src="/portfolio/assets/images/DBF/spar_connector_drawing.png" alt="" width="90%" class="align-center" /></p>
+
+<p><img src="/portfolio/assets/images/DBF/landing_gear_mount_drawing.png" alt="" width="90%" class="align-center" /></p>
+
+<p><img src="/portfolio/assets/images/DBF/landing_gear_pylon_drawing.png" alt="" width="90%" class="align-center" /></p>
+
+<p><img src="/portfolio/assets/images/DBF/stabilizer_mount_drawing.png" alt="" width="90%" class="align-center" /></p>
 
         
       </section>
@@ -399,10 +403,10 @@
       
   <nav class="pagination">
     
-      <a href="/portfolio/projects/6_autoshrink/" class="pagination--pager" title="Autoshrink Vision System">Previous</a>
+      <a href="/portfolio/projects/3_leverless-1/" class="pagination--pager" title="The Leverless Mk.1">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="/portfolio/projects/FEA/" class="pagination--pager" title="Rear Wing Mounting Brackets">Next</a>
     
   </nav>
 

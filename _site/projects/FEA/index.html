@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Remote Control Airplane - Ryan Webster</title>
-<meta name="description" content="RC Airplane I designed with my Senior Capstone team for the AIAA’s annual Design, Build, Fly competition.">
+<!-- begin _includes/seo.html --><title>Rear Wing Mounting Brackets - Ryan Webster</title>
+<meta name="description" content="Designed some wing mounts for my Applied FEA class to combine the various techniques I learned throughout the semester.">
 
 
   <meta name="author" content="{&quot;name&quot;=&gt;&quot;&quot;, &quot;avatar&quot;=&gt;&quot;/assets/images/me_with_plane.jpg&quot;, &quot;bio&quot;=&gt;&quot;&quot;, &quot;location&quot;=&gt;&quot;Danvers, MA&quot;, &quot;links&quot;=&gt;[{&quot;label&quot;=&gt;&quot;Email&quot;, &quot;icon&quot;=&gt;&quot;fas fa-fw fa-envelope-square&quot;, &quot;url&quot;=&gt;&quot;mailto:rwebster731@outlook.com&quot;}, {&quot;label&quot;=&gt;&quot;Resume&quot;, &quot;icon&quot;=&gt;&quot;far fa-fw fa-file-pdf&quot;, &quot;url&quot;=&gt;&quot;/assets/files/Ryan_Webster_Resume.pdf&quot;, &quot;new_tab&quot;=&gt;true}, {&quot;label&quot;=&gt;&quot;GitHub&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-github&quot;, &quot;url&quot;=&gt;&quot;https://github.com/ryanwebs&quot;, &quot;new_tab&quot;=&gt;true}, {&quot;label&quot;=&gt;&quot;LinkedIn&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-linkedin&quot;, &quot;url&quot;=&gt;&quot;https://www.linkedin.com/in/ryan-webster731&quot;, &quot;new_tab&quot;=&gt;true}]}">
@@ -23,28 +23,28 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Ryan Webster">
-<meta property="og:title" content="Remote Control Airplane">
-<meta property="og:url" content="http://localhost:4000/portfolio/projects/1_DBF/">
+<meta property="og:title" content="Rear Wing Mounting Brackets">
+<meta property="og:url" content="http://localhost:4000/portfolio/projects/FEA/">
 
 
-  <meta property="og:description" content="RC Airplane I designed with my Senior Capstone team for the AIAA’s annual Design, Build, Fly competition.">
-
-
-
-  <meta property="og:image" content="http://localhost:4000/portfolio/assets/images/DBF/plane.jpg">
+  <meta property="og:description" content="Designed some wing mounts for my Applied FEA class to combine the various techniques I learned throughout the semester.">
 
 
 
-
-
-  <meta property="article:published_time" content="2026-01-22T21:40:01-05:00">
+  <meta property="og:image" content="http://localhost:4000/portfolio/assets/images/FEA/bracket_stress_converged.png">
 
 
 
 
 
+  <meta property="article:published_time" content="2026-01-22T21:42:14-05:00">
 
-<link rel="canonical" href="http://localhost:4000/portfolio/projects/1_DBF/">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/portfolio/projects/FEA/">
 
 
 
@@ -296,8 +296,8 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Remote Control Airplane">
-    <meta itemprop="description" content="RC Airplane I designed with my Senior Capstone team for the AIAA’s annual Design, Build, Fly competition.">
+    <meta itemprop="headline" content="Rear Wing Mounting Brackets">
+    <meta itemprop="description" content="Designed some wing mounts for my Applied FEA class to combine the various techniques I learned throughout the semester.">
     
     
 
@@ -305,7 +305,7 @@
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="http://localhost:4000/portfolio/projects/1_DBF/" itemprop="url">Remote Control Airplane
+            <a href="http://localhost:4000/portfolio/projects/FEA/" itemprop="url">Rear Wing Mounting Brackets
 </a>
           </h1>
           
@@ -319,74 +319,70 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#design">Design</a></li><li><a href="#propulsion-system">Propulsion System</a></li><li><a href="#testing-motor-thrust-and-control-surface-servos">Testing Motor Thrust, and Control Surface Servos</a></li><li><a href="#manufacturing">Manufacturing</a></li><li><a href="#cad-drawings">CAD Drawings</a></li></ul>
+              <ul class="toc__menu"><li><a href="#overview">Overview</a></li><li><a href="#constraints">Constraints</a><ul><li><a href="#preliminary-bracket-design">Preliminary Bracket Design</a></li><li><a href="#determining-loading-conditions">Determining Loading Conditions</a></li></ul></li><li><a href="#refining-the-geometry">Refining the Geometry</a><ul><li><a href="#topology-optimization">Topology Optimization</a></li><li><a href="#iterations">Iterations</a></li></ul></li><li><a href="#analysis">Analysis</a><ul><li><a href="#static-structural">Static Structural</a></li><li><a href="#mesh-convergence">Mesh Convergence</a></li><li><a href="#refined-static-structural">Refined Static Structural</a></li></ul></li><li><a href="#results-and-selection">Results and Selection</a></li><li><a href="#future-improvements">Future Improvements</a></li></ul>
             </nav>
           </aside>
         
-        <p><em>MECH.4230 Capstone Design, UMass Lowell<br /></em>
-<em>Fall, 2024</em></p>
+        <p><em>MECH.5120, Applied Finite Element Analysis<br /></em>
+<em>Spring, 2025</em></p>
 
-<p>For my Capstone design class, my team designed a remote control airplane for the AIAA’s annual Design, Build, Fly competition. I was responsible for designing the electronic propulsion system (motor, battery, speed controller, propeller), designing custom 3D printed structural components, and developing the manufacturing process for the airplane.</p>
+<h2 id="overview">Overview</h2>
+<p>Final project for a Finite Element Analysis class where students were asked to demonstrate FEA skills learned on an engineering problem of their choice. This project shows
+my process behind designing mounting brackets for a rear wing and using various FEA techniques to make weight reductions without jeopardizing strength.</p>
 
-<h2 id="design">Design</h2>
+<p>• Created SolidWorks models of a NACA 2412 airfoil and different mounting brackets for testing. Used Ansys Fluent to determine the wing’s experimental lift (downforce)</p>
 
-<p>Talk about the plane’s design constraints here!</p>
+<p>• Used Topology Optimization in Altair Inspire to reduce the brackets’ mass and iterate their geometry.</p>
 
-<p><img src="/portfolio/assets/images/DBF/plane_cad.png" alt="" width="80%" class="align-center" /></p>
+<p>• Used Ansys Mechanical to perform structural analysis on the mounts using loading conditions calculated from the wing, ensure maximum stresses did not exceed the yield
+point, and select a bracket iteration with the best performance.</p>
 
-<h2 id="propulsion-system">Propulsion System</h2>
+<h2 id="constraints">Constraints</h2>
 
-<p>Talk about how you chose the electronics here!</p>
+<h3 id="preliminary-bracket-design">Preliminary Bracket Design</h3>
 
-<p>Brushless DC selection, targeted kV, target thrust, ESC amperage, prop diameter and pitch.</p>
+<p>Designed some models in Solidworks!</p>
 
-<p>Show the torque curves for the motors you were considering and why you chose the one you did!</p>
+<p>Add pictures!</p>
 
-<p>Add some pictures!</p>
+<h3 id="determining-loading-conditions">Determining Loading Conditions</h3>
 
-<h2 id="testing-motor-thrust-and-control-surface-servos">Testing Motor Thrust, and Control Surface Servos</h2>
+<p>Found wing downforce in Ansys fluent!</p>
 
-<p>Tested thrust of propeller and motor using two 20kg load cells and AC ammeter.</p>
+<p>Add pictures!</p>
 
-<p>Converted mv/V readings to N, to ensure sufficient thrust (targeted ~70% of plane weight)</p>
+<h2 id="refining-the-geometry">Refining the Geometry</h2>
 
-<p>Tested for power draw, and battery life at multiple throttles to ensure sufficient flight time.</p>
+<h3 id="topology-optimization">Topology Optimization</h3>
 
-<p><img src="/portfolio/assets/images/DBF/thrust_test_fixture.png" alt="Thrust-Test" width="80%" class="align-center" /></p>
+<p>Used Altair Inspire’s topology optimization feature to remove material from a solid bracket without creating areas that would exceed the material’s yield strength.
+This simulation helped me figure out where the best places would be to target for making weight reductions.</p>
 
-<p><img src="/portfolio/assets/images/DBF/motor_thrust_test.png" alt="Thrust-Test" width="80%" class="align-center" /></p>
+<h3 id="iterations">Iterations</h3>
 
-<h2 id="manufacturing">Manufacturing</h2>
+<p>Mocked up a couple different bracket designs that remove the same amount of mass, but have different geomoetries.</p>
 
-<p>Talk about how you built the plane here!</p>
+<ul>
+  <li>Bracket 1 removes material uniformly from the center of the bracket.</li>
+  <li>Bracket 2 focuses on removing more material from the front, leaving extra strength in the rear for resisting the bending moment caused by the wing.</li>
+</ul>
 
-<p>I lasercut the chassis from foam/cardboard, developed the manufacturing process, and built the entire airplane! I also 3D printed some spar connectors, and control surface mounts out of LDPLA!</p>
+<p>I expected bracket 2 to be able to carry the load more efficiently, while making the same 0.78kg weight reduction.</p>
 
-<p>Show how painful it was to kerf cut all the foam board for the wing!</p>
+<h2 id="analysis">Analysis</h2>
 
-<p><img src="/portfolio/assets/images/DBF/wing_manufacturing.jpg" alt="" width="80%" class="align-center" /></p>
+<h3 id="static-structural">Static Structural</h3>
 
-<p><img src="/portfolio/assets/images/DBF/wing_side.jpg" alt="" width="80%" class="align-center" /></p>
+<h3 id="mesh-convergence">Mesh Convergence</h3>
 
-<p><img src="/portfolio/assets/images/DBF/prints.jpg" alt="" width="80%" class="align-center" /></p>
+<h3 id="refined-static-structural">Refined Static Structural</h3>
 
-<p>Add some more pictures!</p>
+<h2 id="results-and-selection">Results and Selection</h2>
 
-<h2 id="cad-drawings">CAD Drawings</h2>
+<h2 id="future-improvements">Future Improvements</h2>
 
-<p>Add pictures of the CAD drawings for some of the structural components you designed!</p>
 
-<p><img src="/portfolio/assets/images/DBF/wing_drawing.png" alt="" width="90%" class="align-center" /></p>
-
-<p><img src="/portfolio/assets/images/DBF/spar_connector_drawing.png" alt="" width="90%" class="align-center" /></p>
-
-<p><img src="/portfolio/assets/images/DBF/landing_gear_mount_drawing.png" alt="" width="90%" class="align-center" /></p>
-
-<p><img src="/portfolio/assets/images/DBF/landing_gear_pylon_drawing.png" alt="" width="90%" class="align-center" /></p>
-
-<p><img src="/portfolio/assets/images/DBF/stabilizer_mount_drawing.png" alt="" width="90%" class="align-center" /></p>
-
-        
+        <div><a href="/portfolio/assets/files/applied_fea_final.pdf" class="btn btn--primary">Direct Link</a></div>
       </section>
 
       <footer class="page__meta">
@@ -403,10 +399,10 @@
       
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="/portfolio/projects/DBF/" class="pagination--pager" title="Remote Control Airplane">Previous</a>
     
     
-      <a href="/portfolio/projects/2_RHR/" class="pagination--pager" title="FSAE Bodywork">Next</a>
+      <a href="/portfolio/projects/RHR/" class="pagination--pager" title="FSAE Bodywork">Next</a>
     
   </nav>
 
@@ -470,10 +466,6 @@
 
 
 
-
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 
   </body>
 </html>
