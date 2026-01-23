@@ -100,7 +100,7 @@ Using the edge detection tools, I programmed three more tools to measure the rel
 
 1. Distance between wire nose and marker band must be 2mm +/- 1mm
 2. Window tube must cover the wire nose 0.5mm +/- 0.25 mm
-3. Wire nose must extend 12 mm +/- 0.25 mm out of a fiber clamp
+3. Wire nose must extend 12 mm +/- 0.25 mm out of a fiber clamp (known delta)
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/autoshrink/ok1.jpg" style="width:33%;">
