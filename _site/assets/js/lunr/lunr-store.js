@@ -5,12 +5,6 @@ var store = [{
         "url": "/portfolio/projects/3D-printed-widgets/",
         "teaser": "/portfolio/assets/images/3D-printed-widgets/gallery.png"
       },{
-        "title": "The Leverless Mk.1",
-        "excerpt":"Personal Project Fall, 2024 I made this controller as something of a cross between fun design challenge, and an art project. Most modern video games allow 360 degree movement in any direction you want; yet in fighting games there are still only 8 directions, so a joystick is too overcomplicated...","categories": [],
-        "tags": [],
-        "url": "/portfolio/projects/3_leverless-1/",
-        "teaser": "/portfolio/assets/images/leverless-1/leverless_1_top.jpg"
-      },{
         "title": "Remote Control Airplane",
         "excerpt":"MECH.4230 Capstone Design, UMass Lowell Fall, 2024 For my Capstone design class, my team designed a remote control airplane for the AIAA’s annual Design, Build, Fly competition. I was responsible for designing the electronic propulsion system (motor, battery, speed controller, propeller), designing custom 3D printed structural components, and developing the...","categories": [],
         "tags": [],
