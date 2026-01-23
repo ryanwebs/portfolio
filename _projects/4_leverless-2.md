@@ -96,6 +96,7 @@ This project costed around $44 total in parts, not counting the material costs t
 | Gateron KS33 | $11.04 | 35 | 17 | $5.36 |
 | Panel Mount | $9.69 | 1 | 1 | $9.69 |
 | PCBs from JLC | $42.92 | 5 | 1 | $8.58 |
+||||||
 |   |   |   | Total Cost | $44.34 |
 
 # Revision C
