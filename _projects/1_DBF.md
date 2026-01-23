@@ -3,7 +3,7 @@ title: "Remote Control Airplane"
 header:
   teaser: /assets/images/DBF/plane.jpg
 excerpt: "RC Airplane I designed with my Senior Capstone team for the AIAA's annual Design, Build, Fly competition."
-order: 1
+order: 6
 share: false
 toc: true
 toc_sticky: true

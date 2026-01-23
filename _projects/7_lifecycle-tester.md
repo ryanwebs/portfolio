@@ -3,7 +3,7 @@ title: "Lifecycle Test Fixture"
 header:
   teaser: /assets/images/lifecycle-tester/lifecycle_tester.jpg
 excerpt: "Designed a pneumatic test fixture to evaluate the lifecycle of a molded component with a high defect rate, and validate FEA results."
-order: 7
+order: 5
 share: false
 toc: true
 toc_sticky: true

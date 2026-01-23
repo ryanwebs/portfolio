@@ -3,7 +3,7 @@ title: "Autoshrink Vision System"
 header:
   teaser: /assets/images/autoshrink/autoshrink_iso.png
 excerpt: "Implemented a Keyence camera and PLC into a manufacturing line to aid with part alignment down to the millimeter."
-order: 6
+order: 4
 share: false
 toc: true
 toc_sticky: true
