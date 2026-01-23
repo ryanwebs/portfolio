@@ -20,10 +20,11 @@ Ever since finishing my original leverless arcade-style controller, I dreamed of
 
 While my original Leverless Mk.1 worked great and looked great, it was far too clunky to bring anywhere with me. I wanted to make a new one that was small enough to throw in my backpack, easier to print/assemble, and added some extra quality of life features. 
 
-I had 3 main goals for this project:
+I had 4 main goals for this project:
 1. Reduce the physical dimensions as much as possible<br> (Target Thickness: ~30mm)
 2. Fully 3D printable shell and button caps
 3. Add extra remappable buttons (bind to parry, dash, etc)
+4. Low cost, but premium build quality
 
 # Initial CAD
 
@@ -84,6 +85,18 @@ In the Leverless Mk.1, the electronics take up a ton of room. This time I design
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless_2_done.jpg){:width="80%"}{: .align-center}
 <figcaption>Completed assembly</figcaption>{: .text-center}
+
+## Cost Breakdown
+
+This project costed around $44 total in parts, not counting the material costs to 3D print the shell (It did not cost me anything to use Formlabs' company print farm).
+
+| Part | Net Cost | Units | Qty/Assy | Parts Cost |
+| :--- | :----: | :----: | :----: | ---: |
+| Adafruit RP2040 | $20.70 | 1 | 1 | $20.70 |
+| Gateron KS33 | $11.04 | 35 | 17 | $5.36 |
+| Panel Mount | $9.69 | 1 | 1 | $9.69 |
+| PCBs from JLC | $42.92 | 5 | 1 | $8.58 |
+|   |   |   | Total Cost | $44.34 |
 
 # Revision C
 
