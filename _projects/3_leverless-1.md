@@ -14,9 +14,9 @@ toc_sticky: true
 
 I made this controller as something of a cross between fun design challenge, and an art project.
 
-Most modern video games allow 360 degree movement in any direction you want, yet in fighting games there are still only 8 directions. Therefore, using a joystick overcomplicates the input mechanism than what's required for the 8 simple desired outputs?
+Most modern video games allow 360 degree movement in any direction you want; yet in fighting games there are still only 8 directions, so a joystick is too overcomplicated of input mechanism for the output that's required.
 
-Analog directional control can significantly reduce user error in fighting games, whereas the extra variability in a joystick’s position can sometimes leads to unintentional X-input readouts. Let's say your stick angle is 2 degrees askew from the direction you wanted -- you'll probably end up dropping your combo.
+Analog directional control can significantly reduce user error in fighting games, whereas the extra variability in a joystick’s position can sometimes leads to unintentional X-input readouts. Let's say your stick angle is 2 degrees askew from the direction you wanted -- you'll probably end up dropping your combo. 
 
 ## Design
 
