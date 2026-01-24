@@ -9,6 +9,6 @@ I'm a Mechanical Engineer from Danvers MA, with a BSc from UMass Lowell. I like 
 
 Currently building some 3D printers at [Formlabs](https://formlabs.com/).<br>
 
-I put this website together to showcase some of my favorite [projects I've worked on]({{ site.baseurl }}/projects) during university, at my internships, and just for fun!
+Here are some of my favorite [projects I've worked on]({{ site.baseurl }}/projects) during university, at my internships, and just for fun!
 
 ![]({{ site.baseurl }}/assets/images/me_with_plane.jpg){: .align-center}
