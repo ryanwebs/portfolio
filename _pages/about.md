@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: ""
 ---
 
 Hi, I'm Ryan!<br>
