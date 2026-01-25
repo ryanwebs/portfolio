@@ -1,5 +1,5 @@
 ---
-title: "The Leverless Mk.2"
+title: "Leverless Mk.2"
 header:
   teaser: /assets/images/leverless-2/leverless_2.jpg
 excerpt: "Refresh of my original leverless arcade-style controller. Thinner, smaller, lighter, and better."
@@ -94,7 +94,7 @@ In the Leverless Mk.1, the electronics take up a ton of room. This time I design
 
 ## Cost Breakdown
 
-This controller costed around $44 total in parts to produce, not counting the material costs to 3D print the shell (It did not cost me anything to use Formlabs' company print farm).
+This controller costed around $45 total in parts to produce, not counting the material costs to 3D print the shell (It did not cost me anything to use Formlabs' company print farm). Overall much more affordable than other fightsticks/gamepads on the market.
 
 | Part | Net Cost | Units | Qty/Assy | Parts Cost |
 | :--- | :----: | :----: | :----: | ---: |
