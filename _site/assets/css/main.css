@@ -1321,6 +1321,8 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 /* Mobile fallback */
 @media (max-width: 768px) { .entries-list { grid-template-columns: 1fr; } }
+.rounded { border-radius: 2rem; overflow: hidden; }
+
 /* ===============================
 ================================ */
 .archive__item { background: #cc711646; /*#11999e46*/ margin-top: 0.5rem; margin-bottom: 0rem; border-radius: 2rem; overflow: hidden; transition: transform 0.3s ease 0s, box-shadow 0.15s ease 0s; }
