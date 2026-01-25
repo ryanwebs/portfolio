@@ -1321,7 +1321,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 /* Mobile fallback */
 @media (max-width: 768px) { .entries-list { grid-template-columns: 1fr; } }
-.rounded { border-radius: 2rem; overflow: hidden; }
+.rounded { border-radius: 1rem; overflow: hidden; }
 
 /* ===============================
 ================================ */
