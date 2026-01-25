@@ -47,12 +47,12 @@ The following design constraints needed to be considered when implementing the P
 2. Ensure enough background contrast for edge detection software to define physical features.
 3. Program PLC to be easily used by new operators, to facilitate SOP training.
 4. Reduce batch reject rate as much as possible (ideally 0%).
+ 
+# The New Setup
 
-# Mounting Hardware
+## Mounting Hardware
 
-## Camera Mount Iterations
-
-I designed a 3D printed mount for the camera/lens. The material I chose was PETG-CF for its high rigidity to minimize camera shake, and resistance to IPA (relative to PLA-CF) since the mount would be in a clean room environment. I made sure the height of the mount above the  parts to be imaged was equal to the lens' focal length.
+I designed a 3D printed mount for the camera/lens. The material I chose was PETG-CF for its high rigidity to minimize camera shake, and resistance to IPA (relative to PLA-CF) since the mount would be in a clean room environment. I made sure the height of the mount above the parts to be imaged was equal to the lens' focal length.
 
 <div style="display:flex; gap:10px;">
   <img src="{{ site.baseurl }}/assets/images/autoshrink/mount1.png" style="width:25%;">
@@ -72,15 +72,13 @@ Even though the camera was NOT supposed to move after installation, it was impor
 </div>
 <figcaption>Lens Z position control, and linear stage set screw</figcaption>{: .text-center}
 
-## The New Setup
-
 # Keyence Programming
 
-Keyence's edge detection algorithms locate part position by analyzing contrast changes in images to identify the boundaries of features like edges, corners, and holes. The system scans pixel intensity values across defined region detecting rapid shifts in brightness, which usually corresponds to physical edges on the part. Then, the detected edges can be converted into coordinates, allowing the PLC to calculate position, orientation, and offsets so operators can inspect part alignment in real-time.
+Keyence's edge detection algorithms locate part position by analyzing contrast changes in images to identify the boundaries of features like edges, corners, and holes. The system scans pixel intensity values across a defined region while detecting rapid shifts in brightness, which usually corresponds to physical edges on the part. Then, the detected edges can be converted into coordinates, allowing the PLC to calculate position, orientation, and offsets so operators can inspect part alignment in real-time.
 
 ## Feature Detection Tools
 
-I programmed the following three edge detection tools to identify the locations of the components' features that define critical dimensions.
+I programmed the following three edge detection tools to identify the locations of the components' features that define critical dimensions from the top level CAD assembly.
 
 1. Left edge of the *Marker Band*
 2. Right edge of the *Wire Nose Tip*
@@ -110,7 +108,7 @@ Using the edge detection tools, I programmed three more tools to measure the rel
 <figcaption>From left to right: Band Distance, Window Tube Overlap, Nose Position</figcaption>{: .text-center}
  
 ## Switch Modification
-- A Keyence PLC allows you to use its GPIO ports to actuate other electronic components when user-defined conditions are met. I interposed a relay directly into the circuit of the autoshrink's START button, and programmed the Keyence such that the relay would remain normally open until all of the "OK" conditions were met. This prevented the autoshrink from accidentally (or purposefully) being operated until proper part alignment is assured.
+- A Keyence PLC allows you to use its I/O ports to actuate other electronic components when user-defined conditions are met. I interposed a relay directly into the circuit of the autoshrink's START button, and programmed the Keyence such that the relay would remain normally open until all of the "OK" conditions were met. This prevented the autoshrink from accidentally (or purposefully) being operated until proper part alignment is assured.
 
 # Results
 - After thorough debugging and fine tuning the algorithm's brightness filters, my feature detection tools began to work consistently. The first time the Keyence Autoshrink was utilized to manufacture a full Design Verification build, there were 0 rejected probes in the batch! This camera vision system could easily yield massive long term savings by reducing overall scrap costs, especially if implemented into more steps of the manufacturing process.

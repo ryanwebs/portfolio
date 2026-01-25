@@ -1,5 +1,5 @@
 ---
-title: "The Leverless Mk.1"
+title: "Leverless Mk.1"
 header:
   teaser: /assets/images/leverless-1/leverless_1_top.jpg
 excerpt: "Custom arcade-style controller I designed specifically for fighting games. No sticks, just buttons."

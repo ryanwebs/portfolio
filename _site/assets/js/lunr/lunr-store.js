@@ -29,7 +29,7 @@ var store = [{
         "url": "/portfolio/projects/autoshrink/",
         "teaser": "/portfolio/assets/images/autoshrink/autoshrink_iso.png"
       },{
-        "title": "The Leverless Mk.1",
+        "title": "Leverless Mk.1",
         "excerpt":"Personal Project Fall, 2024 I made this controller as something of a cross between fun design challenge, and an art project. Most modern video games allow 360 degree movement in any direction you want; yet in fighting games there are still only 8 directions, so a joystick is too overcomplicated...","categories": [],
         "tags": [],
         "url": "/portfolio/projects/leverless-1/",
