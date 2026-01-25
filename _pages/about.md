@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: ""
+page_css:
+  - /portfolio/assets/css/main.scss
 ---
 
 Hi, I'm Ryan!<br>
