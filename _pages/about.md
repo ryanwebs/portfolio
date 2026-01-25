@@ -13,4 +13,7 @@ Currently building some 3D printers at [Formlabs](https://formlabs.com/).<br>
 
 Here are some of my favorite [projects I've worked on]({{ site.baseurl }}/projects) during university, at my internships, and just for fun!
 
-![]({{ site.baseurl }}/assets/images/me_with_plane.jpg){: .align-center}
+
+<div style="display:flex;">
+  <img src="{{ site.baseurl }}/assets/images/me_with_plane.jpg" {: .align-center} style="width:100%;">
+</div>
