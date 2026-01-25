@@ -61,7 +61,7 @@ Here are the first couple iterations I mocked up in Solidworks. I printed a draf
 - USB C Panel Mount
 - Custom PCB for wiring
 
-I ran an open-source firmware called GP2040CE, which is a C++ multiplatform gamepad firmware for the RP2040 chip. I needed to modify the source code to match the pinout of the Adafruit Feather RP2040 board, and rebuilt the firmware using CMake in VisualStudio. In the future, the Raspberry Pi Pico would be a better choice of microcontroller, as the firmware needs no modification and offers extra hardware functionality with the Pico Pi.
+I ran an open-source firmware called GP2040CE, which is a C++ multiplatform gamepad firmware for the RP2040 chip. I needed to modify the source code to match the pinout of the Adafruit Feather RP2040 board, and rebuilt the firmware using CMake in VisualStudio. In the future, the Raspberry Pi Pico would be a better choice of microcontroller, as the firmware needs no modification and offers extra functionality with the Pico Pi.
 
 ## PCB Design
 
