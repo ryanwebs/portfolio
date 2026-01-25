@@ -94,7 +94,7 @@ In the Leverless Mk.1, the electronics take up a ton of room. This time I design
 
 ## Cost Breakdown
 
-This project costed around $44 total in parts, not counting the material costs to 3D print the shell (It did not cost me anything to use Formlabs' company print farm).
+This controller costed around $44 total in parts to produce, not counting the material costs to 3D print the shell (It did not cost me anything to use Formlabs' company print farm).
 
 | Part | Net Cost | Units | Qty/Assy | Parts Cost |
 | :--- | :----: | :----: | :----: | ---: |
