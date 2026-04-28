@@ -12,13 +12,13 @@ toc_sticky: true
 *Personal Project<br>*
 *December, 2025*
 
-Ever since finishing my original leverless arcade-style controller, I dreamed of making a better version. While working at Formlabs, it was the perfect opportunity to design it while utilizing their library of high quality 3D printing materials.
+Ever since finishing my original leverless arcade-style controller, I wanted to make a better version. Something slimmer, lighter, and fully 3D printable.
 
 ![]({{ site.baseurl }}/assets/images/leverless-2/leverless2.gif){:width="80%"}{: .align-center}
 
 # Design Goals 
 
-While my original Leverless Mk.1 worked great and looked great, it was far too clunky to bring anywhere with me. I wanted to make a new one that was small enough to throw in my backpack, easier to print/assemble, and added some extra quality of life features. 
+My original Leverless Mk.1 worked great and looked super cool, but was far too clunky to bring anywhere with me. I wanted to make a new one that was small enough to throw in my backpack, easier to print/assemble, and added some extra quality of life features. 
 
 I had 4 main goals for this project:
 1. Reduce the physical dimensions as much as possible<br> (Target Thickness: ~30mm)
