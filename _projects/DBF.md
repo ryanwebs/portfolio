@@ -17,19 +17,7 @@ For my Capstone design class, my team designed a remote control airplane for the
 
 ## Design
 
-Talk about the plane's design constraints here!
-
 ![]({{ site.baseurl }}/assets/images/DBF/plane_cad.png){:width="80%"}{: .align-center}
-
-## Propulsion System
-
-Talk about how you chose the electronics here! 
-
-Brushless DC selection, targeted kV, target thrust, ESC amperage, prop diameter and pitch.
-
-Show the torque curves for the motors you were considering and why you chose the one you did!
-
-Add some pictures!
 
 ## Testing Motor Thrust, and Control Surface Servos
 
@@ -45,30 +33,10 @@ Tested for power draw, and battery life at multiple throttles to ensure sufficie
 
 ## Manufacturing
 
-Talk about how you built the plane here!
-
-I lasercut the chassis from foam/cardboard, developed the manufacturing process, and built the entire airplane! I also 3D printed some spar connectors, and control surface mounts out of LDPLA!
-
-Show how painful it was to kerf cut all the foam board for the wing!
+Developed the manufacturing processes, lasercut the chassis from foam/cardboard, and built the entire airplane. I also 3D printed spar connectors, and control surface mounts out of LDPLA.
 
 ![]({{ site.baseurl }}/assets/images/DBF/wing_manufacturing.jpg){:width="80%"}{: .align-center}
 
 ![]({{ site.baseurl }}/assets/images/DBF/wing_side.jpg){:width="80%"}{: .align-center}
 
 ![]({{ site.baseurl }}/assets/images/DBF/prints.jpg){:width="80%"}{: .align-center}
-
-Add some more pictures!
-
-## CAD Drawings
-
-Add pictures of the CAD drawings for some of the structural components you designed!
-
-![]({{ site.baseurl }}/asets/images/DBF/wing_drawing.png){:width="90%"}{: .align-center}
-
-![]({{ site.baseurl }}/asets/images/DBF/spar_connector_drawing.png){:width="90%"}{: .align-center}
-
-![]({{ site.baseurl }}/asets/images/DBF/landing_gear_mount_drawing.png){:width="90%"}{: .align-center}
-
-![]({{ site.baseurl }}/asets/images/DBF/landing_gear_pylon_drawing.png){:width="90%"}{: .align-center}
-
-![]({{ site.baseurl }}/asets/images/DBF/stabilizer_mount_drawing.png){:width="90%"}{: .align-center}
